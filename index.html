@@ -261,6 +261,13 @@ function pickVoice(lang){
   return same.find(v => /natural|online|google|neural/i.test(v.name)) || same[0] || null;
 }
 function speak(parts, lang){
+  // Android aplikace: nativní hlasový výstup přes most AndroidTTS
+  if (window.AndroidTTS){
+    const r = window.AndroidTTS.speak(parts.join("|"), lang);
+    if (r === 1) toast(lang === "en-GB" ? "Britský hlas není v telefonu nainstalován (Nastavení → Převod textu na řeč)." : "Americký hlas není v telefonu nainstalován (Nastavení → Převod textu na řeč).");
+    else if (r === 2) toast("Hlasový výstup se ještě načítá, zkuste to za chvíli.");
+    return;
+  }
   if (!("speechSynthesis" in window)){ toast("Tento prohlížeč neumí přehrávat výslovnost."); return; }
   speechSynthesis.cancel();
   const voice = pickVoice(lang);
