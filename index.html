@@ -236,14 +236,15 @@ document.querySelectorAll("[data-var]").forEach(b => b.onclick = () => {
   state.variant = b.dataset.var;
   document.querySelectorAll("[data-var]").forEach(x => x.setAttribute("aria-pressed", x===b)); render(); });
 
-fetch("irregular_verbs.json").then(r => r.json()).then(d => {
+const APP_VERSION = "1.001";
+(window.VERB_DATA ? Promise.resolve(window.VERB_DATA) : fetch("irregular_verbs.json").then(r => r.json())).then(d => {
   VERBS = d.verbs; buildIndex();
   document.getElementById("count").textContent = `${VERBS.length} sloves`;
-  document.getElementById("foot").textContent = `Data v${d.meta.version} · ${d.meta.created}`;
+  document.getElementById("foot").textContent = `Aplikace v${APP_VERSION} · data ${d.meta.created}`;
   render();
 }).catch(() => { document.getElementById("list").innerHTML = '<div class="empty">Nepodařilo se načíst data.</div>'; });
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+if ("serviceWorker" in navigator && location.protocol.startsWith("http")) navigator.serviceWorker.register("sw.js");
 </script>
 </body>
 </html>
