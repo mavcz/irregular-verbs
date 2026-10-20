@@ -1,0 +1,9467 @@
+{
+ "meta": {
+  "name": "Anglická nepravidelná slovesa",
+  "version": "1.0",
+  "created": "2026-10-20",
+  "count": 338,
+  "tiers": {
+   "top": 100,
+   "common": 100,
+   "rare": 138
+  },
+  "fields": "infinitive; past/participle {us, uk} = seznam variant (první preferovaná); cz = české významy; tier = top|common|rare"
+ },
+ "verbs": [
+  {
+   "id": 1,
+   "infinitive": "be",
+   "past": {
+    "us": [
+     "was",
+     "were"
+    ],
+    "uk": [
+     "was",
+     "were"
+    ]
+   },
+   "participle": {
+    "us": [
+     "been"
+    ],
+    "uk": [
+     "been"
+    ]
+   },
+   "cz": [
+    "být"
+   ],
+   "cz_text": "být",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 2,
+   "infinitive": "have",
+   "past": {
+    "us": [
+     "had"
+    ],
+    "uk": [
+     "had"
+    ]
+   },
+   "participle": {
+    "us": [
+     "had"
+    ],
+    "uk": [
+     "had"
+    ]
+   },
+   "cz": [
+    "mít"
+   ],
+   "cz_text": "mít",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 3,
+   "infinitive": "do",
+   "past": {
+    "us": [
+     "did"
+    ],
+    "uk": [
+     "did"
+    ]
+   },
+   "participle": {
+    "us": [
+     "done"
+    ],
+    "uk": [
+     "done"
+    ]
+   },
+   "cz": [
+    "dělat",
+    "činit"
+   ],
+   "cz_text": "dělat, činit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 4,
+   "infinitive": "say",
+   "past": {
+    "us": [
+     "said"
+    ],
+    "uk": [
+     "said"
+    ]
+   },
+   "participle": {
+    "us": [
+     "said"
+    ],
+    "uk": [
+     "said"
+    ]
+   },
+   "cz": [
+    "říci",
+    "říkat"
+   ],
+   "cz_text": "říci, říkat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 5,
+   "infinitive": "go",
+   "past": {
+    "us": [
+     "went"
+    ],
+    "uk": [
+     "went"
+    ]
+   },
+   "participle": {
+    "us": [
+     "gone"
+    ],
+    "uk": [
+     "gone"
+    ]
+   },
+   "cz": [
+    "jít",
+    "jet"
+   ],
+   "cz_text": "jít, jet",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 6,
+   "infinitive": "get",
+   "past": {
+    "us": [
+     "got"
+    ],
+    "uk": [
+     "got"
+    ]
+   },
+   "participle": {
+    "us": [
+     "gotten",
+     "got"
+    ],
+    "uk": [
+     "got"
+    ]
+   },
+   "cz": [
+    "dostat",
+    "získat",
+    "stát se"
+   ],
+   "cz_text": "dostat, získat; stát se",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": "US: „gotten“ = získat/stát se, „have got“ = mít"
+  },
+  {
+   "id": 7,
+   "infinitive": "make",
+   "past": {
+    "us": [
+     "made"
+    ],
+    "uk": [
+     "made"
+    ]
+   },
+   "participle": {
+    "us": [
+     "made"
+    ],
+    "uk": [
+     "made"
+    ]
+   },
+   "cz": [
+    "dělat",
+    "vyrobit"
+   ],
+   "cz_text": "dělat, vyrobit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 8,
+   "infinitive": "know",
+   "past": {
+    "us": [
+     "knew"
+    ],
+    "uk": [
+     "knew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "known"
+    ],
+    "uk": [
+     "known"
+    ]
+   },
+   "cz": [
+    "vědět",
+    "znát"
+   ],
+   "cz_text": "vědět, znát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 9,
+   "infinitive": "think",
+   "past": {
+    "us": [
+     "thought"
+    ],
+    "uk": [
+     "thought"
+    ]
+   },
+   "participle": {
+    "us": [
+     "thought"
+    ],
+    "uk": [
+     "thought"
+    ]
+   },
+   "cz": [
+    "myslet",
+    "přemýšlet"
+   ],
+   "cz_text": "myslet, přemýšlet",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 10,
+   "infinitive": "take",
+   "past": {
+    "us": [
+     "took"
+    ],
+    "uk": [
+     "took"
+    ]
+   },
+   "participle": {
+    "us": [
+     "taken"
+    ],
+    "uk": [
+     "taken"
+    ]
+   },
+   "cz": [
+    "vzít",
+    "brát"
+   ],
+   "cz_text": "vzít, brát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 11,
+   "infinitive": "see",
+   "past": {
+    "us": [
+     "saw"
+    ],
+    "uk": [
+     "saw"
+    ]
+   },
+   "participle": {
+    "us": [
+     "seen"
+    ],
+    "uk": [
+     "seen"
+    ]
+   },
+   "cz": [
+    "vidět"
+   ],
+   "cz_text": "vidět",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 12,
+   "infinitive": "come",
+   "past": {
+    "us": [
+     "came"
+    ],
+    "uk": [
+     "came"
+    ]
+   },
+   "participle": {
+    "us": [
+     "come"
+    ],
+    "uk": [
+     "come"
+    ]
+   },
+   "cz": [
+    "přijít"
+   ],
+   "cz_text": "přijít",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 13,
+   "infinitive": "find",
+   "past": {
+    "us": [
+     "found"
+    ],
+    "uk": [
+     "found"
+    ]
+   },
+   "participle": {
+    "us": [
+     "found"
+    ],
+    "uk": [
+     "found"
+    ]
+   },
+   "cz": [
+    "najít"
+   ],
+   "cz_text": "najít",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 14,
+   "infinitive": "give",
+   "past": {
+    "us": [
+     "gave"
+    ],
+    "uk": [
+     "gave"
+    ]
+   },
+   "participle": {
+    "us": [
+     "given"
+    ],
+    "uk": [
+     "given"
+    ]
+   },
+   "cz": [
+    "dát"
+   ],
+   "cz_text": "dát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 15,
+   "infinitive": "tell",
+   "past": {
+    "us": [
+     "told"
+    ],
+    "uk": [
+     "told"
+    ]
+   },
+   "participle": {
+    "us": [
+     "told"
+    ],
+    "uk": [
+     "told"
+    ]
+   },
+   "cz": [
+    "říci (někomu)",
+    "vyprávět"
+   ],
+   "cz_text": "říci (někomu), vyprávět",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 16,
+   "infinitive": "become",
+   "past": {
+    "us": [
+     "became"
+    ],
+    "uk": [
+     "became"
+    ]
+   },
+   "participle": {
+    "us": [
+     "become"
+    ],
+    "uk": [
+     "become"
+    ]
+   },
+   "cz": [
+    "stát se"
+   ],
+   "cz_text": "stát se",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 17,
+   "infinitive": "leave",
+   "past": {
+    "us": [
+     "left"
+    ],
+    "uk": [
+     "left"
+    ]
+   },
+   "participle": {
+    "us": [
+     "left"
+    ],
+    "uk": [
+     "left"
+    ]
+   },
+   "cz": [
+    "odejít",
+    "opustit",
+    "nechat"
+   ],
+   "cz_text": "odejít, opustit, nechat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 18,
+   "infinitive": "feel",
+   "past": {
+    "us": [
+     "felt"
+    ],
+    "uk": [
+     "felt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "felt"
+    ],
+    "uk": [
+     "felt"
+    ]
+   },
+   "cz": [
+    "cítit (se)"
+   ],
+   "cz_text": "cítit (se)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 19,
+   "infinitive": "put",
+   "past": {
+    "us": [
+     "put"
+    ],
+    "uk": [
+     "put"
+    ]
+   },
+   "participle": {
+    "us": [
+     "put"
+    ],
+    "uk": [
+     "put"
+    ]
+   },
+   "cz": [
+    "položit",
+    "dát"
+   ],
+   "cz_text": "položit, dát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 20,
+   "infinitive": "bring",
+   "past": {
+    "us": [
+     "brought"
+    ],
+    "uk": [
+     "brought"
+    ]
+   },
+   "participle": {
+    "us": [
+     "brought"
+    ],
+    "uk": [
+     "brought"
+    ]
+   },
+   "cz": [
+    "přinést"
+   ],
+   "cz_text": "přinést",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 21,
+   "infinitive": "begin",
+   "past": {
+    "us": [
+     "began"
+    ],
+    "uk": [
+     "began"
+    ]
+   },
+   "participle": {
+    "us": [
+     "begun"
+    ],
+    "uk": [
+     "begun"
+    ]
+   },
+   "cz": [
+    "začít"
+   ],
+   "cz_text": "začít",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 22,
+   "infinitive": "keep",
+   "past": {
+    "us": [
+     "kept"
+    ],
+    "uk": [
+     "kept"
+    ]
+   },
+   "participle": {
+    "us": [
+     "kept"
+    ],
+    "uk": [
+     "kept"
+    ]
+   },
+   "cz": [
+    "držet",
+    "ponechat si"
+   ],
+   "cz_text": "držet, ponechat si",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 23,
+   "infinitive": "hold",
+   "past": {
+    "us": [
+     "held"
+    ],
+    "uk": [
+     "held"
+    ]
+   },
+   "participle": {
+    "us": [
+     "held"
+    ],
+    "uk": [
+     "held"
+    ]
+   },
+   "cz": [
+    "držet",
+    "konat (se)"
+   ],
+   "cz_text": "držet, konat (se)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 24,
+   "infinitive": "write",
+   "past": {
+    "us": [
+     "wrote"
+    ],
+    "uk": [
+     "wrote"
+    ]
+   },
+   "participle": {
+    "us": [
+     "written"
+    ],
+    "uk": [
+     "written"
+    ]
+   },
+   "cz": [
+    "psát"
+   ],
+   "cz_text": "psát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 25,
+   "infinitive": "stand",
+   "past": {
+    "us": [
+     "stood"
+    ],
+    "uk": [
+     "stood"
+    ]
+   },
+   "participle": {
+    "us": [
+     "stood"
+    ],
+    "uk": [
+     "stood"
+    ]
+   },
+   "cz": [
+    "stát"
+   ],
+   "cz_text": "stát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 26,
+   "infinitive": "hear",
+   "past": {
+    "us": [
+     "heard"
+    ],
+    "uk": [
+     "heard"
+    ]
+   },
+   "participle": {
+    "us": [
+     "heard"
+    ],
+    "uk": [
+     "heard"
+    ]
+   },
+   "cz": [
+    "slyšet"
+   ],
+   "cz_text": "slyšet",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 27,
+   "infinitive": "let",
+   "past": {
+    "us": [
+     "let"
+    ],
+    "uk": [
+     "let"
+    ]
+   },
+   "participle": {
+    "us": [
+     "let"
+    ],
+    "uk": [
+     "let"
+    ]
+   },
+   "cz": [
+    "nechat",
+    "dovolit"
+   ],
+   "cz_text": "nechat, dovolit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 28,
+   "infinitive": "mean",
+   "past": {
+    "us": [
+     "meant"
+    ],
+    "uk": [
+     "meant"
+    ]
+   },
+   "participle": {
+    "us": [
+     "meant"
+    ],
+    "uk": [
+     "meant"
+    ]
+   },
+   "cz": [
+    "znamenat",
+    "mínit"
+   ],
+   "cz_text": "znamenat, mínit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 29,
+   "infinitive": "set",
+   "past": {
+    "us": [
+     "set"
+    ],
+    "uk": [
+     "set"
+    ]
+   },
+   "participle": {
+    "us": [
+     "set"
+    ],
+    "uk": [
+     "set"
+    ]
+   },
+   "cz": [
+    "nastavit",
+    "umístit"
+   ],
+   "cz_text": "nastavit, umístit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 30,
+   "infinitive": "meet",
+   "past": {
+    "us": [
+     "met"
+    ],
+    "uk": [
+     "met"
+    ]
+   },
+   "participle": {
+    "us": [
+     "met"
+    ],
+    "uk": [
+     "met"
+    ]
+   },
+   "cz": [
+    "potkat",
+    "setkat se"
+   ],
+   "cz_text": "potkat, setkat se",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 31,
+   "infinitive": "run",
+   "past": {
+    "us": [
+     "ran"
+    ],
+    "uk": [
+     "ran"
+    ]
+   },
+   "participle": {
+    "us": [
+     "run"
+    ],
+    "uk": [
+     "run"
+    ]
+   },
+   "cz": [
+    "běžet",
+    "řídit (firmu)"
+   ],
+   "cz_text": "běžet, řídit (firmu)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 32,
+   "infinitive": "pay",
+   "past": {
+    "us": [
+     "paid"
+    ],
+    "uk": [
+     "paid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "paid"
+    ],
+    "uk": [
+     "paid"
+    ]
+   },
+   "cz": [
+    "platit"
+   ],
+   "cz_text": "platit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 33,
+   "infinitive": "sit",
+   "past": {
+    "us": [
+     "sat"
+    ],
+    "uk": [
+     "sat"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sat"
+    ],
+    "uk": [
+     "sat"
+    ]
+   },
+   "cz": [
+    "sedět"
+   ],
+   "cz_text": "sedět",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 34,
+   "infinitive": "speak",
+   "past": {
+    "us": [
+     "spoke"
+    ],
+    "uk": [
+     "spoke"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spoken"
+    ],
+    "uk": [
+     "spoken"
+    ]
+   },
+   "cz": [
+    "mluvit"
+   ],
+   "cz_text": "mluvit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 35,
+   "infinitive": "show",
+   "past": {
+    "us": [
+     "showed"
+    ],
+    "uk": [
+     "showed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shown",
+     "showed"
+    ],
+    "uk": [
+     "shown",
+     "showed"
+    ]
+   },
+   "cz": [
+    "ukázat"
+   ],
+   "cz_text": "ukázat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 36,
+   "infinitive": "lie",
+   "past": {
+    "us": [
+     "lay"
+    ],
+    "uk": [
+     "lay"
+    ]
+   },
+   "participle": {
+    "us": [
+     "lain"
+    ],
+    "uk": [
+     "lain"
+    ]
+   },
+   "cz": [
+    "ležet"
+   ],
+   "cz_text": "ležet",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": "lie – lied – lied = lhát (pravidelné)"
+  },
+  {
+   "id": 37,
+   "infinitive": "lead",
+   "past": {
+    "us": [
+     "led"
+    ],
+    "uk": [
+     "led"
+    ]
+   },
+   "participle": {
+    "us": [
+     "led"
+    ],
+    "uk": [
+     "led"
+    ]
+   },
+   "cz": [
+    "vést"
+   ],
+   "cz_text": "vést",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 38,
+   "infinitive": "read",
+   "past": {
+    "us": [
+     "read"
+    ],
+    "uk": [
+     "read"
+    ]
+   },
+   "participle": {
+    "us": [
+     "read"
+    ],
+    "uk": [
+     "read"
+    ]
+   },
+   "cz": [
+    "číst"
+   ],
+   "cz_text": "číst",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": "výslovnost: read [riːd] – read [red] – read [red]"
+  },
+  {
+   "id": 39,
+   "infinitive": "grow",
+   "past": {
+    "us": [
+     "grew"
+    ],
+    "uk": [
+     "grew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "grown"
+    ],
+    "uk": [
+     "grown"
+    ]
+   },
+   "cz": [
+    "růst",
+    "pěstovat"
+   ],
+   "cz_text": "růst, pěstovat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 40,
+   "infinitive": "lose",
+   "past": {
+    "us": [
+     "lost"
+    ],
+    "uk": [
+     "lost"
+    ]
+   },
+   "participle": {
+    "us": [
+     "lost"
+    ],
+    "uk": [
+     "lost"
+    ]
+   },
+   "cz": [
+    "ztratit",
+    "prohrát"
+   ],
+   "cz_text": "ztratit, prohrát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 41,
+   "infinitive": "fall",
+   "past": {
+    "us": [
+     "fell"
+    ],
+    "uk": [
+     "fell"
+    ]
+   },
+   "participle": {
+    "us": [
+     "fallen"
+    ],
+    "uk": [
+     "fallen"
+    ]
+   },
+   "cz": [
+    "padat",
+    "spadnout"
+   ],
+   "cz_text": "padat, spadnout",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 42,
+   "infinitive": "send",
+   "past": {
+    "us": [
+     "sent"
+    ],
+    "uk": [
+     "sent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sent"
+    ],
+    "uk": [
+     "sent"
+    ]
+   },
+   "cz": [
+    "poslat"
+   ],
+   "cz_text": "poslat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 43,
+   "infinitive": "build",
+   "past": {
+    "us": [
+     "built"
+    ],
+    "uk": [
+     "built"
+    ]
+   },
+   "participle": {
+    "us": [
+     "built"
+    ],
+    "uk": [
+     "built"
+    ]
+   },
+   "cz": [
+    "stavět"
+   ],
+   "cz_text": "stavět",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 44,
+   "infinitive": "understand",
+   "past": {
+    "us": [
+     "understood"
+    ],
+    "uk": [
+     "understood"
+    ]
+   },
+   "participle": {
+    "us": [
+     "understood"
+    ],
+    "uk": [
+     "understood"
+    ]
+   },
+   "cz": [
+    "rozumět"
+   ],
+   "cz_text": "rozumět",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 45,
+   "infinitive": "draw",
+   "past": {
+    "us": [
+     "drew"
+    ],
+    "uk": [
+     "drew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "drawn"
+    ],
+    "uk": [
+     "drawn"
+    ]
+   },
+   "cz": [
+    "kreslit",
+    "táhnout"
+   ],
+   "cz_text": "kreslit, táhnout",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 46,
+   "infinitive": "break",
+   "past": {
+    "us": [
+     "broke"
+    ],
+    "uk": [
+     "broke"
+    ]
+   },
+   "participle": {
+    "us": [
+     "broken"
+    ],
+    "uk": [
+     "broken"
+    ]
+   },
+   "cz": [
+    "zlomit",
+    "rozbít"
+   ],
+   "cz_text": "zlomit, rozbít",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 47,
+   "infinitive": "spend",
+   "past": {
+    "us": [
+     "spent"
+    ],
+    "uk": [
+     "spent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spent"
+    ],
+    "uk": [
+     "spent"
+    ]
+   },
+   "cz": [
+    "utratit",
+    "strávit (čas)"
+   ],
+   "cz_text": "utratit, strávit (čas)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 48,
+   "infinitive": "cut",
+   "past": {
+    "us": [
+     "cut"
+    ],
+    "uk": [
+     "cut"
+    ]
+   },
+   "participle": {
+    "us": [
+     "cut"
+    ],
+    "uk": [
+     "cut"
+    ]
+   },
+   "cz": [
+    "řezat",
+    "stříhat"
+   ],
+   "cz_text": "řezat, stříhat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 49,
+   "infinitive": "rise",
+   "past": {
+    "us": [
+     "rose"
+    ],
+    "uk": [
+     "rose"
+    ]
+   },
+   "participle": {
+    "us": [
+     "risen"
+    ],
+    "uk": [
+     "risen"
+    ]
+   },
+   "cz": [
+    "stoupat",
+    "vycházet (slunce)"
+   ],
+   "cz_text": "stoupat, vycházet (slunce)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 50,
+   "infinitive": "drive",
+   "past": {
+    "us": [
+     "drove"
+    ],
+    "uk": [
+     "drove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "driven"
+    ],
+    "uk": [
+     "driven"
+    ]
+   },
+   "cz": [
+    "řídit (auto)"
+   ],
+   "cz_text": "řídit (auto)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 51,
+   "infinitive": "buy",
+   "past": {
+    "us": [
+     "bought"
+    ],
+    "uk": [
+     "bought"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bought"
+    ],
+    "uk": [
+     "bought"
+    ]
+   },
+   "cz": [
+    "koupit"
+   ],
+   "cz_text": "koupit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 52,
+   "infinitive": "wear",
+   "past": {
+    "us": [
+     "wore"
+    ],
+    "uk": [
+     "wore"
+    ]
+   },
+   "participle": {
+    "us": [
+     "worn"
+    ],
+    "uk": [
+     "worn"
+    ]
+   },
+   "cz": [
+    "nosit (oblečení)"
+   ],
+   "cz_text": "nosit (oblečení)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 53,
+   "infinitive": "choose",
+   "past": {
+    "us": [
+     "chose"
+    ],
+    "uk": [
+     "chose"
+    ]
+   },
+   "participle": {
+    "us": [
+     "chosen"
+    ],
+    "uk": [
+     "chosen"
+    ]
+   },
+   "cz": [
+    "vybrat",
+    "zvolit"
+   ],
+   "cz_text": "vybrat, zvolit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 54,
+   "infinitive": "seek",
+   "past": {
+    "us": [
+     "sought"
+    ],
+    "uk": [
+     "sought"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sought"
+    ],
+    "uk": [
+     "sought"
+    ]
+   },
+   "cz": [
+    "hledat",
+    "usilovat"
+   ],
+   "cz_text": "hledat, usilovat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 55,
+   "infinitive": "throw",
+   "past": {
+    "us": [
+     "threw"
+    ],
+    "uk": [
+     "threw"
+    ]
+   },
+   "participle": {
+    "us": [
+     "thrown"
+    ],
+    "uk": [
+     "thrown"
+    ]
+   },
+   "cz": [
+    "hodit"
+   ],
+   "cz_text": "hodit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 56,
+   "infinitive": "catch",
+   "past": {
+    "us": [
+     "caught"
+    ],
+    "uk": [
+     "caught"
+    ]
+   },
+   "participle": {
+    "us": [
+     "caught"
+    ],
+    "uk": [
+     "caught"
+    ]
+   },
+   "cz": [
+    "chytit"
+   ],
+   "cz_text": "chytit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 57,
+   "infinitive": "deal",
+   "past": {
+    "us": [
+     "dealt"
+    ],
+    "uk": [
+     "dealt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "dealt"
+    ],
+    "uk": [
+     "dealt"
+    ]
+   },
+   "cz": [
+    "jednat",
+    "zabývat se",
+    "rozdávat (karty)"
+   ],
+   "cz_text": "jednat, zabývat se, rozdávat (karty)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 58,
+   "infinitive": "win",
+   "past": {
+    "us": [
+     "won"
+    ],
+    "uk": [
+     "won"
+    ]
+   },
+   "participle": {
+    "us": [
+     "won"
+    ],
+    "uk": [
+     "won"
+    ]
+   },
+   "cz": [
+    "vyhrát"
+   ],
+   "cz_text": "vyhrát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 59,
+   "infinitive": "forget",
+   "past": {
+    "us": [
+     "forgot"
+    ],
+    "uk": [
+     "forgot"
+    ]
+   },
+   "participle": {
+    "us": [
+     "forgotten",
+     "forgot"
+    ],
+    "uk": [
+     "forgotten"
+    ]
+   },
+   "cz": [
+    "zapomenout"
+   ],
+   "cz_text": "zapomenout",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 60,
+   "infinitive": "lay",
+   "past": {
+    "us": [
+     "laid"
+    ],
+    "uk": [
+     "laid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "laid"
+    ],
+    "uk": [
+     "laid"
+    ]
+   },
+   "cz": [
+    "položit",
+    "klást"
+   ],
+   "cz_text": "položit, klást",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 61,
+   "infinitive": "sell",
+   "past": {
+    "us": [
+     "sold"
+    ],
+    "uk": [
+     "sold"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sold"
+    ],
+    "uk": [
+     "sold"
+    ]
+   },
+   "cz": [
+    "prodat"
+   ],
+   "cz_text": "prodat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 62,
+   "infinitive": "fight",
+   "past": {
+    "us": [
+     "fought"
+    ],
+    "uk": [
+     "fought"
+    ]
+   },
+   "participle": {
+    "us": [
+     "fought"
+    ],
+    "uk": [
+     "fought"
+    ]
+   },
+   "cz": [
+    "bojovat",
+    "prát se"
+   ],
+   "cz_text": "bojovat, prát se",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 63,
+   "infinitive": "bear",
+   "past": {
+    "us": [
+     "bore"
+    ],
+    "uk": [
+     "bore"
+    ]
+   },
+   "participle": {
+    "us": [
+     "borne",
+     "born"
+    ],
+    "uk": [
+     "borne",
+     "born"
+    ]
+   },
+   "cz": [
+    "nést",
+    "snášet",
+    "rodit"
+   ],
+   "cz_text": "nést, snášet; rodit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": "born = narozen (trpný rod)"
+  },
+  {
+   "id": 64,
+   "infinitive": "teach",
+   "past": {
+    "us": [
+     "taught"
+    ],
+    "uk": [
+     "taught"
+    ]
+   },
+   "participle": {
+    "us": [
+     "taught"
+    ],
+    "uk": [
+     "taught"
+    ]
+   },
+   "cz": [
+    "učit (někoho)"
+   ],
+   "cz_text": "učit (někoho)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 65,
+   "infinitive": "eat",
+   "past": {
+    "us": [
+     "ate"
+    ],
+    "uk": [
+     "ate"
+    ]
+   },
+   "participle": {
+    "us": [
+     "eaten"
+    ],
+    "uk": [
+     "eaten"
+    ]
+   },
+   "cz": [
+    "jíst"
+   ],
+   "cz_text": "jíst",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 66,
+   "infinitive": "sing",
+   "past": {
+    "us": [
+     "sang"
+    ],
+    "uk": [
+     "sang"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sung"
+    ],
+    "uk": [
+     "sung"
+    ]
+   },
+   "cz": [
+    "zpívat"
+   ],
+   "cz_text": "zpívat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 67,
+   "infinitive": "strike",
+   "past": {
+    "us": [
+     "struck"
+    ],
+    "uk": [
+     "struck"
+    ]
+   },
+   "participle": {
+    "us": [
+     "struck",
+     "stricken"
+    ],
+    "uk": [
+     "struck"
+    ]
+   },
+   "cz": [
+    "udeřit",
+    "stávkovat"
+   ],
+   "cz_text": "udeřit; stávkovat",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": "stricken = postižený (v obou variantách jako přídavné jméno)"
+  },
+  {
+   "id": 68,
+   "infinitive": "hit",
+   "past": {
+    "us": [
+     "hit"
+    ],
+    "uk": [
+     "hit"
+    ]
+   },
+   "participle": {
+    "us": [
+     "hit"
+    ],
+    "uk": [
+     "hit"
+    ]
+   },
+   "cz": [
+    "udeřit",
+    "zasáhnout"
+   ],
+   "cz_text": "udeřit, zasáhnout",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 69,
+   "infinitive": "shoot",
+   "past": {
+    "us": [
+     "shot"
+    ],
+    "uk": [
+     "shot"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shot"
+    ],
+    "uk": [
+     "shot"
+    ]
+   },
+   "cz": [
+    "střílet",
+    "natáčet"
+   ],
+   "cz_text": "střílet, natáčet",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 70,
+   "infinitive": "hang",
+   "past": {
+    "us": [
+     "hung"
+    ],
+    "uk": [
+     "hung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "hung"
+    ],
+    "uk": [
+     "hung"
+    ]
+   },
+   "cz": [
+    "viset",
+    "pověsit"
+   ],
+   "cz_text": "viset, pověsit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": "hang – hanged – hanged = oběsit (pravidelné)"
+  },
+  {
+   "id": 71,
+   "infinitive": "beat",
+   "past": {
+    "us": [
+     "beat"
+    ],
+    "uk": [
+     "beat"
+    ]
+   },
+   "participle": {
+    "us": [
+     "beaten"
+    ],
+    "uk": [
+     "beaten"
+    ]
+   },
+   "cz": [
+    "bít",
+    "porazit"
+   ],
+   "cz_text": "bít, porazit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 72,
+   "infinitive": "drink",
+   "past": {
+    "us": [
+     "drank"
+    ],
+    "uk": [
+     "drank"
+    ]
+   },
+   "participle": {
+    "us": [
+     "drunk"
+    ],
+    "uk": [
+     "drunk"
+    ]
+   },
+   "cz": [
+    "pít"
+   ],
+   "cz_text": "pít",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 73,
+   "infinitive": "fly",
+   "past": {
+    "us": [
+     "flew"
+    ],
+    "uk": [
+     "flew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "flown"
+    ],
+    "uk": [
+     "flown"
+    ]
+   },
+   "cz": [
+    "létat"
+   ],
+   "cz_text": "létat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 74,
+   "infinitive": "ride",
+   "past": {
+    "us": [
+     "rode"
+    ],
+    "uk": [
+     "rode"
+    ]
+   },
+   "participle": {
+    "us": [
+     "ridden"
+    ],
+    "uk": [
+     "ridden"
+    ]
+   },
+   "cz": [
+    "jet (na koni",
+    "kole)"
+   ],
+   "cz_text": "jet (na koni, kole)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 75,
+   "infinitive": "sleep",
+   "past": {
+    "us": [
+     "slept"
+    ],
+    "uk": [
+     "slept"
+    ]
+   },
+   "participle": {
+    "us": [
+     "slept"
+    ],
+    "uk": [
+     "slept"
+    ]
+   },
+   "cz": [
+    "spát"
+   ],
+   "cz_text": "spát",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 76,
+   "infinitive": "wake",
+   "past": {
+    "us": [
+     "woke"
+    ],
+    "uk": [
+     "woke"
+    ]
+   },
+   "participle": {
+    "us": [
+     "woken"
+    ],
+    "uk": [
+     "woken"
+    ]
+   },
+   "cz": [
+    "probudit (se)"
+   ],
+   "cz_text": "probudit (se)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 77,
+   "infinitive": "shake",
+   "past": {
+    "us": [
+     "shook"
+    ],
+    "uk": [
+     "shook"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shaken"
+    ],
+    "uk": [
+     "shaken"
+    ]
+   },
+   "cz": [
+    "třást",
+    "třepat"
+   ],
+   "cz_text": "třást, třepat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 78,
+   "infinitive": "hide",
+   "past": {
+    "us": [
+     "hid"
+    ],
+    "uk": [
+     "hid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "hidden"
+    ],
+    "uk": [
+     "hidden"
+    ]
+   },
+   "cz": [
+    "schovat (se)"
+   ],
+   "cz_text": "schovat (se)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 79,
+   "infinitive": "learn",
+   "past": {
+    "us": [
+     "learned"
+    ],
+    "uk": [
+     "learnt",
+     "learned"
+    ]
+   },
+   "participle": {
+    "us": [
+     "learned"
+    ],
+    "uk": [
+     "learnt",
+     "learned"
+    ]
+   },
+   "cz": [
+    "učit se"
+   ],
+   "cz_text": "učit se",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 80,
+   "infinitive": "burn",
+   "past": {
+    "us": [
+     "burned"
+    ],
+    "uk": [
+     "burnt",
+     "burned"
+    ]
+   },
+   "participle": {
+    "us": [
+     "burned"
+    ],
+    "uk": [
+     "burnt",
+     "burned"
+    ]
+   },
+   "cz": [
+    "hořet",
+    "pálit"
+   ],
+   "cz_text": "hořet, pálit",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 81,
+   "infinitive": "dream",
+   "past": {
+    "us": [
+     "dreamed"
+    ],
+    "uk": [
+     "dreamt",
+     "dreamed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "dreamed"
+    ],
+    "uk": [
+     "dreamt",
+     "dreamed"
+    ]
+   },
+   "cz": [
+    "snít",
+    "zdát se"
+   ],
+   "cz_text": "snít, zdát se",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 82,
+   "infinitive": "spell",
+   "past": {
+    "us": [
+     "spelled"
+    ],
+    "uk": [
+     "spelt",
+     "spelled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spelled"
+    ],
+    "uk": [
+     "spelt",
+     "spelled"
+    ]
+   },
+   "cz": [
+    "hláskovat"
+   ],
+   "cz_text": "hláskovat",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 83,
+   "infinitive": "smell",
+   "past": {
+    "us": [
+     "smelled"
+    ],
+    "uk": [
+     "smelt",
+     "smelled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "smelled"
+    ],
+    "uk": [
+     "smelt",
+     "smelled"
+    ]
+   },
+   "cz": [
+    "vonět",
+    "čichat"
+   ],
+   "cz_text": "vonět, čichat",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 84,
+   "infinitive": "light",
+   "past": {
+    "us": [
+     "lit",
+     "lighted"
+    ],
+    "uk": [
+     "lit"
+    ]
+   },
+   "participle": {
+    "us": [
+     "lit",
+     "lighted"
+    ],
+    "uk": [
+     "lit"
+    ]
+   },
+   "cz": [
+    "zapálit",
+    "osvětlit"
+   ],
+   "cz_text": "zapálit, osvětlit",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 85,
+   "infinitive": "fit",
+   "past": {
+    "us": [
+     "fit",
+     "fitted"
+    ],
+    "uk": [
+     "fitted"
+    ]
+   },
+   "participle": {
+    "us": [
+     "fit",
+     "fitted"
+    ],
+    "uk": [
+     "fitted"
+    ]
+   },
+   "cz": [
+    "hodit se",
+    "padnout"
+   ],
+   "cz_text": "hodit se, padnout",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 86,
+   "infinitive": "forgive",
+   "past": {
+    "us": [
+     "forgave"
+    ],
+    "uk": [
+     "forgave"
+    ]
+   },
+   "participle": {
+    "us": [
+     "forgiven"
+    ],
+    "uk": [
+     "forgiven"
+    ]
+   },
+   "cz": [
+    "odpustit"
+   ],
+   "cz_text": "odpustit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 87,
+   "infinitive": "freeze",
+   "past": {
+    "us": [
+     "froze"
+    ],
+    "uk": [
+     "froze"
+    ]
+   },
+   "participle": {
+    "us": [
+     "frozen"
+    ],
+    "uk": [
+     "frozen"
+    ]
+   },
+   "cz": [
+    "mrznout",
+    "zmrazit"
+   ],
+   "cz_text": "mrznout, zmrazit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 88,
+   "infinitive": "swim",
+   "past": {
+    "us": [
+     "swam"
+    ],
+    "uk": [
+     "swam"
+    ]
+   },
+   "participle": {
+    "us": [
+     "swum"
+    ],
+    "uk": [
+     "swum"
+    ]
+   },
+   "cz": [
+    "plavat"
+   ],
+   "cz_text": "plavat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 89,
+   "infinitive": "steal",
+   "past": {
+    "us": [
+     "stole"
+    ],
+    "uk": [
+     "stole"
+    ]
+   },
+   "participle": {
+    "us": [
+     "stolen"
+    ],
+    "uk": [
+     "stolen"
+    ]
+   },
+   "cz": [
+    "krást"
+   ],
+   "cz_text": "krást",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 90,
+   "infinitive": "feed",
+   "past": {
+    "us": [
+     "fed"
+    ],
+    "uk": [
+     "fed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "fed"
+    ],
+    "uk": [
+     "fed"
+    ]
+   },
+   "cz": [
+    "krmit"
+   ],
+   "cz_text": "krmit",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 91,
+   "infinitive": "hurt",
+   "past": {
+    "us": [
+     "hurt"
+    ],
+    "uk": [
+     "hurt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "hurt"
+    ],
+    "uk": [
+     "hurt"
+    ]
+   },
+   "cz": [
+    "zranit",
+    "bolet"
+   ],
+   "cz_text": "zranit, bolet",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 92,
+   "infinitive": "cost",
+   "past": {
+    "us": [
+     "cost"
+    ],
+    "uk": [
+     "cost"
+    ]
+   },
+   "participle": {
+    "us": [
+     "cost"
+    ],
+    "uk": [
+     "cost"
+    ]
+   },
+   "cz": [
+    "stát (o ceně)"
+   ],
+   "cz_text": "stát (o ceně)",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 93,
+   "infinitive": "shut",
+   "past": {
+    "us": [
+     "shut"
+    ],
+    "uk": [
+     "shut"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shut"
+    ],
+    "uk": [
+     "shut"
+    ]
+   },
+   "cz": [
+    "zavřít"
+   ],
+   "cz_text": "zavřít",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 94,
+   "infinitive": "spread",
+   "past": {
+    "us": [
+     "spread"
+    ],
+    "uk": [
+     "spread"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spread"
+    ],
+    "uk": [
+     "spread"
+    ]
+   },
+   "cz": [
+    "šířit",
+    "rozprostřít"
+   ],
+   "cz_text": "šířit, rozprostřít",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 95,
+   "infinitive": "bite",
+   "past": {
+    "us": [
+     "bit"
+    ],
+    "uk": [
+     "bit"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bitten"
+    ],
+    "uk": [
+     "bitten"
+    ]
+   },
+   "cz": [
+    "kousnout"
+   ],
+   "cz_text": "kousnout",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 96,
+   "infinitive": "blow",
+   "past": {
+    "us": [
+     "blew"
+    ],
+    "uk": [
+     "blew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "blown"
+    ],
+    "uk": [
+     "blown"
+    ]
+   },
+   "cz": [
+    "foukat"
+   ],
+   "cz_text": "foukat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 97,
+   "infinitive": "dig",
+   "past": {
+    "us": [
+     "dug"
+    ],
+    "uk": [
+     "dug"
+    ]
+   },
+   "participle": {
+    "us": [
+     "dug"
+    ],
+    "uk": [
+     "dug"
+    ]
+   },
+   "cz": [
+    "kopat"
+   ],
+   "cz_text": "kopat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 98,
+   "infinitive": "ring",
+   "past": {
+    "us": [
+     "rang"
+    ],
+    "uk": [
+     "rang"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rung"
+    ],
+    "uk": [
+     "rung"
+    ]
+   },
+   "cz": [
+    "zvonit",
+    "volat"
+   ],
+   "cz_text": "zvonit, volat",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 99,
+   "infinitive": "tear",
+   "past": {
+    "us": [
+     "tore"
+    ],
+    "uk": [
+     "tore"
+    ]
+   },
+   "participle": {
+    "us": [
+     "torn"
+    ],
+    "uk": [
+     "torn"
+    ]
+   },
+   "cz": [
+    "trhat",
+    "roztrhnout"
+   ],
+   "cz_text": "trhat, roztrhnout",
+   "tier": "top",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 100,
+   "infinitive": "shine",
+   "past": {
+    "us": [
+     "shone",
+     "shined"
+    ],
+    "uk": [
+     "shone"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shone",
+     "shined"
+    ],
+    "uk": [
+     "shone"
+    ]
+   },
+   "cz": [
+    "zářit",
+    "svítit"
+   ],
+   "cz_text": "zářit, svítit",
+   "tier": "top",
+   "us_uk_differ": true,
+   "note": "US: shined = vyleštil (boty)"
+  },
+  {
+   "id": 101,
+   "infinitive": "prove",
+   "past": {
+    "us": [
+     "proved"
+    ],
+    "uk": [
+     "proved"
+    ]
+   },
+   "participle": {
+    "us": [
+     "proven",
+     "proved"
+    ],
+    "uk": [
+     "proved",
+     "proven"
+    ]
+   },
+   "cz": [
+    "dokázat",
+    "prokázat"
+   ],
+   "cz_text": "dokázat, prokázat",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 102,
+   "infinitive": "bet",
+   "past": {
+    "us": [
+     "bet"
+    ],
+    "uk": [
+     "bet"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bet"
+    ],
+    "uk": [
+     "bet"
+    ]
+   },
+   "cz": [
+    "vsadit se"
+   ],
+   "cz_text": "vsadit se",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 103,
+   "infinitive": "stick",
+   "past": {
+    "us": [
+     "stuck"
+    ],
+    "uk": [
+     "stuck"
+    ]
+   },
+   "participle": {
+    "us": [
+     "stuck"
+    ],
+    "uk": [
+     "stuck"
+    ]
+   },
+   "cz": [
+    "lepit",
+    "strčit",
+    "uvíznout"
+   ],
+   "cz_text": "lepit, strčit, uvíznout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 104,
+   "infinitive": "sink",
+   "past": {
+    "us": [
+     "sank"
+    ],
+    "uk": [
+     "sank"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sunk"
+    ],
+    "uk": [
+     "sunk"
+    ]
+   },
+   "cz": [
+    "potopit se",
+    "klesat"
+   ],
+   "cz_text": "potopit se, klesat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 105,
+   "infinitive": "swing",
+   "past": {
+    "us": [
+     "swung"
+    ],
+    "uk": [
+     "swung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "swung"
+    ],
+    "uk": [
+     "swung"
+    ]
+   },
+   "cz": [
+    "houpat (se)",
+    "máchnout"
+   ],
+   "cz_text": "houpat (se), máchnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 106,
+   "infinitive": "bend",
+   "past": {
+    "us": [
+     "bent"
+    ],
+    "uk": [
+     "bent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bent"
+    ],
+    "uk": [
+     "bent"
+    ]
+   },
+   "cz": [
+    "ohnout (se)"
+   ],
+   "cz_text": "ohnout (se)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 107,
+   "infinitive": "lend",
+   "past": {
+    "us": [
+     "lent"
+    ],
+    "uk": [
+     "lent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "lent"
+    ],
+    "uk": [
+     "lent"
+    ]
+   },
+   "cz": [
+    "půjčit (někomu)"
+   ],
+   "cz_text": "půjčit (někomu)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 108,
+   "infinitive": "bind",
+   "past": {
+    "us": [
+     "bound"
+    ],
+    "uk": [
+     "bound"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bound"
+    ],
+    "uk": [
+     "bound"
+    ]
+   },
+   "cz": [
+    "vázat",
+    "zavazovat"
+   ],
+   "cz_text": "vázat, zavazovat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 109,
+   "infinitive": "bleed",
+   "past": {
+    "us": [
+     "bled"
+    ],
+    "uk": [
+     "bled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bled"
+    ],
+    "uk": [
+     "bled"
+    ]
+   },
+   "cz": [
+    "krvácet"
+   ],
+   "cz_text": "krvácet",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 110,
+   "infinitive": "breed",
+   "past": {
+    "us": [
+     "bred"
+    ],
+    "uk": [
+     "bred"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bred"
+    ],
+    "uk": [
+     "bred"
+    ]
+   },
+   "cz": [
+    "chovat",
+    "pěstovat"
+   ],
+   "cz_text": "chovat, pěstovat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 111,
+   "infinitive": "broadcast",
+   "past": {
+    "us": [
+     "broadcast"
+    ],
+    "uk": [
+     "broadcast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "broadcast"
+    ],
+    "uk": [
+     "broadcast"
+    ]
+   },
+   "cz": [
+    "vysílat"
+   ],
+   "cz_text": "vysílat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": "také broadcasted (pravidelně)"
+  },
+  {
+   "id": 112,
+   "infinitive": "burst",
+   "past": {
+    "us": [
+     "burst"
+    ],
+    "uk": [
+     "burst"
+    ]
+   },
+   "participle": {
+    "us": [
+     "burst"
+    ],
+    "uk": [
+     "burst"
+    ]
+   },
+   "cz": [
+    "prasknout",
+    "vtrhnout"
+   ],
+   "cz_text": "prasknout, vtrhnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 113,
+   "infinitive": "cast",
+   "past": {
+    "us": [
+     "cast"
+    ],
+    "uk": [
+     "cast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "cast"
+    ],
+    "uk": [
+     "cast"
+    ]
+   },
+   "cz": [
+    "hodit",
+    "obsadit (roli)"
+   ],
+   "cz_text": "hodit, obsadit (roli)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 114,
+   "infinitive": "cling",
+   "past": {
+    "us": [
+     "clung"
+    ],
+    "uk": [
+     "clung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "clung"
+    ],
+    "uk": [
+     "clung"
+    ]
+   },
+   "cz": [
+    "lpět",
+    "držet se"
+   ],
+   "cz_text": "lpět, držet se",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 115,
+   "infinitive": "creep",
+   "past": {
+    "us": [
+     "crept"
+    ],
+    "uk": [
+     "crept"
+    ]
+   },
+   "participle": {
+    "us": [
+     "crept"
+    ],
+    "uk": [
+     "crept"
+    ]
+   },
+   "cz": [
+    "plížit se",
+    "lézt"
+   ],
+   "cz_text": "plížit se, lézt",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 116,
+   "infinitive": "dive",
+   "past": {
+    "us": [
+     "dove",
+     "dived"
+    ],
+    "uk": [
+     "dived"
+    ]
+   },
+   "participle": {
+    "us": [
+     "dived"
+    ],
+    "uk": [
+     "dived"
+    ]
+   },
+   "cz": [
+    "potápět se",
+    "skočit (do vody)"
+   ],
+   "cz_text": "potápět se, skočit (do vody)",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 117,
+   "infinitive": "fling",
+   "past": {
+    "us": [
+     "flung"
+    ],
+    "uk": [
+     "flung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "flung"
+    ],
+    "uk": [
+     "flung"
+    ]
+   },
+   "cz": [
+    "mrštit"
+   ],
+   "cz_text": "mrštit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 118,
+   "infinitive": "flee",
+   "past": {
+    "us": [
+     "fled"
+    ],
+    "uk": [
+     "fled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "fled"
+    ],
+    "uk": [
+     "fled"
+    ]
+   },
+   "cz": [
+    "uprchnout"
+   ],
+   "cz_text": "uprchnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 119,
+   "infinitive": "forbid",
+   "past": {
+    "us": [
+     "forbade"
+    ],
+    "uk": [
+     "forbade"
+    ]
+   },
+   "participle": {
+    "us": [
+     "forbidden"
+    ],
+    "uk": [
+     "forbidden"
+    ]
+   },
+   "cz": [
+    "zakázat"
+   ],
+   "cz_text": "zakázat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 120,
+   "infinitive": "foresee",
+   "past": {
+    "us": [
+     "foresaw"
+    ],
+    "uk": [
+     "foresaw"
+    ]
+   },
+   "participle": {
+    "us": [
+     "foreseen"
+    ],
+    "uk": [
+     "foreseen"
+    ]
+   },
+   "cz": [
+    "předvídat"
+   ],
+   "cz_text": "předvídat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 121,
+   "infinitive": "grind",
+   "past": {
+    "us": [
+     "ground"
+    ],
+    "uk": [
+     "ground"
+    ]
+   },
+   "participle": {
+    "us": [
+     "ground"
+    ],
+    "uk": [
+     "ground"
+    ]
+   },
+   "cz": [
+    "mlít",
+    "brousit"
+   ],
+   "cz_text": "mlít, brousit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 122,
+   "infinitive": "kneel",
+   "past": {
+    "us": [
+     "knelt",
+     "kneeled"
+    ],
+    "uk": [
+     "knelt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "knelt",
+     "kneeled"
+    ],
+    "uk": [
+     "knelt"
+    ]
+   },
+   "cz": [
+    "klečet",
+    "pokleknout"
+   ],
+   "cz_text": "klečet, pokleknout",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 123,
+   "infinitive": "knit",
+   "past": {
+    "us": [
+     "knit",
+     "knitted"
+    ],
+    "uk": [
+     "knitted"
+    ]
+   },
+   "participle": {
+    "us": [
+     "knit",
+     "knitted"
+    ],
+    "uk": [
+     "knitted"
+    ]
+   },
+   "cz": [
+    "plést (svetr)"
+   ],
+   "cz_text": "plést (svetr)",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 124,
+   "infinitive": "lean",
+   "past": {
+    "us": [
+     "leaned"
+    ],
+    "uk": [
+     "leant",
+     "leaned"
+    ]
+   },
+   "participle": {
+    "us": [
+     "leaned"
+    ],
+    "uk": [
+     "leant",
+     "leaned"
+    ]
+   },
+   "cz": [
+    "opírat se",
+    "naklonit se"
+   ],
+   "cz_text": "opírat se, naklonit se",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 125,
+   "infinitive": "leap",
+   "past": {
+    "us": [
+     "leaped",
+     "leapt"
+    ],
+    "uk": [
+     "leapt",
+     "leaped"
+    ]
+   },
+   "participle": {
+    "us": [
+     "leaped",
+     "leapt"
+    ],
+    "uk": [
+     "leapt",
+     "leaped"
+    ]
+   },
+   "cz": [
+    "skočit"
+   ],
+   "cz_text": "skočit",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 126,
+   "infinitive": "mislead",
+   "past": {
+    "us": [
+     "misled"
+    ],
+    "uk": [
+     "misled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "misled"
+    ],
+    "uk": [
+     "misled"
+    ]
+   },
+   "cz": [
+    "uvést v omyl"
+   ],
+   "cz_text": "uvést v omyl",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 127,
+   "infinitive": "mistake",
+   "past": {
+    "us": [
+     "mistook"
+    ],
+    "uk": [
+     "mistook"
+    ]
+   },
+   "participle": {
+    "us": [
+     "mistaken"
+    ],
+    "uk": [
+     "mistaken"
+    ]
+   },
+   "cz": [
+    "splést si"
+   ],
+   "cz_text": "splést si",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 128,
+   "infinitive": "overcome",
+   "past": {
+    "us": [
+     "overcame"
+    ],
+    "uk": [
+     "overcame"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overcome"
+    ],
+    "uk": [
+     "overcome"
+    ]
+   },
+   "cz": [
+    "překonat"
+   ],
+   "cz_text": "překonat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 129,
+   "infinitive": "quit",
+   "past": {
+    "us": [
+     "quit"
+    ],
+    "uk": [
+     "quit",
+     "quitted"
+    ]
+   },
+   "participle": {
+    "us": [
+     "quit"
+    ],
+    "uk": [
+     "quit",
+     "quitted"
+    ]
+   },
+   "cz": [
+    "přestat",
+    "skončit",
+    "odejít (z práce)"
+   ],
+   "cz_text": "přestat, skončit, odejít (z práce)",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 130,
+   "infinitive": "shed",
+   "past": {
+    "us": [
+     "shed"
+    ],
+    "uk": [
+     "shed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shed"
+    ],
+    "uk": [
+     "shed"
+    ]
+   },
+   "cz": [
+    "shodit",
+    "ronit (slzy)"
+   ],
+   "cz_text": "shodit, ronit (slzy)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 131,
+   "infinitive": "shrink",
+   "past": {
+    "us": [
+     "shrank",
+     "shrunk"
+    ],
+    "uk": [
+     "shrank",
+     "shrunk"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shrunk"
+    ],
+    "uk": [
+     "shrunk"
+    ]
+   },
+   "cz": [
+    "srazit se",
+    "zmenšit se"
+   ],
+   "cz_text": "srazit se, zmenšit se",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 132,
+   "infinitive": "slide",
+   "past": {
+    "us": [
+     "slid"
+    ],
+    "uk": [
+     "slid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "slid"
+    ],
+    "uk": [
+     "slid"
+    ]
+   },
+   "cz": [
+    "klouzat"
+   ],
+   "cz_text": "klouzat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 133,
+   "infinitive": "sling",
+   "past": {
+    "us": [
+     "slung"
+    ],
+    "uk": [
+     "slung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "slung"
+    ],
+    "uk": [
+     "slung"
+    ]
+   },
+   "cz": [
+    "hodit",
+    "zavěsit"
+   ],
+   "cz_text": "hodit, zavěsit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 134,
+   "infinitive": "slit",
+   "past": {
+    "us": [
+     "slit"
+    ],
+    "uk": [
+     "slit"
+    ]
+   },
+   "participle": {
+    "us": [
+     "slit"
+    ],
+    "uk": [
+     "slit"
+    ]
+   },
+   "cz": [
+    "rozříznout"
+   ],
+   "cz_text": "rozříznout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 135,
+   "infinitive": "spill",
+   "past": {
+    "us": [
+     "spilled"
+    ],
+    "uk": [
+     "spilt",
+     "spilled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spilled"
+    ],
+    "uk": [
+     "spilt",
+     "spilled"
+    ]
+   },
+   "cz": [
+    "rozlít"
+   ],
+   "cz_text": "rozlít",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 136,
+   "infinitive": "spin",
+   "past": {
+    "us": [
+     "spun"
+    ],
+    "uk": [
+     "spun"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spun"
+    ],
+    "uk": [
+     "spun"
+    ]
+   },
+   "cz": [
+    "točit (se)",
+    "příst"
+   ],
+   "cz_text": "točit (se), příst",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 137,
+   "infinitive": "spit",
+   "past": {
+    "us": [
+     "spit",
+     "spat"
+    ],
+    "uk": [
+     "spat"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spit",
+     "spat"
+    ],
+    "uk": [
+     "spat"
+    ]
+   },
+   "cz": [
+    "plivat"
+   ],
+   "cz_text": "plivat",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 138,
+   "infinitive": "split",
+   "past": {
+    "us": [
+     "split"
+    ],
+    "uk": [
+     "split"
+    ]
+   },
+   "participle": {
+    "us": [
+     "split"
+    ],
+    "uk": [
+     "split"
+    ]
+   },
+   "cz": [
+    "rozdělit",
+    "rozštípnout"
+   ],
+   "cz_text": "rozdělit, rozštípnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 139,
+   "infinitive": "spoil",
+   "past": {
+    "us": [
+     "spoiled"
+    ],
+    "uk": [
+     "spoilt",
+     "spoiled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spoiled"
+    ],
+    "uk": [
+     "spoilt",
+     "spoiled"
+    ]
+   },
+   "cz": [
+    "zkazit",
+    "rozmazlit"
+   ],
+   "cz_text": "zkazit, rozmazlit",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 140,
+   "infinitive": "spring",
+   "past": {
+    "us": [
+     "sprang",
+     "sprung"
+    ],
+    "uk": [
+     "sprang"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sprung"
+    ],
+    "uk": [
+     "sprung"
+    ]
+   },
+   "cz": [
+    "skočit",
+    "vytrysknout"
+   ],
+   "cz_text": "skočit, vytrysknout",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 141,
+   "infinitive": "sting",
+   "past": {
+    "us": [
+     "stung"
+    ],
+    "uk": [
+     "stung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "stung"
+    ],
+    "uk": [
+     "stung"
+    ]
+   },
+   "cz": [
+    "bodnout",
+    "štípnout"
+   ],
+   "cz_text": "bodnout, štípnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 142,
+   "infinitive": "stink",
+   "past": {
+    "us": [
+     "stank",
+     "stunk"
+    ],
+    "uk": [
+     "stank",
+     "stunk"
+    ]
+   },
+   "participle": {
+    "us": [
+     "stunk"
+    ],
+    "uk": [
+     "stunk"
+    ]
+   },
+   "cz": [
+    "smrdět"
+   ],
+   "cz_text": "smrdět",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 143,
+   "infinitive": "stride",
+   "past": {
+    "us": [
+     "strode"
+    ],
+    "uk": [
+     "strode"
+    ]
+   },
+   "participle": {
+    "us": [
+     "stridden"
+    ],
+    "uk": [
+     "stridden"
+    ]
+   },
+   "cz": [
+    "kráčet"
+   ],
+   "cz_text": "kráčet",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 144,
+   "infinitive": "string",
+   "past": {
+    "us": [
+     "strung"
+    ],
+    "uk": [
+     "strung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "strung"
+    ],
+    "uk": [
+     "strung"
+    ]
+   },
+   "cz": [
+    "navléknout"
+   ],
+   "cz_text": "navléknout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 145,
+   "infinitive": "strive",
+   "past": {
+    "us": [
+     "strove",
+     "strived"
+    ],
+    "uk": [
+     "strove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "striven",
+     "strived"
+    ],
+    "uk": [
+     "striven"
+    ]
+   },
+   "cz": [
+    "usilovat",
+    "snažit se"
+   ],
+   "cz_text": "usilovat, snažit se",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 146,
+   "infinitive": "swear",
+   "past": {
+    "us": [
+     "swore"
+    ],
+    "uk": [
+     "swore"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sworn"
+    ],
+    "uk": [
+     "sworn"
+    ]
+   },
+   "cz": [
+    "přísahat",
+    "klít"
+   ],
+   "cz_text": "přísahat, klít",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 147,
+   "infinitive": "sweep",
+   "past": {
+    "us": [
+     "swept"
+    ],
+    "uk": [
+     "swept"
+    ]
+   },
+   "participle": {
+    "us": [
+     "swept"
+    ],
+    "uk": [
+     "swept"
+    ]
+   },
+   "cz": [
+    "zametat"
+   ],
+   "cz_text": "zametat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 148,
+   "infinitive": "swell",
+   "past": {
+    "us": [
+     "swelled"
+    ],
+    "uk": [
+     "swelled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "swollen",
+     "swelled"
+    ],
+    "uk": [
+     "swollen",
+     "swelled"
+    ]
+   },
+   "cz": [
+    "otéct",
+    "bobtnat"
+   ],
+   "cz_text": "otéct, bobtnat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 149,
+   "infinitive": "tread",
+   "past": {
+    "us": [
+     "trod"
+    ],
+    "uk": [
+     "trod"
+    ]
+   },
+   "participle": {
+    "us": [
+     "trodden",
+     "trod"
+    ],
+    "uk": [
+     "trodden"
+    ]
+   },
+   "cz": [
+    "šlapat"
+   ],
+   "cz_text": "šlapat",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 150,
+   "infinitive": "undergo",
+   "past": {
+    "us": [
+     "underwent"
+    ],
+    "uk": [
+     "underwent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "undergone"
+    ],
+    "uk": [
+     "undergone"
+    ]
+   },
+   "cz": [
+    "podstoupit"
+   ],
+   "cz_text": "podstoupit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 151,
+   "infinitive": "undertake",
+   "past": {
+    "us": [
+     "undertook"
+    ],
+    "uk": [
+     "undertook"
+    ]
+   },
+   "participle": {
+    "us": [
+     "undertaken"
+    ],
+    "uk": [
+     "undertaken"
+    ]
+   },
+   "cz": [
+    "podniknout",
+    "zavázat se"
+   ],
+   "cz_text": "podniknout, zavázat se",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 152,
+   "infinitive": "upset",
+   "past": {
+    "us": [
+     "upset"
+    ],
+    "uk": [
+     "upset"
+    ]
+   },
+   "participle": {
+    "us": [
+     "upset"
+    ],
+    "uk": [
+     "upset"
+    ]
+   },
+   "cz": [
+    "rozrušit",
+    "zarmoutit"
+   ],
+   "cz_text": "rozrušit, zarmoutit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 153,
+   "infinitive": "weep",
+   "past": {
+    "us": [
+     "wept"
+    ],
+    "uk": [
+     "wept"
+    ]
+   },
+   "participle": {
+    "us": [
+     "wept"
+    ],
+    "uk": [
+     "wept"
+    ]
+   },
+   "cz": [
+    "plakat"
+   ],
+   "cz_text": "plakat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 154,
+   "infinitive": "wind",
+   "past": {
+    "us": [
+     "wound"
+    ],
+    "uk": [
+     "wound"
+    ]
+   },
+   "participle": {
+    "us": [
+     "wound"
+    ],
+    "uk": [
+     "wound"
+    ]
+   },
+   "cz": [
+    "navíjet",
+    "natáčet (hodinky)",
+    "vinout se"
+   ],
+   "cz_text": "navíjet, natáčet (hodinky), vinout se",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": "výslovnost: wind [waɪnd] – wound [waʊnd]"
+  },
+  {
+   "id": 155,
+   "infinitive": "withdraw",
+   "past": {
+    "us": [
+     "withdrew"
+    ],
+    "uk": [
+     "withdrew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "withdrawn"
+    ],
+    "uk": [
+     "withdrawn"
+    ]
+   },
+   "cz": [
+    "stáhnout (se)",
+    "vybrat (peníze)"
+   ],
+   "cz_text": "stáhnout (se), vybrat (peníze)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 156,
+   "infinitive": "wring",
+   "past": {
+    "us": [
+     "wrung"
+    ],
+    "uk": [
+     "wrung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "wrung"
+    ],
+    "uk": [
+     "wrung"
+    ]
+   },
+   "cz": [
+    "ždímat",
+    "kroutit"
+   ],
+   "cz_text": "ždímat, kroutit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 157,
+   "infinitive": "arise",
+   "past": {
+    "us": [
+     "arose"
+    ],
+    "uk": [
+     "arose"
+    ]
+   },
+   "participle": {
+    "us": [
+     "arisen"
+    ],
+    "uk": [
+     "arisen"
+    ]
+   },
+   "cz": [
+    "vzniknout",
+    "vyvstat"
+   ],
+   "cz_text": "vzniknout, vyvstat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 158,
+   "infinitive": "awake",
+   "past": {
+    "us": [
+     "awoke"
+    ],
+    "uk": [
+     "awoke"
+    ]
+   },
+   "participle": {
+    "us": [
+     "awoken"
+    ],
+    "uk": [
+     "awoken"
+    ]
+   },
+   "cz": [
+    "probudit (se)"
+   ],
+   "cz_text": "probudit (se)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 159,
+   "infinitive": "bid",
+   "past": {
+    "us": [
+     "bid"
+    ],
+    "uk": [
+     "bid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bid"
+    ],
+    "uk": [
+     "bid"
+    ]
+   },
+   "cz": [
+    "nabízet (v dražbě)"
+   ],
+   "cz_text": "nabízet (v dražbě)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": "bid – bade – bidden = přát, kázat (kniž.)"
+  },
+  {
+   "id": 160,
+   "infinitive": "forecast",
+   "past": {
+    "us": [
+     "forecast"
+    ],
+    "uk": [
+     "forecast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "forecast"
+    ],
+    "uk": [
+     "forecast"
+    ]
+   },
+   "cz": [
+    "předpovídat"
+   ],
+   "cz_text": "předpovídat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": "také forecasted (pravidelně)"
+  },
+  {
+   "id": 161,
+   "infinitive": "sow",
+   "past": {
+    "us": [
+     "sowed"
+    ],
+    "uk": [
+     "sowed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sown",
+     "sowed"
+    ],
+    "uk": [
+     "sown",
+     "sowed"
+    ]
+   },
+   "cz": [
+    "sít"
+   ],
+   "cz_text": "sít",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 162,
+   "infinitive": "sew",
+   "past": {
+    "us": [
+     "sewed"
+    ],
+    "uk": [
+     "sewed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sewn",
+     "sewed"
+    ],
+    "uk": [
+     "sewn",
+     "sewed"
+    ]
+   },
+   "cz": [
+    "šít"
+   ],
+   "cz_text": "šít",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 163,
+   "infinitive": "saw",
+   "past": {
+    "us": [
+     "sawed"
+    ],
+    "uk": [
+     "sawed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sawed",
+     "sawn"
+    ],
+    "uk": [
+     "sawn"
+    ]
+   },
+   "cz": [
+    "řezat pilou"
+   ],
+   "cz_text": "řezat pilou",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 164,
+   "infinitive": "mow",
+   "past": {
+    "us": [
+     "mowed"
+    ],
+    "uk": [
+     "mowed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "mowed",
+     "mown"
+    ],
+    "uk": [
+     "mown",
+     "mowed"
+    ]
+   },
+   "cz": [
+    "sekat (trávu)"
+   ],
+   "cz_text": "sekat (trávu)",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 165,
+   "infinitive": "sneak",
+   "past": {
+    "us": [
+     "snuck",
+     "sneaked"
+    ],
+    "uk": [
+     "sneaked"
+    ]
+   },
+   "participle": {
+    "us": [
+     "snuck",
+     "sneaked"
+    ],
+    "uk": [
+     "sneaked"
+    ]
+   },
+   "cz": [
+    "plížit se",
+    "vplížit se"
+   ],
+   "cz_text": "plížit se, vplížit se",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 166,
+   "infinitive": "speed",
+   "past": {
+    "us": [
+     "sped",
+     "speeded"
+    ],
+    "uk": [
+     "sped",
+     "speeded"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sped",
+     "speeded"
+    ],
+    "uk": [
+     "sped",
+     "speeded"
+    ]
+   },
+   "cz": [
+    "spěchat",
+    "uhánět"
+   ],
+   "cz_text": "spěchat, uhánět",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": "speeded = překročit rychlost"
+  },
+  {
+   "id": 167,
+   "infinitive": "rid",
+   "past": {
+    "us": [
+     "rid"
+    ],
+    "uk": [
+     "rid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rid"
+    ],
+    "uk": [
+     "rid"
+    ]
+   },
+   "cz": [
+    "zbavit (se)"
+   ],
+   "cz_text": "zbavit (se)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 168,
+   "infinitive": "thrust",
+   "past": {
+    "us": [
+     "thrust"
+    ],
+    "uk": [
+     "thrust"
+    ]
+   },
+   "participle": {
+    "us": [
+     "thrust"
+    ],
+    "uk": [
+     "thrust"
+    ]
+   },
+   "cz": [
+    "vrazit",
+    "strčit"
+   ],
+   "cz_text": "vrazit, strčit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 169,
+   "infinitive": "thrive",
+   "past": {
+    "us": [
+     "thrived",
+     "throve"
+    ],
+    "uk": [
+     "thrived"
+    ]
+   },
+   "participle": {
+    "us": [
+     "thrived",
+     "thriven"
+    ],
+    "uk": [
+     "thrived"
+    ]
+   },
+   "cz": [
+    "prospívat",
+    "vzkvétat"
+   ],
+   "cz_text": "prospívat, vzkvétat",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 170,
+   "infinitive": "weave",
+   "past": {
+    "us": [
+     "wove"
+    ],
+    "uk": [
+     "wove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "woven"
+    ],
+    "uk": [
+     "woven"
+    ]
+   },
+   "cz": [
+    "tkát",
+    "proplétat"
+   ],
+   "cz_text": "tkát, proplétat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": "weave – weaved – weaved = kličkovat"
+  },
+  {
+   "id": 171,
+   "infinitive": "undo",
+   "past": {
+    "us": [
+     "undid"
+    ],
+    "uk": [
+     "undid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "undone"
+    ],
+    "uk": [
+     "undone"
+    ]
+   },
+   "cz": [
+    "vrátit zpět",
+    "rozepnout"
+   ],
+   "cz_text": "vrátit zpět, rozepnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 172,
+   "infinitive": "rewrite",
+   "past": {
+    "us": [
+     "rewrote"
+    ],
+    "uk": [
+     "rewrote"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rewritten"
+    ],
+    "uk": [
+     "rewritten"
+    ]
+   },
+   "cz": [
+    "přepsat"
+   ],
+   "cz_text": "přepsat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 173,
+   "infinitive": "redo",
+   "past": {
+    "us": [
+     "redid"
+    ],
+    "uk": [
+     "redid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "redone"
+    ],
+    "uk": [
+     "redone"
+    ]
+   },
+   "cz": [
+    "předělat",
+    "udělat znovu"
+   ],
+   "cz_text": "předělat, udělat znovu",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 174,
+   "infinitive": "rebuild",
+   "past": {
+    "us": [
+     "rebuilt"
+    ],
+    "uk": [
+     "rebuilt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rebuilt"
+    ],
+    "uk": [
+     "rebuilt"
+    ]
+   },
+   "cz": [
+    "přestavět",
+    "obnovit"
+   ],
+   "cz_text": "přestavět, obnovit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 175,
+   "infinitive": "misunderstand",
+   "past": {
+    "us": [
+     "misunderstood"
+    ],
+    "uk": [
+     "misunderstood"
+    ]
+   },
+   "participle": {
+    "us": [
+     "misunderstood"
+    ],
+    "uk": [
+     "misunderstood"
+    ]
+   },
+   "cz": [
+    "špatně pochopit"
+   ],
+   "cz_text": "špatně pochopit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 176,
+   "infinitive": "withhold",
+   "past": {
+    "us": [
+     "withheld"
+    ],
+    "uk": [
+     "withheld"
+    ]
+   },
+   "participle": {
+    "us": [
+     "withheld"
+    ],
+    "uk": [
+     "withheld"
+    ]
+   },
+   "cz": [
+    "zadržet",
+    "odepřít"
+   ],
+   "cz_text": "zadržet, odepřít",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 177,
+   "infinitive": "withstand",
+   "past": {
+    "us": [
+     "withstood"
+    ],
+    "uk": [
+     "withstood"
+    ]
+   },
+   "participle": {
+    "us": [
+     "withstood"
+    ],
+    "uk": [
+     "withstood"
+    ]
+   },
+   "cz": [
+    "odolat",
+    "vydržet"
+   ],
+   "cz_text": "odolat, vydržet",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 178,
+   "infinitive": "uphold",
+   "past": {
+    "us": [
+     "upheld"
+    ],
+    "uk": [
+     "upheld"
+    ]
+   },
+   "participle": {
+    "us": [
+     "upheld"
+    ],
+    "uk": [
+     "upheld"
+    ]
+   },
+   "cz": [
+    "podporovat",
+    "potvrdit (rozhodnutí)"
+   ],
+   "cz_text": "podporovat, potvrdit (rozhodnutí)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 179,
+   "infinitive": "offset",
+   "past": {
+    "us": [
+     "offset"
+    ],
+    "uk": [
+     "offset"
+    ]
+   },
+   "participle": {
+    "us": [
+     "offset"
+    ],
+    "uk": [
+     "offset"
+    ]
+   },
+   "cz": [
+    "vyrovnat",
+    "kompenzovat"
+   ],
+   "cz_text": "vyrovnat, kompenzovat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 180,
+   "infinitive": "overthrow",
+   "past": {
+    "us": [
+     "overthrew"
+    ],
+    "uk": [
+     "overthrew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overthrown"
+    ],
+    "uk": [
+     "overthrown"
+    ]
+   },
+   "cz": [
+    "svrhnout"
+   ],
+   "cz_text": "svrhnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 181,
+   "infinitive": "override",
+   "past": {
+    "us": [
+     "overrode"
+    ],
+    "uk": [
+     "overrode"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overridden"
+    ],
+    "uk": [
+     "overridden"
+    ]
+   },
+   "cz": [
+    "potlačit",
+    "zrušit (rozhodnutí)"
+   ],
+   "cz_text": "potlačit, zrušit (rozhodnutí)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 182,
+   "infinitive": "overtake",
+   "past": {
+    "us": [
+     "overtook"
+    ],
+    "uk": [
+     "overtook"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overtaken"
+    ],
+    "uk": [
+     "overtaken"
+    ]
+   },
+   "cz": [
+    "předjet",
+    "předstihnout"
+   ],
+   "cz_text": "předjet, předstihnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 183,
+   "infinitive": "oversee",
+   "past": {
+    "us": [
+     "oversaw"
+    ],
+    "uk": [
+     "oversaw"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overseen"
+    ],
+    "uk": [
+     "overseen"
+    ]
+   },
+   "cz": [
+    "dohlížet"
+   ],
+   "cz_text": "dohlížet",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 184,
+   "infinitive": "overhear",
+   "past": {
+    "us": [
+     "overheard"
+    ],
+    "uk": [
+     "overheard"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overheard"
+    ],
+    "uk": [
+     "overheard"
+    ]
+   },
+   "cz": [
+    "zaslechnout"
+   ],
+   "cz_text": "zaslechnout",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 185,
+   "infinitive": "reset",
+   "past": {
+    "us": [
+     "reset"
+    ],
+    "uk": [
+     "reset"
+    ]
+   },
+   "participle": {
+    "us": [
+     "reset"
+    ],
+    "uk": [
+     "reset"
+    ]
+   },
+   "cz": [
+    "resetovat",
+    "znovu nastavit"
+   ],
+   "cz_text": "resetovat, znovu nastavit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 186,
+   "infinitive": "dwell",
+   "past": {
+    "us": [
+     "dwelled",
+     "dwelt"
+    ],
+    "uk": [
+     "dwelt",
+     "dwelled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "dwelled",
+     "dwelt"
+    ],
+    "uk": [
+     "dwelt",
+     "dwelled"
+    ]
+   },
+   "cz": [
+    "přebývat",
+    "rozebírat (téma)"
+   ],
+   "cz_text": "přebývat, rozebírat (téma)",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 187,
+   "infinitive": "plead",
+   "past": {
+    "us": [
+     "pleaded",
+     "pled"
+    ],
+    "uk": [
+     "pleaded"
+    ]
+   },
+   "participle": {
+    "us": [
+     "pleaded",
+     "pled"
+    ],
+    "uk": [
+     "pleaded"
+    ]
+   },
+   "cz": [
+    "prosit",
+    "vypovídat (u soudu)"
+   ],
+   "cz_text": "prosit; vypovídat (u soudu)",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 188,
+   "infinitive": "outdo",
+   "past": {
+    "us": [
+     "outdid"
+    ],
+    "uk": [
+     "outdid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outdone"
+    ],
+    "uk": [
+     "outdone"
+    ]
+   },
+   "cz": [
+    "předčit",
+    "překonat"
+   ],
+   "cz_text": "předčit, překonat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 189,
+   "infinitive": "outgrow",
+   "past": {
+    "us": [
+     "outgrew"
+    ],
+    "uk": [
+     "outgrew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outgrown"
+    ],
+    "uk": [
+     "outgrown"
+    ]
+   },
+   "cz": [
+    "přerůst",
+    "vyrůst z"
+   ],
+   "cz_text": "přerůst, vyrůst z",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 190,
+   "infinitive": "overdo",
+   "past": {
+    "us": [
+     "overdid"
+    ],
+    "uk": [
+     "overdid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overdone"
+    ],
+    "uk": [
+     "overdone"
+    ]
+   },
+   "cz": [
+    "přehánět",
+    "převařit"
+   ],
+   "cz_text": "přehánět, převařit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 191,
+   "infinitive": "oversleep",
+   "past": {
+    "us": [
+     "overslept"
+    ],
+    "uk": [
+     "overslept"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overslept"
+    ],
+    "uk": [
+     "overslept"
+    ]
+   },
+   "cz": [
+    "zaspat"
+   ],
+   "cz_text": "zaspat",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 192,
+   "infinitive": "repay",
+   "past": {
+    "us": [
+     "repaid"
+    ],
+    "uk": [
+     "repaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "repaid"
+    ],
+    "uk": [
+     "repaid"
+    ]
+   },
+   "cz": [
+    "splatit",
+    "oplatit"
+   ],
+   "cz_text": "splatit, oplatit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 193,
+   "infinitive": "remake",
+   "past": {
+    "us": [
+     "remade"
+    ],
+    "uk": [
+     "remade"
+    ]
+   },
+   "participle": {
+    "us": [
+     "remade"
+    ],
+    "uk": [
+     "remade"
+    ]
+   },
+   "cz": [
+    "předělat",
+    "natočit znovu"
+   ],
+   "cz_text": "předělat, natočit znovu",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 194,
+   "infinitive": "retake",
+   "past": {
+    "us": [
+     "retook"
+    ],
+    "uk": [
+     "retook"
+    ]
+   },
+   "participle": {
+    "us": [
+     "retaken"
+    ],
+    "uk": [
+     "retaken"
+    ]
+   },
+   "cz": [
+    "znovu dobýt",
+    "opakovat (zkoušku)"
+   ],
+   "cz_text": "znovu dobýt, opakovat (zkoušku)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 195,
+   "infinitive": "rethink",
+   "past": {
+    "us": [
+     "rethought"
+    ],
+    "uk": [
+     "rethought"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rethought"
+    ],
+    "uk": [
+     "rethought"
+    ]
+   },
+   "cz": [
+    "přehodnotit"
+   ],
+   "cz_text": "přehodnotit",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 196,
+   "infinitive": "rewind",
+   "past": {
+    "us": [
+     "rewound"
+    ],
+    "uk": [
+     "rewound"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rewound"
+    ],
+    "uk": [
+     "rewound"
+    ]
+   },
+   "cz": [
+    "přetočit (zpět)"
+   ],
+   "cz_text": "přetočit (zpět)",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 197,
+   "infinitive": "misspell",
+   "past": {
+    "us": [
+     "misspelled"
+    ],
+    "uk": [
+     "misspelt",
+     "misspelled"
+    ]
+   },
+   "participle": {
+    "us": [
+     "misspelled"
+    ],
+    "uk": [
+     "misspelt",
+     "misspelled"
+    ]
+   },
+   "cz": [
+    "napsat s pravopisnou chybou"
+   ],
+   "cz_text": "napsat s pravopisnou chybou",
+   "tier": "common",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 198,
+   "infinitive": "unwind",
+   "past": {
+    "us": [
+     "unwound"
+    ],
+    "uk": [
+     "unwound"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unwound"
+    ],
+    "uk": [
+     "unwound"
+    ]
+   },
+   "cz": [
+    "odvinout",
+    "odpočinout si"
+   ],
+   "cz_text": "odvinout; odpočinout si",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 199,
+   "infinitive": "babysit",
+   "past": {
+    "us": [
+     "babysat"
+    ],
+    "uk": [
+     "babysat"
+    ]
+   },
+   "participle": {
+    "us": [
+     "babysat"
+    ],
+    "uk": [
+     "babysat"
+    ]
+   },
+   "cz": [
+    "hlídat děti"
+   ],
+   "cz_text": "hlídat děti",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 200,
+   "infinitive": "sublet",
+   "past": {
+    "us": [
+     "sublet"
+    ],
+    "uk": [
+     "sublet"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sublet"
+    ],
+    "uk": [
+     "sublet"
+    ]
+   },
+   "cz": [
+    "dát do podnájmu"
+   ],
+   "cz_text": "dát do podnájmu",
+   "tier": "common",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 201,
+   "infinitive": "mislay",
+   "past": {
+    "us": [
+     "mislaid"
+    ],
+    "uk": [
+     "mislaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "mislaid"
+    ],
+    "uk": [
+     "mislaid"
+    ]
+   },
+   "cz": [
+    "založit (někam)",
+    "ztratit"
+   ],
+   "cz_text": "založit (někam), ztratit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 202,
+   "infinitive": "mishear",
+   "past": {
+    "us": [
+     "misheard"
+    ],
+    "uk": [
+     "misheard"
+    ]
+   },
+   "participle": {
+    "us": [
+     "misheard"
+    ],
+    "uk": [
+     "misheard"
+    ]
+   },
+   "cz": [
+    "přeslechnout"
+   ],
+   "cz_text": "přeslechnout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 203,
+   "infinitive": "underpay",
+   "past": {
+    "us": [
+     "underpaid"
+    ],
+    "uk": [
+     "underpaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "underpaid"
+    ],
+    "uk": [
+     "underpaid"
+    ]
+   },
+   "cz": [
+    "nedostatečně zaplatit"
+   ],
+   "cz_text": "nedostatečně zaplatit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 204,
+   "infinitive": "overpay",
+   "past": {
+    "us": [
+     "overpaid"
+    ],
+    "uk": [
+     "overpaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overpaid"
+    ],
+    "uk": [
+     "overpaid"
+    ]
+   },
+   "cz": [
+    "přeplatit"
+   ],
+   "cz_text": "přeplatit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 205,
+   "infinitive": "abide",
+   "past": {
+    "us": [
+     "abided",
+     "abode"
+    ],
+    "uk": [
+     "abided",
+     "abode"
+    ]
+   },
+   "participle": {
+    "us": [
+     "abided",
+     "abode"
+    ],
+    "uk": [
+     "abided",
+     "abode"
+    ]
+   },
+   "cz": [
+    "dodržovat",
+    "snést"
+   ],
+   "cz_text": "dodržovat; snést",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "abide by = dodržovat (pravidelné tvary)"
+  },
+  {
+   "id": 206,
+   "infinitive": "alight",
+   "past": {
+    "us": [
+     "alighted",
+     "alit"
+    ],
+    "uk": [
+     "alighted",
+     "alit"
+    ]
+   },
+   "participle": {
+    "us": [
+     "alighted",
+     "alit"
+    ],
+    "uk": [
+     "alighted",
+     "alit"
+    ]
+   },
+   "cz": [
+    "vystoupit",
+    "usednout"
+   ],
+   "cz_text": "vystoupit, usednout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 207,
+   "infinitive": "backslide",
+   "past": {
+    "us": [
+     "backslid"
+    ],
+    "uk": [
+     "backslid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "backslid",
+     "backslidden"
+    ],
+    "uk": [
+     "backslid",
+     "backslidden"
+    ]
+   },
+   "cz": [
+    "sklouznout zpět (ke zlozvyku)"
+   ],
+   "cz_text": "sklouznout zpět (ke zlozvyku)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 208,
+   "infinitive": "befall",
+   "past": {
+    "us": [
+     "befell"
+    ],
+    "uk": [
+     "befell"
+    ]
+   },
+   "participle": {
+    "us": [
+     "befallen"
+    ],
+    "uk": [
+     "befallen"
+    ]
+   },
+   "cz": [
+    "postihnout",
+    "přihodit se"
+   ],
+   "cz_text": "postihnout, přihodit se",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 209,
+   "infinitive": "beget",
+   "past": {
+    "us": [
+     "begot"
+    ],
+    "uk": [
+     "begot"
+    ]
+   },
+   "participle": {
+    "us": [
+     "begotten"
+    ],
+    "uk": [
+     "begotten"
+    ]
+   },
+   "cz": [
+    "zplodit"
+   ],
+   "cz_text": "zplodit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "archaicky begat"
+  },
+  {
+   "id": 210,
+   "infinitive": "behold",
+   "past": {
+    "us": [
+     "beheld"
+    ],
+    "uk": [
+     "beheld"
+    ]
+   },
+   "participle": {
+    "us": [
+     "beheld"
+    ],
+    "uk": [
+     "beheld"
+    ]
+   },
+   "cz": [
+    "spatřit",
+    "pozorovat"
+   ],
+   "cz_text": "spatřit, pozorovat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 211,
+   "infinitive": "beseech",
+   "past": {
+    "us": [
+     "besought",
+     "beseeched"
+    ],
+    "uk": [
+     "besought",
+     "beseeched"
+    ]
+   },
+   "participle": {
+    "us": [
+     "besought",
+     "beseeched"
+    ],
+    "uk": [
+     "besought",
+     "beseeched"
+    ]
+   },
+   "cz": [
+    "úpěnlivě prosit"
+   ],
+   "cz_text": "úpěnlivě prosit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 212,
+   "infinitive": "beset",
+   "past": {
+    "us": [
+     "beset"
+    ],
+    "uk": [
+     "beset"
+    ]
+   },
+   "participle": {
+    "us": [
+     "beset"
+    ],
+    "uk": [
+     "beset"
+    ]
+   },
+   "cz": [
+    "sužovat",
+    "obklopit"
+   ],
+   "cz_text": "sužovat, obklopit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 213,
+   "infinitive": "bestride",
+   "past": {
+    "us": [
+     "bestrode"
+    ],
+    "uk": [
+     "bestrode"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bestridden"
+    ],
+    "uk": [
+     "bestridden"
+    ]
+   },
+   "cz": [
+    "rozkročit se nad"
+   ],
+   "cz_text": "rozkročit se nad",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 214,
+   "infinitive": "browbeat",
+   "past": {
+    "us": [
+     "browbeat"
+    ],
+    "uk": [
+     "browbeat"
+    ]
+   },
+   "participle": {
+    "us": [
+     "browbeaten"
+    ],
+    "uk": [
+     "browbeaten"
+    ]
+   },
+   "cz": [
+    "zastrašovat"
+   ],
+   "cz_text": "zastrašovat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 215,
+   "infinitive": "bust",
+   "past": {
+    "us": [
+     "busted"
+    ],
+    "uk": [
+     "bust",
+     "busted"
+    ]
+   },
+   "participle": {
+    "us": [
+     "busted"
+    ],
+    "uk": [
+     "bust",
+     "busted"
+    ]
+   },
+   "cz": [
+    "rozbít",
+    "zatknout (hovor.)"
+   ],
+   "cz_text": "rozbít; zatknout (hovor.)",
+   "tier": "rare",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 216,
+   "infinitive": "chide",
+   "past": {
+    "us": [
+     "chided",
+     "chid"
+    ],
+    "uk": [
+     "chided",
+     "chid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "chided",
+     "chidden"
+    ],
+    "uk": [
+     "chided",
+     "chidden"
+    ]
+   },
+   "cz": [
+    "kárat"
+   ],
+   "cz_text": "kárat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 217,
+   "infinitive": "cleave",
+   "past": {
+    "us": [
+     "cleaved",
+     "cleft",
+     "clove"
+    ],
+    "uk": [
+     "cleaved",
+     "cleft",
+     "clove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "cleaved",
+     "cleft",
+     "cloven"
+    ],
+    "uk": [
+     "cleaved",
+     "cleft",
+     "cloven"
+    ]
+   },
+   "cz": [
+    "rozštípnout"
+   ],
+   "cz_text": "rozštípnout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "cleave – cleaved = lnout (pravidelné)"
+  },
+  {
+   "id": 218,
+   "infinitive": "crossbreed",
+   "past": {
+    "us": [
+     "crossbred"
+    ],
+    "uk": [
+     "crossbred"
+    ]
+   },
+   "participle": {
+    "us": [
+     "crossbred"
+    ],
+    "uk": [
+     "crossbred"
+    ]
+   },
+   "cz": [
+    "křížit (plemena)"
+   ],
+   "cz_text": "křížit (plemena)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 219,
+   "infinitive": "daydream",
+   "past": {
+    "us": [
+     "daydreamed"
+    ],
+    "uk": [
+     "daydreamt",
+     "daydreamed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "daydreamed"
+    ],
+    "uk": [
+     "daydreamt",
+     "daydreamed"
+    ]
+   },
+   "cz": [
+    "snít za bílého dne"
+   ],
+   "cz_text": "snít za bílého dne",
+   "tier": "rare",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 220,
+   "infinitive": "forbear",
+   "past": {
+    "us": [
+     "forbore"
+    ],
+    "uk": [
+     "forbore"
+    ]
+   },
+   "participle": {
+    "us": [
+     "forborne"
+    ],
+    "uk": [
+     "forborne"
+    ]
+   },
+   "cz": [
+    "zdržet se"
+   ],
+   "cz_text": "zdržet se",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 221,
+   "infinitive": "forego",
+   "past": {
+    "us": [
+     "forewent"
+    ],
+    "uk": [
+     "forewent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "foregone"
+    ],
+    "uk": [
+     "foregone"
+    ]
+   },
+   "cz": [
+    "předcházet"
+   ],
+   "cz_text": "předcházet",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "foregone conclusion = jasná věc"
+  },
+  {
+   "id": 222,
+   "infinitive": "foretell",
+   "past": {
+    "us": [
+     "foretold"
+    ],
+    "uk": [
+     "foretold"
+    ]
+   },
+   "participle": {
+    "us": [
+     "foretold"
+    ],
+    "uk": [
+     "foretold"
+    ]
+   },
+   "cz": [
+    "předpovědět"
+   ],
+   "cz_text": "předpovědět",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 223,
+   "infinitive": "forgo",
+   "past": {
+    "us": [
+     "forwent"
+    ],
+    "uk": [
+     "forwent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "forgone"
+    ],
+    "uk": [
+     "forgone"
+    ]
+   },
+   "cz": [
+    "vzdát se",
+    "obejít se bez"
+   ],
+   "cz_text": "vzdát se, obejít se bez",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 224,
+   "infinitive": "forsake",
+   "past": {
+    "us": [
+     "forsook"
+    ],
+    "uk": [
+     "forsook"
+    ]
+   },
+   "participle": {
+    "us": [
+     "forsaken"
+    ],
+    "uk": [
+     "forsaken"
+    ]
+   },
+   "cz": [
+    "opustit",
+    "zříci se"
+   ],
+   "cz_text": "opustit, zříci se",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 225,
+   "infinitive": "forswear",
+   "past": {
+    "us": [
+     "forswore"
+    ],
+    "uk": [
+     "forswore"
+    ]
+   },
+   "participle": {
+    "us": [
+     "forsworn"
+    ],
+    "uk": [
+     "forsworn"
+    ]
+   },
+   "cz": [
+    "odpřisáhnout se",
+    "zříci se"
+   ],
+   "cz_text": "odpřisáhnout se, zříci se",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 226,
+   "infinitive": "frostbite",
+   "past": {
+    "us": [
+     "frostbit"
+    ],
+    "uk": [
+     "frostbit"
+    ]
+   },
+   "participle": {
+    "us": [
+     "frostbitten"
+    ],
+    "uk": [
+     "frostbitten"
+    ]
+   },
+   "cz": [
+    "omrznout"
+   ],
+   "cz_text": "omrznout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 227,
+   "infinitive": "ghostwrite",
+   "past": {
+    "us": [
+     "ghostwrote"
+    ],
+    "uk": [
+     "ghostwrote"
+    ]
+   },
+   "participle": {
+    "us": [
+     "ghostwritten"
+    ],
+    "uk": [
+     "ghostwritten"
+    ]
+   },
+   "cz": [
+    "psát za někoho (jako ghostwriter)"
+   ],
+   "cz_text": "psát za někoho (jako ghostwriter)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 228,
+   "infinitive": "gild",
+   "past": {
+    "us": [
+     "gilded",
+     "gilt"
+    ],
+    "uk": [
+     "gilded",
+     "gilt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "gilded",
+     "gilt"
+    ],
+    "uk": [
+     "gilded",
+     "gilt"
+    ]
+   },
+   "cz": [
+    "pozlatit"
+   ],
+   "cz_text": "pozlatit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 229,
+   "infinitive": "gird",
+   "past": {
+    "us": [
+     "girded",
+     "girt"
+    ],
+    "uk": [
+     "girded",
+     "girt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "girded",
+     "girt"
+    ],
+    "uk": [
+     "girded",
+     "girt"
+    ]
+   },
+   "cz": [
+    "opásat"
+   ],
+   "cz_text": "opásat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 230,
+   "infinitive": "hamstring",
+   "past": {
+    "us": [
+     "hamstrung"
+    ],
+    "uk": [
+     "hamstrung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "hamstrung"
+    ],
+    "uk": [
+     "hamstrung"
+    ]
+   },
+   "cz": [
+    "ochromit",
+    "omezit"
+   ],
+   "cz_text": "ochromit, omezit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 231,
+   "infinitive": "handwrite",
+   "past": {
+    "us": [
+     "handwrote"
+    ],
+    "uk": [
+     "handwrote"
+    ]
+   },
+   "participle": {
+    "us": [
+     "handwritten"
+    ],
+    "uk": [
+     "handwritten"
+    ]
+   },
+   "cz": [
+    "psát rukou"
+   ],
+   "cz_text": "psát rukou",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 232,
+   "infinitive": "heave",
+   "past": {
+    "us": [
+     "heaved",
+     "hove"
+    ],
+    "uk": [
+     "heaved",
+     "hove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "heaved",
+     "hove"
+    ],
+    "uk": [
+     "heaved",
+     "hove"
+    ]
+   },
+   "cz": [
+    "zvednout (s námahou)"
+   ],
+   "cz_text": "zvednout (s námahou)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "hove – námořní výraz"
+  },
+  {
+   "id": 233,
+   "infinitive": "hew",
+   "past": {
+    "us": [
+     "hewed"
+    ],
+    "uk": [
+     "hewed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "hewn",
+     "hewed"
+    ],
+    "uk": [
+     "hewn",
+     "hewed"
+    ]
+   },
+   "cz": [
+    "tesat",
+    "sekat"
+   ],
+   "cz_text": "tesat, sekat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 234,
+   "infinitive": "inlay",
+   "past": {
+    "us": [
+     "inlaid"
+    ],
+    "uk": [
+     "inlaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "inlaid"
+    ],
+    "uk": [
+     "inlaid"
+    ]
+   },
+   "cz": [
+    "vykládat (intarzií)"
+   ],
+   "cz_text": "vykládat (intarzií)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 235,
+   "infinitive": "input",
+   "past": {
+    "us": [
+     "input",
+     "inputted"
+    ],
+    "uk": [
+     "input",
+     "inputted"
+    ]
+   },
+   "participle": {
+    "us": [
+     "input",
+     "inputted"
+    ],
+    "uk": [
+     "input",
+     "inputted"
+    ]
+   },
+   "cz": [
+    "zadat (data)"
+   ],
+   "cz_text": "zadat (data)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 236,
+   "infinitive": "interweave",
+   "past": {
+    "us": [
+     "interwove"
+    ],
+    "uk": [
+     "interwove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "interwoven"
+    ],
+    "uk": [
+     "interwoven"
+    ]
+   },
+   "cz": [
+    "protkat",
+    "propojit"
+   ],
+   "cz_text": "protkat, propojit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 237,
+   "infinitive": "lip-read",
+   "past": {
+    "us": [
+     "lip-read"
+    ],
+    "uk": [
+     "lip-read"
+    ]
+   },
+   "participle": {
+    "us": [
+     "lip-read"
+    ],
+    "uk": [
+     "lip-read"
+    ]
+   },
+   "cz": [
+    "odezírat ze rtů"
+   ],
+   "cz_text": "odezírat ze rtů",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 238,
+   "infinitive": "miscast",
+   "past": {
+    "us": [
+     "miscast"
+    ],
+    "uk": [
+     "miscast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "miscast"
+    ],
+    "uk": [
+     "miscast"
+    ]
+   },
+   "cz": [
+    "špatně obsadit (roli)"
+   ],
+   "cz_text": "špatně obsadit (roli)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 239,
+   "infinitive": "misdeal",
+   "past": {
+    "us": [
+     "misdealt"
+    ],
+    "uk": [
+     "misdealt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "misdealt"
+    ],
+    "uk": [
+     "misdealt"
+    ]
+   },
+   "cz": [
+    "špatně rozdat (karty)"
+   ],
+   "cz_text": "špatně rozdat (karty)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 240,
+   "infinitive": "misread",
+   "past": {
+    "us": [
+     "misread"
+    ],
+    "uk": [
+     "misread"
+    ]
+   },
+   "participle": {
+    "us": [
+     "misread"
+    ],
+    "uk": [
+     "misread"
+    ]
+   },
+   "cz": [
+    "špatně přečíst"
+   ],
+   "cz_text": "špatně přečíst",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 241,
+   "infinitive": "misspend",
+   "past": {
+    "us": [
+     "misspent"
+    ],
+    "uk": [
+     "misspent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "misspent"
+    ],
+    "uk": [
+     "misspent"
+    ]
+   },
+   "cz": [
+    "promrhat"
+   ],
+   "cz_text": "promrhat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 242,
+   "infinitive": "outbid",
+   "past": {
+    "us": [
+     "outbid"
+    ],
+    "uk": [
+     "outbid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outbid"
+    ],
+    "uk": [
+     "outbid"
+    ]
+   },
+   "cz": [
+    "přeplatit (v dražbě)"
+   ],
+   "cz_text": "přeplatit (v dražbě)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 243,
+   "infinitive": "output",
+   "past": {
+    "us": [
+     "output",
+     "outputted"
+    ],
+    "uk": [
+     "output",
+     "outputted"
+    ]
+   },
+   "participle": {
+    "us": [
+     "output",
+     "outputted"
+    ],
+    "uk": [
+     "output",
+     "outputted"
+    ]
+   },
+   "cz": [
+    "vydat",
+    "vygenerovat"
+   ],
+   "cz_text": "vydat, vygenerovat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 244,
+   "infinitive": "outrun",
+   "past": {
+    "us": [
+     "outran"
+    ],
+    "uk": [
+     "outran"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outrun"
+    ],
+    "uk": [
+     "outrun"
+    ]
+   },
+   "cz": [
+    "předběhnout",
+    "utéct"
+   ],
+   "cz_text": "předběhnout, utéct",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 245,
+   "infinitive": "outsell",
+   "past": {
+    "us": [
+     "outsold"
+    ],
+    "uk": [
+     "outsold"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outsold"
+    ],
+    "uk": [
+     "outsold"
+    ]
+   },
+   "cz": [
+    "prodávat víc než"
+   ],
+   "cz_text": "prodávat víc než",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 246,
+   "infinitive": "outshine",
+   "past": {
+    "us": [
+     "outshone"
+    ],
+    "uk": [
+     "outshone"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outshone"
+    ],
+    "uk": [
+     "outshone"
+    ]
+   },
+   "cz": [
+    "zastínit",
+    "předčit"
+   ],
+   "cz_text": "zastínit, předčit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 247,
+   "infinitive": "outthink",
+   "past": {
+    "us": [
+     "outthought"
+    ],
+    "uk": [
+     "outthought"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outthought"
+    ],
+    "uk": [
+     "outthought"
+    ]
+   },
+   "cz": [
+    "přelstít"
+   ],
+   "cz_text": "přelstít",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 248,
+   "infinitive": "overdraw",
+   "past": {
+    "us": [
+     "overdrew"
+    ],
+    "uk": [
+     "overdrew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overdrawn"
+    ],
+    "uk": [
+     "overdrawn"
+    ]
+   },
+   "cz": [
+    "přečerpat (účet)"
+   ],
+   "cz_text": "přečerpat (účet)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 249,
+   "infinitive": "overeat",
+   "past": {
+    "us": [
+     "overate"
+    ],
+    "uk": [
+     "overate"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overeaten"
+    ],
+    "uk": [
+     "overeaten"
+    ]
+   },
+   "cz": [
+    "přejíst se"
+   ],
+   "cz_text": "přejíst se",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 250,
+   "infinitive": "overfeed",
+   "past": {
+    "us": [
+     "overfed"
+    ],
+    "uk": [
+     "overfed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overfed"
+    ],
+    "uk": [
+     "overfed"
+    ]
+   },
+   "cz": [
+    "překrmit"
+   ],
+   "cz_text": "překrmit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 251,
+   "infinitive": "overhang",
+   "past": {
+    "us": [
+     "overhung"
+    ],
+    "uk": [
+     "overhung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overhung"
+    ],
+    "uk": [
+     "overhung"
+    ]
+   },
+   "cz": [
+    "přečnívat"
+   ],
+   "cz_text": "přečnívat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 252,
+   "infinitive": "overlay",
+   "past": {
+    "us": [
+     "overlaid"
+    ],
+    "uk": [
+     "overlaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overlaid"
+    ],
+    "uk": [
+     "overlaid"
+    ]
+   },
+   "cz": [
+    "překrýt",
+    "pokrýt"
+   ],
+   "cz_text": "překrýt, pokrýt",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 253,
+   "infinitive": "overrun",
+   "past": {
+    "us": [
+     "overran"
+    ],
+    "uk": [
+     "overran"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overrun"
+    ],
+    "uk": [
+     "overrun"
+    ]
+   },
+   "cz": [
+    "zaplavit",
+    "přetáhnout (čas)"
+   ],
+   "cz_text": "zaplavit, přetáhnout (čas)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 254,
+   "infinitive": "oversell",
+   "past": {
+    "us": [
+     "oversold"
+    ],
+    "uk": [
+     "oversold"
+    ]
+   },
+   "participle": {
+    "us": [
+     "oversold"
+    ],
+    "uk": [
+     "oversold"
+    ]
+   },
+   "cz": [
+    "přeprodat",
+    "přechválit"
+   ],
+   "cz_text": "přeprodat; přechválit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 255,
+   "infinitive": "overshoot",
+   "past": {
+    "us": [
+     "overshot"
+    ],
+    "uk": [
+     "overshot"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overshot"
+    ],
+    "uk": [
+     "overshot"
+    ]
+   },
+   "cz": [
+    "přestřelit",
+    "minout"
+   ],
+   "cz_text": "přestřelit, minout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 256,
+   "infinitive": "overspend",
+   "past": {
+    "us": [
+     "overspent"
+    ],
+    "uk": [
+     "overspent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overspent"
+    ],
+    "uk": [
+     "overspent"
+    ]
+   },
+   "cz": [
+    "utratit příliš"
+   ],
+   "cz_text": "utratit příliš",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 257,
+   "infinitive": "overwrite",
+   "past": {
+    "us": [
+     "overwrote"
+    ],
+    "uk": [
+     "overwrote"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overwritten"
+    ],
+    "uk": [
+     "overwritten"
+    ]
+   },
+   "cz": [
+    "přepsat (soubor)"
+   ],
+   "cz_text": "přepsat (soubor)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 258,
+   "infinitive": "partake",
+   "past": {
+    "us": [
+     "partook"
+    ],
+    "uk": [
+     "partook"
+    ]
+   },
+   "participle": {
+    "us": [
+     "partaken"
+    ],
+    "uk": [
+     "partaken"
+    ]
+   },
+   "cz": [
+    "účastnit se",
+    "okusit"
+   ],
+   "cz_text": "účastnit se, okusit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 259,
+   "infinitive": "prepay",
+   "past": {
+    "us": [
+     "prepaid"
+    ],
+    "uk": [
+     "prepaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "prepaid"
+    ],
+    "uk": [
+     "prepaid"
+    ]
+   },
+   "cz": [
+    "zaplatit předem"
+   ],
+   "cz_text": "zaplatit předem",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 260,
+   "infinitive": "preset",
+   "past": {
+    "us": [
+     "preset"
+    ],
+    "uk": [
+     "preset"
+    ]
+   },
+   "participle": {
+    "us": [
+     "preset"
+    ],
+    "uk": [
+     "preset"
+    ]
+   },
+   "cz": [
+    "přednastavit"
+   ],
+   "cz_text": "přednastavit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 261,
+   "infinitive": "proofread",
+   "past": {
+    "us": [
+     "proofread"
+    ],
+    "uk": [
+     "proofread"
+    ]
+   },
+   "participle": {
+    "us": [
+     "proofread"
+    ],
+    "uk": [
+     "proofread"
+    ]
+   },
+   "cz": [
+    "provést korekturu"
+   ],
+   "cz_text": "provést korekturu",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 262,
+   "infinitive": "recast",
+   "past": {
+    "us": [
+     "recast"
+    ],
+    "uk": [
+     "recast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "recast"
+    ],
+    "uk": [
+     "recast"
+    ]
+   },
+   "cz": [
+    "přepracovat",
+    "přeobsadit"
+   ],
+   "cz_text": "přepracovat, přeobsadit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 263,
+   "infinitive": "relay",
+   "past": {
+    "us": [
+     "relaid"
+    ],
+    "uk": [
+     "relaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "relaid"
+    ],
+    "uk": [
+     "relaid"
+    ]
+   },
+   "cz": [
+    "znovu položit"
+   ],
+   "cz_text": "znovu položit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "relay = předat dál (pravidelné: relayed)"
+  },
+  {
+   "id": 264,
+   "infinitive": "rend",
+   "past": {
+    "us": [
+     "rent"
+    ],
+    "uk": [
+     "rent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rent"
+    ],
+    "uk": [
+     "rent"
+    ]
+   },
+   "cz": [
+    "roztrhnout"
+   ],
+   "cz_text": "roztrhnout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 265,
+   "infinitive": "rerun",
+   "past": {
+    "us": [
+     "reran"
+    ],
+    "uk": [
+     "reran"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rerun"
+    ],
+    "uk": [
+     "rerun"
+    ]
+   },
+   "cz": [
+    "znovu spustit",
+    "reprízovat"
+   ],
+   "cz_text": "znovu spustit, reprízovat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 266,
+   "infinitive": "resell",
+   "past": {
+    "us": [
+     "resold"
+    ],
+    "uk": [
+     "resold"
+    ]
+   },
+   "participle": {
+    "us": [
+     "resold"
+    ],
+    "uk": [
+     "resold"
+    ]
+   },
+   "cz": [
+    "znovu prodat"
+   ],
+   "cz_text": "znovu prodat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 267,
+   "infinitive": "resend",
+   "past": {
+    "us": [
+     "resent"
+    ],
+    "uk": [
+     "resent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "resent"
+    ],
+    "uk": [
+     "resent"
+    ]
+   },
+   "cz": [
+    "znovu odeslat"
+   ],
+   "cz_text": "znovu odeslat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 268,
+   "infinitive": "resit",
+   "past": {
+    "us": [
+     "resat"
+    ],
+    "uk": [
+     "resat"
+    ]
+   },
+   "participle": {
+    "us": [
+     "resat"
+    ],
+    "uk": [
+     "resat"
+    ]
+   },
+   "cz": [
+    "opakovat zkoušku"
+   ],
+   "cz_text": "opakovat zkoušku",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "hlavně UK"
+  },
+  {
+   "id": 269,
+   "infinitive": "retell",
+   "past": {
+    "us": [
+     "retold"
+    ],
+    "uk": [
+     "retold"
+    ]
+   },
+   "participle": {
+    "us": [
+     "retold"
+    ],
+    "uk": [
+     "retold"
+    ]
+   },
+   "cz": [
+    "převyprávět"
+   ],
+   "cz_text": "převyprávět",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 270,
+   "infinitive": "shear",
+   "past": {
+    "us": [
+     "sheared"
+    ],
+    "uk": [
+     "sheared"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shorn",
+     "sheared"
+    ],
+    "uk": [
+     "shorn",
+     "sheared"
+    ]
+   },
+   "cz": [
+    "stříhat (ovce)"
+   ],
+   "cz_text": "stříhat (ovce)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 271,
+   "infinitive": "shoe",
+   "past": {
+    "us": [
+     "shod",
+     "shoed"
+    ],
+    "uk": [
+     "shod",
+     "shoed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shod",
+     "shoed"
+    ],
+    "uk": [
+     "shod",
+     "shoed"
+    ]
+   },
+   "cz": [
+    "okovat",
+    "obout"
+   ],
+   "cz_text": "okovat, obout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 272,
+   "infinitive": "slay",
+   "past": {
+    "us": [
+     "slew",
+     "slayed"
+    ],
+    "uk": [
+     "slew",
+     "slayed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "slain",
+     "slayed"
+    ],
+    "uk": [
+     "slain",
+     "slayed"
+    ]
+   },
+   "cz": [
+    "zabít (kniž.)"
+   ],
+   "cz_text": "zabít (kniž.)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "slayed = ohromit (hovor.)"
+  },
+  {
+   "id": 273,
+   "infinitive": "slink",
+   "past": {
+    "us": [
+     "slunk"
+    ],
+    "uk": [
+     "slunk"
+    ]
+   },
+   "participle": {
+    "us": [
+     "slunk"
+    ],
+    "uk": [
+     "slunk"
+    ]
+   },
+   "cz": [
+    "plížit se",
+    "vytratit se"
+   ],
+   "cz_text": "plížit se, vytratit se",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 274,
+   "infinitive": "smite",
+   "past": {
+    "us": [
+     "smote"
+    ],
+    "uk": [
+     "smote"
+    ]
+   },
+   "participle": {
+    "us": [
+     "smitten"
+    ],
+    "uk": [
+     "smitten"
+    ]
+   },
+   "cz": [
+    "udeřit (kniž.)"
+   ],
+   "cz_text": "udeřit (kniž.)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "smitten = zamilovaný"
+  },
+  {
+   "id": 275,
+   "infinitive": "spellbind",
+   "past": {
+    "us": [
+     "spellbound"
+    ],
+    "uk": [
+     "spellbound"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spellbound"
+    ],
+    "uk": [
+     "spellbound"
+    ]
+   },
+   "cz": [
+    "uchvátit",
+    "okouzlit"
+   ],
+   "cz_text": "uchvátit, okouzlit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 276,
+   "infinitive": "stave",
+   "past": {
+    "us": [
+     "staved",
+     "stove"
+    ],
+    "uk": [
+     "staved",
+     "stove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "staved",
+     "stove"
+    ],
+    "uk": [
+     "staved",
+     "stove"
+    ]
+   },
+   "cz": [
+    "prorazit"
+   ],
+   "cz_text": "prorazit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "stave off = odvrátit (pravidelné)"
+  },
+  {
+   "id": 277,
+   "infinitive": "strew",
+   "past": {
+    "us": [
+     "strewed"
+    ],
+    "uk": [
+     "strewed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "strewn",
+     "strewed"
+    ],
+    "uk": [
+     "strewn",
+     "strewed"
+    ]
+   },
+   "cz": [
+    "posypat",
+    "rozházet"
+   ],
+   "cz_text": "posypat, rozházet",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 278,
+   "infinitive": "sunburn",
+   "past": {
+    "us": [
+     "sunburned"
+    ],
+    "uk": [
+     "sunburnt",
+     "sunburned"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sunburned"
+    ],
+    "uk": [
+     "sunburnt",
+     "sunburned"
+    ]
+   },
+   "cz": [
+    "spálit se od slunce"
+   ],
+   "cz_text": "spálit se od slunce",
+   "tier": "rare",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 279,
+   "infinitive": "test-drive",
+   "past": {
+    "us": [
+     "test-drove"
+    ],
+    "uk": [
+     "test-drove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "test-driven"
+    ],
+    "uk": [
+     "test-driven"
+    ]
+   },
+   "cz": [
+    "vyzkoušet (auto)"
+   ],
+   "cz_text": "vyzkoušet (auto)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 280,
+   "infinitive": "typecast",
+   "past": {
+    "us": [
+     "typecast"
+    ],
+    "uk": [
+     "typecast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "typecast"
+    ],
+    "uk": [
+     "typecast"
+    ]
+   },
+   "cz": [
+    "obsadit do typové role"
+   ],
+   "cz_text": "obsadit do typové role",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 281,
+   "infinitive": "typeset",
+   "past": {
+    "us": [
+     "typeset"
+    ],
+    "uk": [
+     "typeset"
+    ]
+   },
+   "participle": {
+    "us": [
+     "typeset"
+    ],
+    "uk": [
+     "typeset"
+    ]
+   },
+   "cz": [
+    "sázet (text)"
+   ],
+   "cz_text": "sázet (text)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 282,
+   "infinitive": "unbend",
+   "past": {
+    "us": [
+     "unbent"
+    ],
+    "uk": [
+     "unbent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unbent"
+    ],
+    "uk": [
+     "unbent"
+    ]
+   },
+   "cz": [
+    "narovnat",
+    "uvolnit se"
+   ],
+   "cz_text": "narovnat, uvolnit se",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 283,
+   "infinitive": "unbind",
+   "past": {
+    "us": [
+     "unbound"
+    ],
+    "uk": [
+     "unbound"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unbound"
+    ],
+    "uk": [
+     "unbound"
+    ]
+   },
+   "cz": [
+    "rozvázat"
+   ],
+   "cz_text": "rozvázat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 284,
+   "infinitive": "undercut",
+   "past": {
+    "us": [
+     "undercut"
+    ],
+    "uk": [
+     "undercut"
+    ]
+   },
+   "participle": {
+    "us": [
+     "undercut"
+    ],
+    "uk": [
+     "undercut"
+    ]
+   },
+   "cz": [
+    "podbízet cenou"
+   ],
+   "cz_text": "podbízet cenou",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 285,
+   "infinitive": "underlie",
+   "past": {
+    "us": [
+     "underlay"
+    ],
+    "uk": [
+     "underlay"
+    ]
+   },
+   "participle": {
+    "us": [
+     "underlain"
+    ],
+    "uk": [
+     "underlain"
+    ]
+   },
+   "cz": [
+    "být základem"
+   ],
+   "cz_text": "být základem",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 286,
+   "infinitive": "undersell",
+   "past": {
+    "us": [
+     "undersold"
+    ],
+    "uk": [
+     "undersold"
+    ]
+   },
+   "participle": {
+    "us": [
+     "undersold"
+    ],
+    "uk": [
+     "undersold"
+    ]
+   },
+   "cz": [
+    "prodávat levněji než"
+   ],
+   "cz_text": "prodávat levněji než",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 287,
+   "infinitive": "underwrite",
+   "past": {
+    "us": [
+     "underwrote"
+    ],
+    "uk": [
+     "underwrote"
+    ]
+   },
+   "participle": {
+    "us": [
+     "underwritten"
+    ],
+    "uk": [
+     "underwritten"
+    ]
+   },
+   "cz": [
+    "upsat",
+    "pojistit",
+    "ručit"
+   ],
+   "cz_text": "upsat, pojistit, ručit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 288,
+   "infinitive": "unfreeze",
+   "past": {
+    "us": [
+     "unfroze"
+    ],
+    "uk": [
+     "unfroze"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unfrozen"
+    ],
+    "uk": [
+     "unfrozen"
+    ]
+   },
+   "cz": [
+    "rozmrazit"
+   ],
+   "cz_text": "rozmrazit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 289,
+   "infinitive": "unsay",
+   "past": {
+    "us": [
+     "unsaid"
+    ],
+    "uk": [
+     "unsaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unsaid"
+    ],
+    "uk": [
+     "unsaid"
+    ]
+   },
+   "cz": [
+    "vzít zpět (slova)"
+   ],
+   "cz_text": "vzít zpět (slova)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 290,
+   "infinitive": "wed",
+   "past": {
+    "us": [
+     "wed",
+     "wedded"
+    ],
+    "uk": [
+     "wedded",
+     "wed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "wed",
+     "wedded"
+    ],
+    "uk": [
+     "wedded",
+     "wed"
+    ]
+   },
+   "cz": [
+    "oddat",
+    "vzít se"
+   ],
+   "cz_text": "oddat, vzít se",
+   "tier": "rare",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 291,
+   "infinitive": "wet",
+   "past": {
+    "us": [
+     "wet",
+     "wetted"
+    ],
+    "uk": [
+     "wet",
+     "wetted"
+    ]
+   },
+   "participle": {
+    "us": [
+     "wet",
+     "wetted"
+    ],
+    "uk": [
+     "wet",
+     "wetted"
+    ]
+   },
+   "cz": [
+    "namočit",
+    "zvlhčit"
+   ],
+   "cz_text": "namočit, zvlhčit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 292,
+   "infinitive": "bespeak",
+   "past": {
+    "us": [
+     "bespoke"
+    ],
+    "uk": [
+     "bespoke"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bespoken"
+    ],
+    "uk": [
+     "bespoken"
+    ]
+   },
+   "cz": [
+    "objednat",
+    "prozrazovat"
+   ],
+   "cz_text": "objednat, prozrazovat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "bespoke = na zakázku"
+  },
+  {
+   "id": 293,
+   "infinitive": "countersink",
+   "past": {
+    "us": [
+     "countersank"
+    ],
+    "uk": [
+     "countersank"
+    ]
+   },
+   "participle": {
+    "us": [
+     "countersunk"
+    ],
+    "uk": [
+     "countersunk"
+    ]
+   },
+   "cz": [
+    "zapustit (šroub)"
+   ],
+   "cz_text": "zapustit (šroub)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 294,
+   "infinitive": "overbuild",
+   "past": {
+    "us": [
+     "overbuilt"
+    ],
+    "uk": [
+     "overbuilt"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overbuilt"
+    ],
+    "uk": [
+     "overbuilt"
+    ]
+   },
+   "cz": [
+    "přestavět (nadměrně zastavět)"
+   ],
+   "cz_text": "přestavět (nadměrně zastavět)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 295,
+   "infinitive": "sightsee",
+   "past": {
+    "us": [
+     "sightsaw"
+    ],
+    "uk": [
+     "sightsaw"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sightseen"
+    ],
+    "uk": [
+     "sightseen"
+    ]
+   },
+   "cz": [
+    "prohlížet památky"
+   ],
+   "cz_text": "prohlížet památky",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": "zřídka; běžně „go sightseeing“"
+  },
+  {
+   "id": 296,
+   "infinitive": "spoon-feed",
+   "past": {
+    "us": [
+     "spoon-fed"
+    ],
+    "uk": [
+     "spoon-fed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "spoon-fed"
+    ],
+    "uk": [
+     "spoon-fed"
+    ]
+   },
+   "cz": [
+    "krmit lžičkou",
+    "servírovat vše hotové"
+   ],
+   "cz_text": "krmit lžičkou; servírovat vše hotové",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 297,
+   "infinitive": "breastfeed",
+   "past": {
+    "us": [
+     "breastfed"
+    ],
+    "uk": [
+     "breastfed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "breastfed"
+    ],
+    "uk": [
+     "breastfed"
+    ]
+   },
+   "cz": [
+    "kojit"
+   ],
+   "cz_text": "kojit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 298,
+   "infinitive": "bottle-feed",
+   "past": {
+    "us": [
+     "bottle-fed"
+    ],
+    "uk": [
+     "bottle-fed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "bottle-fed"
+    ],
+    "uk": [
+     "bottle-fed"
+    ]
+   },
+   "cz": [
+    "krmit z lahve"
+   ],
+   "cz_text": "krmit z lahve",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 299,
+   "infinitive": "hand-feed",
+   "past": {
+    "us": [
+     "hand-fed"
+    ],
+    "uk": [
+     "hand-fed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "hand-fed"
+    ],
+    "uk": [
+     "hand-fed"
+    ]
+   },
+   "cz": [
+    "krmit z ruky"
+   ],
+   "cz_text": "krmit z ruky",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 300,
+   "infinitive": "inbreed",
+   "past": {
+    "us": [
+     "inbred"
+    ],
+    "uk": [
+     "inbred"
+    ]
+   },
+   "participle": {
+    "us": [
+     "inbred"
+    ],
+    "uk": [
+     "inbred"
+    ]
+   },
+   "cz": [
+    "křížit příbuzné jedince"
+   ],
+   "cz_text": "křížit příbuzné jedince",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 301,
+   "infinitive": "misgive",
+   "past": {
+    "us": [
+     "misgave"
+    ],
+    "uk": [
+     "misgave"
+    ]
+   },
+   "participle": {
+    "us": [
+     "misgiven"
+    ],
+    "uk": [
+     "misgiven"
+    ]
+   },
+   "cz": [
+    "mít obavy"
+   ],
+   "cz_text": "mít obavy",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 302,
+   "infinitive": "outfight",
+   "past": {
+    "us": [
+     "outfought"
+    ],
+    "uk": [
+     "outfought"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outfought"
+    ],
+    "uk": [
+     "outfought"
+    ]
+   },
+   "cz": [
+    "porazit v boji"
+   ],
+   "cz_text": "porazit v boji",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 303,
+   "infinitive": "outgo",
+   "past": {
+    "us": [
+     "outwent"
+    ],
+    "uk": [
+     "outwent"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outgone"
+    ],
+    "uk": [
+     "outgone"
+    ]
+   },
+   "cz": [
+    "předčit"
+   ],
+   "cz_text": "předčit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 304,
+   "infinitive": "outride",
+   "past": {
+    "us": [
+     "outrode"
+    ],
+    "uk": [
+     "outrode"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outridden"
+    ],
+    "uk": [
+     "outridden"
+    ]
+   },
+   "cz": [
+    "předjet (na koni)"
+   ],
+   "cz_text": "předjet (na koni)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 305,
+   "infinitive": "outsing",
+   "past": {
+    "us": [
+     "outsang"
+    ],
+    "uk": [
+     "outsang"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outsung"
+    ],
+    "uk": [
+     "outsung"
+    ]
+   },
+   "cz": [
+    "přezpívat"
+   ],
+   "cz_text": "přezpívat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 306,
+   "infinitive": "outswim",
+   "past": {
+    "us": [
+     "outswam"
+    ],
+    "uk": [
+     "outswam"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outswum"
+    ],
+    "uk": [
+     "outswum"
+    ]
+   },
+   "cz": [
+    "přeplavat (někoho)"
+   ],
+   "cz_text": "přeplavat (někoho)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 307,
+   "infinitive": "outwear",
+   "past": {
+    "us": [
+     "outwore"
+    ],
+    "uk": [
+     "outwore"
+    ]
+   },
+   "participle": {
+    "us": [
+     "outworn"
+    ],
+    "uk": [
+     "outworn"
+    ]
+   },
+   "cz": [
+    "přežít",
+    "opotřebovat"
+   ],
+   "cz_text": "přežít, opotřebovat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 308,
+   "infinitive": "overbear",
+   "past": {
+    "us": [
+     "overbore"
+    ],
+    "uk": [
+     "overbore"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overborne"
+    ],
+    "uk": [
+     "overborne"
+    ]
+   },
+   "cz": [
+    "přemoci"
+   ],
+   "cz_text": "přemoci",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 309,
+   "infinitive": "overblow",
+   "past": {
+    "us": [
+     "overblew"
+    ],
+    "uk": [
+     "overblew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overblown"
+    ],
+    "uk": [
+     "overblown"
+    ]
+   },
+   "cz": [
+    "přefouknout",
+    "přehánět"
+   ],
+   "cz_text": "přefouknout, přehánět",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 310,
+   "infinitive": "overdrive",
+   "past": {
+    "us": [
+     "overdrove"
+    ],
+    "uk": [
+     "overdrove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overdriven"
+    ],
+    "uk": [
+     "overdriven"
+    ]
+   },
+   "cz": [
+    "přetěžovat"
+   ],
+   "cz_text": "přetěžovat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 311,
+   "infinitive": "overfly",
+   "past": {
+    "us": [
+     "overflew"
+    ],
+    "uk": [
+     "overflew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overflown"
+    ],
+    "uk": [
+     "overflown"
+    ]
+   },
+   "cz": [
+    "přeletět"
+   ],
+   "cz_text": "přeletět",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 312,
+   "infinitive": "overlie",
+   "past": {
+    "us": [
+     "overlay"
+    ],
+    "uk": [
+     "overlay"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overlain"
+    ],
+    "uk": [
+     "overlain"
+    ]
+   },
+   "cz": [
+    "ležet na",
+    "překrývat"
+   ],
+   "cz_text": "ležet na, překrývat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 313,
+   "infinitive": "overpass",
+   "past": {
+    "us": [
+     "overpassed",
+     "overpast"
+    ],
+    "uk": [
+     "overpassed",
+     "overpast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overpassed",
+     "overpast"
+    ],
+    "uk": [
+     "overpassed",
+     "overpast"
+    ]
+   },
+   "cz": [
+    "přejít",
+    "přehlédnout"
+   ],
+   "cz_text": "přejít, přehlédnout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 314,
+   "infinitive": "overwind",
+   "past": {
+    "us": [
+     "overwound"
+    ],
+    "uk": [
+     "overwound"
+    ]
+   },
+   "participle": {
+    "us": [
+     "overwound"
+    ],
+    "uk": [
+     "overwound"
+    ]
+   },
+   "cz": [
+    "přetáhnout (pero hodinek)"
+   ],
+   "cz_text": "přetáhnout (pero hodinek)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 315,
+   "infinitive": "rebind",
+   "past": {
+    "us": [
+     "rebound"
+    ],
+    "uk": [
+     "rebound"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rebound"
+    ],
+    "uk": [
+     "rebound"
+    ]
+   },
+   "cz": [
+    "znovu svázat"
+   ],
+   "cz_text": "znovu svázat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 316,
+   "infinitive": "rebroadcast",
+   "past": {
+    "us": [
+     "rebroadcast"
+    ],
+    "uk": [
+     "rebroadcast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rebroadcast"
+    ],
+    "uk": [
+     "rebroadcast"
+    ]
+   },
+   "cz": [
+    "znovu vysílat"
+   ],
+   "cz_text": "znovu vysílat",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 317,
+   "infinitive": "redraw",
+   "past": {
+    "us": [
+     "redrew"
+    ],
+    "uk": [
+     "redrew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "redrawn"
+    ],
+    "uk": [
+     "redrawn"
+    ]
+   },
+   "cz": [
+    "překreslit"
+   ],
+   "cz_text": "překreslit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 318,
+   "infinitive": "refit",
+   "past": {
+    "us": [
+     "refit",
+     "refitted"
+    ],
+    "uk": [
+     "refitted"
+    ]
+   },
+   "participle": {
+    "us": [
+     "refit",
+     "refitted"
+    ],
+    "uk": [
+     "refitted"
+    ]
+   },
+   "cz": [
+    "přestavět",
+    "znovu vybavit"
+   ],
+   "cz_text": "přestavět, znovu vybavit",
+   "tier": "rare",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 319,
+   "infinitive": "regrow",
+   "past": {
+    "us": [
+     "regrew"
+    ],
+    "uk": [
+     "regrew"
+    ]
+   },
+   "participle": {
+    "us": [
+     "regrown"
+    ],
+    "uk": [
+     "regrown"
+    ]
+   },
+   "cz": [
+    "znovu narůst"
+   ],
+   "cz_text": "znovu narůst",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 320,
+   "infinitive": "rehang",
+   "past": {
+    "us": [
+     "rehung"
+    ],
+    "uk": [
+     "rehung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rehung"
+    ],
+    "uk": [
+     "rehung"
+    ]
+   },
+   "cz": [
+    "znovu pověsit"
+   ],
+   "cz_text": "znovu pověsit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 321,
+   "infinitive": "relearn",
+   "past": {
+    "us": [
+     "relearned"
+    ],
+    "uk": [
+     "relearnt",
+     "relearned"
+    ]
+   },
+   "participle": {
+    "us": [
+     "relearned"
+    ],
+    "uk": [
+     "relearnt",
+     "relearned"
+    ]
+   },
+   "cz": [
+    "znovu se naučit"
+   ],
+   "cz_text": "znovu se naučit",
+   "tier": "rare",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 322,
+   "infinitive": "reread",
+   "past": {
+    "us": [
+     "reread"
+    ],
+    "uk": [
+     "reread"
+    ]
+   },
+   "participle": {
+    "us": [
+     "reread"
+    ],
+    "uk": [
+     "reread"
+    ]
+   },
+   "cz": [
+    "znovu přečíst"
+   ],
+   "cz_text": "znovu přečíst",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 323,
+   "infinitive": "reshoot",
+   "past": {
+    "us": [
+     "reshot"
+    ],
+    "uk": [
+     "reshot"
+    ]
+   },
+   "participle": {
+    "us": [
+     "reshot"
+    ],
+    "uk": [
+     "reshot"
+    ]
+   },
+   "cz": [
+    "přetočit (scénu)"
+   ],
+   "cz_text": "přetočit (scénu)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 324,
+   "infinitive": "resew",
+   "past": {
+    "us": [
+     "resewed"
+    ],
+    "uk": [
+     "resewed"
+    ]
+   },
+   "participle": {
+    "us": [
+     "resewn",
+     "resewed"
+    ],
+    "uk": [
+     "resewn",
+     "resewed"
+    ]
+   },
+   "cz": [
+    "znovu ušít"
+   ],
+   "cz_text": "znovu ušít",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 325,
+   "infinitive": "rewake",
+   "past": {
+    "us": [
+     "rewoke"
+    ],
+    "uk": [
+     "rewoke"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rewoken"
+    ],
+    "uk": [
+     "rewoken"
+    ]
+   },
+   "cz": [
+    "znovu probudit"
+   ],
+   "cz_text": "znovu probudit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 326,
+   "infinitive": "rewin",
+   "past": {
+    "us": [
+     "rewon"
+    ],
+    "uk": [
+     "rewon"
+    ]
+   },
+   "participle": {
+    "us": [
+     "rewon"
+    ],
+    "uk": [
+     "rewon"
+    ]
+   },
+   "cz": [
+    "znovu vyhrát"
+   ],
+   "cz_text": "znovu vyhrát",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 327,
+   "infinitive": "roughcast",
+   "past": {
+    "us": [
+     "roughcast"
+    ],
+    "uk": [
+     "roughcast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "roughcast"
+    ],
+    "uk": [
+     "roughcast"
+    ]
+   },
+   "cz": [
+    "hrubě omítnout"
+   ],
+   "cz_text": "hrubě omítnout",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 328,
+   "infinitive": "shit",
+   "past": {
+    "us": [
+     "shit",
+     "shat"
+    ],
+    "uk": [
+     "shat",
+     "shit"
+    ]
+   },
+   "participle": {
+    "us": [
+     "shit",
+     "shat"
+    ],
+    "uk": [
+     "shat",
+     "shit"
+    ]
+   },
+   "cz": [
+    "kálet (vulg.)"
+   ],
+   "cz_text": "kálet (vulg.)",
+   "tier": "rare",
+   "us_uk_differ": true,
+   "note": ""
+  },
+  {
+   "id": 329,
+   "infinitive": "sight-read",
+   "past": {
+    "us": [
+     "sight-read"
+    ],
+    "uk": [
+     "sight-read"
+    ]
+   },
+   "participle": {
+    "us": [
+     "sight-read"
+    ],
+    "uk": [
+     "sight-read"
+    ]
+   },
+   "cz": [
+    "hrát z listu"
+   ],
+   "cz_text": "hrát z listu",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 330,
+   "infinitive": "telecast",
+   "past": {
+    "us": [
+     "telecast"
+    ],
+    "uk": [
+     "telecast"
+    ]
+   },
+   "participle": {
+    "us": [
+     "telecast"
+    ],
+    "uk": [
+     "telecast"
+    ]
+   },
+   "cz": [
+    "vysílat (televizí)"
+   ],
+   "cz_text": "vysílat (televizí)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 331,
+   "infinitive": "underbid",
+   "past": {
+    "us": [
+     "underbid"
+    ],
+    "uk": [
+     "underbid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "underbid"
+    ],
+    "uk": [
+     "underbid"
+    ]
+   },
+   "cz": [
+    "nabídnout méně"
+   ],
+   "cz_text": "nabídnout méně",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 332,
+   "infinitive": "underlay",
+   "past": {
+    "us": [
+     "underlaid"
+    ],
+    "uk": [
+     "underlaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "underlaid"
+    ],
+    "uk": [
+     "underlaid"
+    ]
+   },
+   "cz": [
+    "podložit"
+   ],
+   "cz_text": "podložit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 333,
+   "infinitive": "unhang",
+   "past": {
+    "us": [
+     "unhung"
+    ],
+    "uk": [
+     "unhung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unhung"
+    ],
+    "uk": [
+     "unhung"
+    ]
+   },
+   "cz": [
+    "sejmout (pověšené)"
+   ],
+   "cz_text": "sejmout (pověšené)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 334,
+   "infinitive": "unsling",
+   "past": {
+    "us": [
+     "unslung"
+    ],
+    "uk": [
+     "unslung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unslung"
+    ],
+    "uk": [
+     "unslung"
+    ]
+   },
+   "cz": [
+    "sundat z ramene"
+   ],
+   "cz_text": "sundat z ramene",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 335,
+   "infinitive": "unstick",
+   "past": {
+    "us": [
+     "unstuck"
+    ],
+    "uk": [
+     "unstuck"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unstuck"
+    ],
+    "uk": [
+     "unstuck"
+    ]
+   },
+   "cz": [
+    "odlepit"
+   ],
+   "cz_text": "odlepit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 336,
+   "infinitive": "unstring",
+   "past": {
+    "us": [
+     "unstrung"
+    ],
+    "uk": [
+     "unstrung"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unstrung"
+    ],
+    "uk": [
+     "unstrung"
+    ]
+   },
+   "cz": [
+    "povolit struny",
+    "rozrušit"
+   ],
+   "cz_text": "povolit struny; rozrušit",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 337,
+   "infinitive": "unweave",
+   "past": {
+    "us": [
+     "unwove"
+    ],
+    "uk": [
+     "unwove"
+    ]
+   },
+   "participle": {
+    "us": [
+     "unwoven"
+    ],
+    "uk": [
+     "unwoven"
+    ]
+   },
+   "cz": [
+    "rozplést"
+   ],
+   "cz_text": "rozplést",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  },
+  {
+   "id": 338,
+   "infinitive": "waylay",
+   "past": {
+    "us": [
+     "waylaid"
+    ],
+    "uk": [
+     "waylaid"
+    ]
+   },
+   "participle": {
+    "us": [
+     "waylaid"
+    ],
+    "uk": [
+     "waylaid"
+    ]
+   },
+   "cz": [
+    "přepadnout",
+    "zastavit (někoho)"
+   ],
+   "cz_text": "přepadnout, zastavit (někoho)",
+   "tier": "rare",
+   "us_uk_differ": false,
+   "note": ""
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Irregular Verbs</title>
+<meta name="description" content="Rychlé vyhledání tvarů anglických nepravidelných sloves (CZ/EN, US/UK).">
+<meta name="theme-color" content="#1f4e79">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<style>
+:root{
+  --bg:#f6f7f9; --card:#fff; --text:#1b1f24; --muted:#5d6670; --line:#e1e5ea;
+  --accent:#1f4e79; --accent-soft:#e3edf7; --hit:#fff1b8;
+  --top:#2e7d32; --top-bg:#e3f2e4; --common:#8a6d00; --common-bg:#fff4cc; --rare:#5d6670; --rare-bg:#eceff2;
+  --uk:#8e2442;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#121518; --card:#1b2026; --text:#e8ecf0; --muted:#9aa4ae; --line:#2c333b;
+    --accent:#7fb3e6; --accent-soft:#1d3247; --hit:#5a4a00;
+    --top:#7fd48a; --top-bg:#1e3322; --common:#f0cf5a; --common-bg:#3a3110; --rare:#b5bec7; --rare-bg:#2a3038;
+    --uk:#f08aa8;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);
+  font:16px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:12px 16px 10px;border-bottom:1px solid var(--line)}
+.wrap{max-width:760px;margin:0 auto}
+h1{font-size:18px;margin:0 0 8px;color:var(--accent);display:flex;justify-content:space-between;align-items:baseline}
+h1 small{font-size:13px;color:var(--muted);font-weight:400}
+.search{position:relative}
+#q{width:100%;font-size:20px;padding:12px 44px 12px 14px;border:2px solid var(--line);border-radius:12px;
+  background:var(--card);color:var(--text);outline:none}
+#q:focus{border-color:var(--accent)}
+#clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:none;color:var(--muted);
+  font-size:24px;width:36px;height:36px;cursor:pointer;display:none}
+.filters{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;align-items:center}
+.chip{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;
+  padding:5px 12px;font-size:14px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+@media (prefers-color-scheme: dark){.chip[aria-pressed="true"]{color:#0d1a26}}
+.sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+main{padding:12px 16px 40px}
+#info{color:var(--muted);font-size:14px;margin:4px 0 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.inf{font-size:22px;font-weight:700}
+.cz{color:var(--muted);margin-top:2px}
+.badge{font-size:12px;border-radius:6px;padding:2px 8px;white-space:nowrap;font-weight:600}
+.b-top{color:var(--top);background:var(--top-bg)} .b-common{color:var(--common);background:var(--common-bg)}
+.b-rare{color:var(--rare);background:var(--rare-bg)}
+.match{display:inline-block;margin-top:6px;font-size:13px;background:var(--accent-soft);color:var(--accent);
+  border-radius:6px;padding:2px 8px}
+table{width:100%;border-collapse:collapse;margin-top:10px;table-layout:fixed}
+th{font-size:12px;font-weight:600;color:var(--muted);text-align:left;padding:4px 6px;border-bottom:1px solid var(--line)}
+td{padding:6px;font-size:17px;vertical-align:top;border-bottom:1px solid var(--line);word-wrap:break-word}
+tr:last-child td{border-bottom:0}
+td.v{font-size:12px;font-weight:700;color:var(--muted);width:38px}
+tr.uk td.v{color:var(--uk)}
+th.v{width:38px}
+mark{background:var(--hit);color:inherit;border-radius:3px;padding:0 2px}
+.alt{color:var(--muted)}
+.note{font-size:14px;color:var(--muted);margin-top:8px;border-left:3px solid var(--line);padding-left:8px}
+.empty{text-align:center;color:var(--muted);padding:40px 0}
+#more{display:block;margin:10px auto;padding:10px 20px}
+#more[hidden]{display:none}
+#q::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
+footer{color:var(--muted);font-size:12px;text-align:center;padding-bottom:20px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Irregular Verbs <small id="count"></small></h1>
+  <div class="search">
+    <input id="q" type="search" placeholder="went, gone, jít, myslet…" autocomplete="off" autocapitalize="off" spellcheck="false" autofocus>
+    <button id="clear" aria-label="Smazat">×</button>
+  </div>
+  <div class="filters">
+    <button class="chip" data-tier="all" aria-pressed="true">Vše</button>
+    <button class="chip" data-tier="top" aria-pressed="false">Top</button>
+    <button class="chip" data-tier="common" aria-pressed="false">Common</button>
+    <button class="chip" data-tier="rare" aria-pressed="false">Rare</button>
+    <span class="sep"></span>
+    <button class="chip" data-var="both" aria-pressed="true">US + UK</button>
+    <button class="chip" data-var="us" aria-pressed="false">US</button>
+    <button class="chip" data-var="uk" aria-pressed="false">UK</button>
+  </div>
+</div></header>
+<main><div class="wrap">
+  <div id="info"></div>
+  <div id="list"></div>
+  <button id="more" class="chip" hidden>Zobrazit další</button>
+</div></main>
+<footer id="foot"></footer>
+<script>
+const FORM_LABEL = {inf:"infinitiv", past:"minulý čas", part:"příčestí minulé", cz:"český význam"};
+const TIER_LABEL = {top:"TOP", common:"COMMON", rare:"RARE"};
+const PAGE = 40;
+let VERBS = [], INDEX = [], state = {tier:"all", variant:"both", q:"", shown:PAGE};
+
+const norm = s => s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").replace(/[^a-z\- ]/g," ").replace(/\s+/g," ").trim();
+const esc = s => s.replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+// Damerau-Levenshtein (krátké řetězce)
+function dist(a,b){
+  const d=[...Array(a.length+1)].map(()=>Array(b.length+1).fill(0));
+  for(let i=0;i<=a.length;i++)d[i][0]=i; for(let j=0;j<=b.length;j++)d[0][j]=j;
+  for(let i=1;i<=a.length;i++)for(let j=1;j<=b.length;j++){
+    d[i][j]=Math.min(d[i-1][j]+1,d[i][j-1]+1,d[i-1][j-1]+(a[i-1]===b[j-1]?0:1));
+    if(i>1&&j>1&&a[i-1]===b[j-2]&&a[i-2]===b[j-1])d[i][j]=Math.min(d[i][j],d[i-2][j-2]+1);
+  }
+  return d[a.length][b.length];
+}
+
+function buildIndex(){
+  INDEX = [];
+  for (const v of VERBS){
+    const add = (text, form, variant) => INDEX.push({v, text, n:norm(text), form, variant});
+    add(v.infinitive, "inf", "");
+    for (const k of ["us","uk"]){
+      v.past[k].forEach(f => add(f, "past", k));
+      v.participle[k].forEach(f => add(f, "part", k));
+    }
+    v.cz.forEach(m => {
+      add(m, "cz", "");
+      // jednotlivá slova bez závorek, např. "stát (o ceně)" → "stát"
+      const core = m.replace(/\(.*?\)/g,"").trim();
+      if (core && core !== m) add(core, "cz", "");
+    });
+    if (v.note) add(v.note, "note", "");
+  }
+}
+
+function search(qRaw){
+  const q = norm(qRaw);
+  if (!q) return null;
+  const best = new Map();   // verb id -> {score, hits:Set}
+  const push = (e, score) => {
+    const cur = best.get(e.v.id);
+    const label = e.form==="cz" ? `${FORM_LABEL.cz}: ${e.text}` : e.form==="note" ? "poznámka" :
+      FORM_LABEL[e.form] + (e.variant && differs(e.v, e.form) ? ` (${e.variant.toUpperCase()})` : "");
+    if (!cur || score > cur.score) best.set(e.v.id, {v:e.v, score, hits:new Set([label]), terms:new Set([e.n])});
+    else if (score === cur.score){ cur.hits.add(label); cur.terms.add(e.n); }
+  };
+  for (const e of INDEX){
+    const n = e.n;
+    const isCz = e.form === "cz";
+    if (e.form === "note"){
+      if (q.length >= 3 && (" "+n).includes(" "+q)) push(e, 40);
+      continue;
+    }
+    if (n === q) push(e, isCz ? 95 : 100);
+    else if (n.startsWith(q)) push(e, (isCz ? 55 : 70) - Math.min(n.length - q.length, 20)/2);
+    else if (isCz && q.length >= 3 && (" "+n).includes(" "+q)) push(e, 45);
+    else if (q.length >= 4 && !isCz && n.length >= 3){
+      const max = q.length >= 7 ? 2 : 1;
+      if (Math.abs(n.length - q.length) <= max && dist(q, n) <= max) push(e, 30 - dist(q,n)*5);
+    } else if (isCz && q.length >= 5){
+      const w = n.split(" ")[0];
+      if (Math.abs(w.length-q.length)<=1 && dist(q,w)<=1) push(e, 20);
+    }
+  }
+  const tierRank = {top:0, common:1, rare:2};
+  let out = [...best.values()];
+  // překlepy (fuzzy) zobrazit jen tehdy, když není lepší shoda
+  if (out.some(r => r.score >= 40)) out = out.filter(r => r.score >= 40);
+  return out.sort((a,b)=> b.score-a.score || tierRank[a.v.tier]-tierRank[b.v.tier] || a.v.id-b.v.id);
+}
+
+function differs(v, form){
+  const a = form==="past" ? v.past : v.participle;
+  return a.us.join() !== a.uk.join();
+}
+
+function fmt(list, terms){
+  return list.map((f,i) => {
+    let h = esc(f);
+    if (terms && terms.has(norm(f))) h = `<mark>${h}</mark>`;
+    return i ? `<span class="alt">${h}</span>` : h;
+  }).join(", ");
+}
+
+function card(r){
+  const v = r.v, terms = r.terms;
+  const diff = v.us_uk_differ;
+  const rows = [];
+  const row = (k) => `<tr class="${k}"><td class="v">${k.toUpperCase()}</td>
+     <td>${fmt([v.infinitive], terms)}</td><td>${fmt(v.past[k], terms)}</td><td>${fmt(v.participle[k], terms)}</td></tr>`;
+  if (!diff) rows.push(`<tr><td class="v">${state.variant==="both"?"US/UK":state.variant.toUpperCase()}</td>
+     <td>${fmt([v.infinitive], terms)}</td><td>${fmt(v.past.us, terms)}</td><td>${fmt(v.participle.us, terms)}</td></tr>`);
+  else {
+    if (state.variant !== "uk") rows.push(row("us"));
+    if (state.variant !== "us") rows.push(row("uk"));
+  }
+  const match = r.hits ? `<div class="match">nalezeno jako: ${[...r.hits].map(esc).join(" · ")}</div>` : "";
+  return `<article class="card">
+    <div class="head"><div><div class="inf">${esc(v.infinitive)}</div><div class="cz">${esc(v.cz_text)}</div></div>
+      <span class="badge b-${v.tier}">${TIER_LABEL[v.tier]}</span></div>
+    ${match}
+    <table><thead><tr><th class="v"></th><th>Infinitiv</th><th>Minulý čas</th><th>Příčestí</th></tr></thead>
+    <tbody>${rows.join("")}</tbody></table>
+    ${v.note ? `<div class="note">${esc(v.note)}</div>` : ""}
+  </article>`;
+}
+
+function render(){
+  let res = search(state.q);
+  let list;
+  if (res) list = res;
+  else list = VERBS.map(v => ({v}));
+  if (state.tier !== "all") list = list.filter(r => r.v.tier === state.tier);
+  if (!res && state.tier === "all") list.sort((a,b)=>a.v.infinitive.localeCompare(b.v.infinitive));
+  const info = document.getElementById("info");
+  info.textContent = res ? (list.length ? `Nalezeno: ${list.length}` : "")
+                         : `${list.length} sloves · abecedně`;
+  const el = document.getElementById("list");
+  if (!list.length){
+    el.innerHTML = `<div class="empty">Nic nenalezeno pro „${esc(state.q)}“.<br>Zkuste jiný tvar nebo český význam.</div>`;
+  } else el.innerHTML = list.slice(0, state.shown).map(card).join("");
+  document.getElementById("more").hidden = list.length <= state.shown;
+  document.getElementById("clear").style.display = state.q ? "block" : "none";
+}
+
+const q = document.getElementById("q");
+let t;
+q.addEventListener("input", () => { clearTimeout(t); t = setTimeout(()=>{ state.q = q.value; state.shown = PAGE; render(); window.scrollTo(0,0); }, 80); });
+document.getElementById("clear").onclick = () => { q.value=""; state.q=""; state.shown=PAGE; render(); q.focus(); };
+document.getElementById("more").onclick = () => { state.shown += PAGE; render(); };
+document.querySelectorAll("[data-tier]").forEach(b => b.onclick = () => {
+  state.tier = b.dataset.tier; state.shown = PAGE;
+  document.querySelectorAll("[data-tier]").forEach(x => x.setAttribute("aria-pressed", x===b)); render(); });
+document.querySelectorAll("[data-var]").forEach(b => b.onclick = () => {
+  state.variant = b.dataset.var;
+  document.querySelectorAll("[data-var]").forEach(x => x.setAttribute("aria-pressed", x===b)); render(); });
+
+fetch("irregular_verbs.json").then(r => r.json()).then(d => {
+  VERBS = d.verbs; buildIndex();
+  document.getElementById("count").textContent = `${VERBS.length} sloves`;
+  document.getElementById("foot").textContent = `Data v${d.meta.version} · ${d.meta.created}`;
+  render();
+}).catch(() => { document.getElementById("list").innerHTML = '<div class="empty">Nepodařilo se načíst data.</div>'; });
+
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+</script>
+</body>
+</html>
