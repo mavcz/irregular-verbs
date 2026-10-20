@@ -69,6 +69,22 @@ mark{background:var(--hit);color:inherit;border-radius:3px;padding:0 2px}
 #more[hidden]{display:none}
 #q::-webkit-search-cancel-button{-webkit-appearance:none;display:none}
 footer{color:var(--muted);font-size:12px;text-align:center;padding-bottom:20px}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.playall{display:flex;gap:4px}
+.f{margin-bottom:6px} .f:last-child{margin-bottom:0}
+.f.alt .w{color:var(--muted)}
+.w{font-size:17px}
+.ipa{font-size:13px;color:var(--muted);margin-top:2px;line-height:1.6}
+.ipa-t{font-family:"Segoe UI","Noto Sans","DejaVu Sans",sans-serif;white-space:nowrap}
+.sp{border:1px solid var(--line);background:var(--card);color:var(--accent);border-radius:6px;
+  font-size:11px;font-weight:700;padding:1px 6px;cursor:pointer;vertical-align:1px}
+.sp-uk{color:var(--uk)}
+.sp:active{background:var(--accent-soft)}
+.sp.all{font-size:12px;padding:3px 8px}
+#toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:#1b1f24;color:#fff;
+  padding:10px 16px;border-radius:10px;font-size:14px;max-width:90vw;z-index:10}
+#toast[hidden]{display:none}
+@media (max-width:480px){ td{padding:6px 3px} .ipa{font-size:12px} th.v,td.v{width:30px} }
 </style>
 </head>
 <body>
@@ -94,6 +110,7 @@ footer{color:var(--muted);font-size:12px;text-align:center;padding-bottom:20px}
   <div id="list"></div>
   <button id="more" class="chip" hidden>Zobrazit další</button>
 </div></main>
+<div id="toast" hidden></div>
 <footer id="foot"></footer>
 <script>
 const FORM_LABEL = {inf:"infinitiv", past:"minulý čas", part:"příčestí minulé", cz:"český význam"};
@@ -175,36 +192,94 @@ function differs(v, form){
   return a.us.join() !== a.uk.join();
 }
 
-function fmt(list, terms){
-  return list.map((f,i) => {
-    let h = esc(f);
-    if (terms && terms.has(norm(f))) h = `<mark>${h}</mark>`;
-    return i ? `<span class="alt">${h}</span>` : h;
-  }).join(", ");
+function hl(f, terms){
+  const h = esc(f);
+  return terms && terms.has(norm(f)) ? `<mark>${h}</mark>` : h;
+}
+const sayText = (v, w, role) => (role === "inf" ? v.say["@inf"] : v.say[w]) || w;
+const spBtn = (t, acc, label) =>
+  `<button class="sp sp-${acc}" data-t="${esc(t)}" data-l="${acc === "uk" ? "en-GB" : "en-US"}" title="Přehrát (${acc.toUpperCase()})">▶ ${label || acc.toUpperCase()}</button>`;
+
+// jeden tvar: slovo + výslovnost pro zvolené přízvuky
+function formBlock(v, w, role, ipa, accents, terms, alt){
+  const t = sayText(v, w, role);
+  let lines = "";
+  if (accents.length === 2 && ipa.us === ipa.uk){
+    lines = `<div class="ipa">${spBtn(t,"us")} ${spBtn(t,"uk")} <span class="ipa-t">/${esc(ipa.us)}/</span></div>`;
+  } else {
+    lines = accents.map(k => `<div class="ipa">${spBtn(t,k)} <span class="ipa-t ipa-${k}">/${esc(ipa[k])}/</span></div>`).join("");
+  }
+  return `<div class="f${alt ? " alt" : ""}"><div class="w">${hl(w, terms)}</div>${lines}</div>`;
+}
+
+function cellInf(v, accents, terms){
+  return formBlock(v, v.infinitive, "inf", v.ipa.inf, accents, terms, false);
+}
+function cellForms(v, key, rowAcc, accents, terms){
+  const words = v[key][rowAcc];
+  return words.map((w, i) => {
+    // výslovnost je uložena ve stejném pořadí jako tvary dané varianty
+    const ipa = {us: v.ipa[key].us[i] || "", uk: v.ipa[key].uk[i] || ""};
+    return formBlock(v, w, "form", ipa, accents, terms, i > 0);
+  }).join("");
 }
 
 function card(r){
   const v = r.v, terms = r.terms;
-  const diff = v.us_uk_differ;
   const rows = [];
-  const row = (k) => `<tr class="${k}"><td class="v">${k.toUpperCase()}</td>
-     <td>${fmt([v.infinitive], terms)}</td><td>${fmt(v.past[k], terms)}</td><td>${fmt(v.participle[k], terms)}</td></tr>`;
-  if (!diff) rows.push(`<tr><td class="v">${state.variant==="both"?"US/UK":state.variant.toUpperCase()}</td>
-     <td>${fmt([v.infinitive], terms)}</td><td>${fmt(v.past.us, terms)}</td><td>${fmt(v.participle.us, terms)}</td></tr>`);
-  else {
-    if (state.variant !== "uk") rows.push(row("us"));
-    if (state.variant !== "us") rows.push(row("uk"));
+  const accAll = state.variant === "both" ? ["us","uk"] : [state.variant];
+  if (!v.us_uk_differ){
+    const label = state.variant === "both" ? "US/UK" : state.variant.toUpperCase();
+    rows.push(`<tr><td class="v">${label}</td><td>${cellInf(v, accAll, terms)}</td>
+      <td>${cellForms(v, "past", "us", accAll, terms)}</td><td>${cellForms(v, "participle", "us", accAll, terms)}</td></tr>`);
+  } else {
+    for (const k of accAll){
+      rows.push(`<tr class="${k}"><td class="v">${k.toUpperCase()}</td><td>${cellInf(v, [k], terms)}</td>
+        <td>${cellForms(v, "past", k, [k], terms)}</td><td>${cellForms(v, "participle", k, [k], terms)}</td></tr>`);
+    }
   }
+  const seq = k => [sayText(v, v.infinitive, "inf"), sayText(v, v.past[k][0], "form"), sayText(v, v.participle[k][0], "form")].join("|");
+  const playAll = accAll.map(k => `<button class="sp sp-${k} all" data-seq="${esc(seq(k))}" data-l="${k==="uk"?"en-GB":"en-US"}" title="Přehrát všechny tvary">▶ ${k.toUpperCase()}</button>`).join("");
   const match = r.hits ? `<div class="match">nalezeno jako: ${[...r.hits].map(esc).join(" · ")}</div>` : "";
   return `<article class="card">
     <div class="head"><div><div class="inf">${esc(v.infinitive)}</div><div class="cz">${esc(v.cz_text)}</div></div>
-      <span class="badge b-${v.tier}">${TIER_LABEL[v.tier]}</span></div>
+      <div class="side"><span class="badge b-${v.tier}">${TIER_LABEL[v.tier]}</span><div class="playall">${playAll}</div></div></div>
     ${match}
     <table><thead><tr><th class="v"></th><th>Infinitiv</th><th>Minulý čas</th><th>Příčestí</th></tr></thead>
     <tbody>${rows.join("")}</tbody></table>
     ${v.note ? `<div class="note">${esc(v.note)}</div>` : ""}
   </article>`;
 }
+
+// ---- hlasový výstup (Web Speech API) ----
+let VOICES = [];
+function loadVoices(){ try { VOICES = speechSynthesis.getVoices(); } catch(e){} }
+if ("speechSynthesis" in window){ loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
+function pickVoice(lang){
+  const L = lang.toLowerCase();
+  const same = VOICES.filter(v => v.lang.replace("_","-").toLowerCase() === L);
+  return same.find(v => /natural|online|google|neural/i.test(v.name)) || same[0] || null;
+}
+function speak(parts, lang){
+  if (!("speechSynthesis" in window)){ toast("Tento prohlížeč neumí přehrávat výslovnost."); return; }
+  speechSynthesis.cancel();
+  const voice = pickVoice(lang);
+  if (!voice && VOICES.length) toast(lang === "en-GB" ? "Britský hlas není v zařízení nainstalován – použije se jiný." : "Americký hlas není v zařízení nainstalován – použije se jiný.");
+  parts.forEach(t => {
+    const u = new SpeechSynthesisUtterance(t);
+    u.lang = lang; if (voice) u.voice = voice; u.rate = 0.85;
+    speechSynthesis.speak(u);
+  });
+}
+let toastT;
+function toast(msg){
+  const el = document.getElementById("toast"); el.textContent = msg; el.hidden = false;
+  clearTimeout(toastT); toastT = setTimeout(() => el.hidden = true, 3500);
+}
+document.getElementById("list").addEventListener("click", e => {
+  const b = e.target.closest(".sp"); if (!b) return;
+  speak(b.dataset.seq ? b.dataset.seq.split("|") : [b.dataset.t], b.dataset.l);
+});
 
 function render(){
   let res = search(state.q);
@@ -236,7 +311,7 @@ document.querySelectorAll("[data-var]").forEach(b => b.onclick = () => {
   state.variant = b.dataset.var;
   document.querySelectorAll("[data-var]").forEach(x => x.setAttribute("aria-pressed", x===b)); render(); });
 
-const APP_VERSION = "1.001";
+const APP_VERSION = "1.002";
 (window.VERB_DATA ? Promise.resolve(window.VERB_DATA) : fetch("irregular_verbs.json").then(r => r.json())).then(d => {
   VERBS = d.verbs; buildIndex();
   document.getElementById("count").textContent = `${VERBS.length} sloves`;

@@ -1,6 +1,6 @@
 // Service worker: aplikace funguje offline.
 // Po úpravě souborů stačí zvýšit číslo verze, aby se cache obnovila.
-const CACHE = "irregular-verbs-v1.001";
+const CACHE = "irregular-verbs-v1.002";
 const FILES = ["./", "index.html", "irregular_verbs.json", "manifest.json", "icon-192.png", "icon-512.png"];
 
 self.addEventListener("install", e => {

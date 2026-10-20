@@ -1,7 +1,7 @@
 {
  "meta": {
   "name": "Anglická nepravidelná slovesa",
-  "version": "1.0",
+  "version": "1.002",
   "created": "2026-10-20",
   "count": 338,
   "tiers": {
@@ -9,7 +9,8 @@
    "common": 100,
    "rare": 138
   },
-  "fields": "infinitive; past/participle {us, uk} = seznam variant (první preferovaná); cz = české významy; tier = top|common|rare"
+  "fields": "infinitive; past/participle {us, uk} = seznam variant (první preferovaná); ipa = výslovnost (IPA) ve stejném pořadí; say = přepis pro hlasový výstup u homografů; cz = české významy; tier = top|common|rare",
+  "pronunciation_source": "CMU Pronouncing Dictionary (US) + pravidla pro britskou výslovnost + ruční opravy"
  },
  "verbs": [
   {
@@ -33,6 +34,31 @@
      "been"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "biː",
+     "uk": "biː"
+    },
+    "past": {
+     "us": [
+      "wɑːz",
+      "wɝː"
+     ],
+     "uk": [
+      "wɒz",
+      "wɜː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪn"
+     ],
+     "uk": [
+      "biːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "být"
    ],
@@ -60,6 +86,29 @@
      "had"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "hæv",
+     "uk": "hæv"
+    },
+    "past": {
+     "us": [
+      "hæd"
+     ],
+     "uk": [
+      "hæd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "hæd"
+     ],
+     "uk": [
+      "hæd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "mít"
    ],
@@ -87,6 +136,29 @@
      "done"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "duː",
+     "uk": "duː"
+    },
+    "past": {
+     "us": [
+      "dɪd"
+     ],
+     "uk": [
+      "dɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "dʌn"
+     ],
+     "uk": [
+      "dʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "dělat",
     "činit"
@@ -115,6 +187,29 @@
      "said"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "seɪ",
+     "uk": "seɪ"
+    },
+    "past": {
+     "us": [
+      "sed"
+     ],
+     "uk": [
+      "sed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sed"
+     ],
+     "uk": [
+      "sed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "říci",
     "říkat"
@@ -143,6 +238,29 @@
      "gone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ɡoʊ",
+     "uk": "ɡəʊ"
+    },
+    "past": {
+     "us": [
+      "went"
+     ],
+     "uk": [
+      "went"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ɡɔːn"
+     ],
+     "uk": [
+      "ɡɒn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "jít",
     "jet"
@@ -172,6 +290,30 @@
      "got"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ɡet",
+     "uk": "ɡet"
+    },
+    "past": {
+     "us": [
+      "ɡɑːt"
+     ],
+     "uk": [
+      "ɡɒt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈɡɑːtən",
+      "ɡɑːt"
+     ],
+     "uk": [
+      "ɡɒt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "dostat",
     "získat",
@@ -201,6 +343,29 @@
      "made"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "meɪk",
+     "uk": "meɪk"
+    },
+    "past": {
+     "us": [
+      "meɪd"
+     ],
+     "uk": [
+      "meɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "meɪd"
+     ],
+     "uk": [
+      "meɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "dělat",
     "vyrobit"
@@ -229,6 +394,29 @@
      "known"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "noʊ",
+     "uk": "nəʊ"
+    },
+    "past": {
+     "us": [
+      "nuː"
+     ],
+     "uk": [
+      "nuː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "noʊn"
+     ],
+     "uk": [
+      "nəʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vědět",
     "znát"
@@ -257,6 +445,29 @@
      "thought"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "θɪŋk",
+     "uk": "θɪŋk"
+    },
+    "past": {
+     "us": [
+      "θɔːt"
+     ],
+     "uk": [
+      "θɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "θɔːt"
+     ],
+     "uk": [
+      "θɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "myslet",
     "přemýšlet"
@@ -285,6 +496,29 @@
      "taken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "teɪk",
+     "uk": "teɪk"
+    },
+    "past": {
+     "us": [
+      "tʊk"
+     ],
+     "uk": [
+      "tʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈteɪkən"
+     ],
+     "uk": [
+      "ˈteɪkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vzít",
     "brát"
@@ -313,6 +547,29 @@
      "seen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "siː",
+     "uk": "siː"
+    },
+    "past": {
+     "us": [
+      "sɔː"
+     ],
+     "uk": [
+      "sɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "siːn"
+     ],
+     "uk": [
+      "siːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vidět"
    ],
@@ -340,6 +597,29 @@
      "come"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kʌm",
+     "uk": "kʌm"
+    },
+    "past": {
+     "us": [
+      "keɪm"
+     ],
+     "uk": [
+      "keɪm"
+     ]
+    },
+    "participle": {
+     "us": [
+      "kʌm"
+     ],
+     "uk": [
+      "kʌm"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přijít"
    ],
@@ -367,6 +647,29 @@
      "found"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "faɪnd",
+     "uk": "faɪnd"
+    },
+    "past": {
+     "us": [
+      "faʊnd"
+     ],
+     "uk": [
+      "faʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "faʊnd"
+     ],
+     "uk": [
+      "faʊnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "najít"
    ],
@@ -394,6 +697,29 @@
      "given"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ɡɪv",
+     "uk": "ɡɪv"
+    },
+    "past": {
+     "us": [
+      "ɡeɪv"
+     ],
+     "uk": [
+      "ɡeɪv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈɡɪvən"
+     ],
+     "uk": [
+      "ˈɡɪvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "dát"
    ],
@@ -421,6 +747,29 @@
      "told"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "tel",
+     "uk": "tel"
+    },
+    "past": {
+     "us": [
+      "toʊld"
+     ],
+     "uk": [
+      "təʊld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "toʊld"
+     ],
+     "uk": [
+      "təʊld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "říci (někomu)",
     "vyprávět"
@@ -449,6 +798,29 @@
      "become"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈkʌm",
+     "uk": "bɪˈkʌm"
+    },
+    "past": {
+     "us": [
+      "bɪˈkeɪm"
+     ],
+     "uk": [
+      "bɪˈkeɪm"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈkʌm"
+     ],
+     "uk": [
+      "bɪˈkʌm"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "stát se"
    ],
@@ -476,6 +848,29 @@
      "left"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "liːv",
+     "uk": "liːv"
+    },
+    "past": {
+     "us": [
+      "left"
+     ],
+     "uk": [
+      "left"
+     ]
+    },
+    "participle": {
+     "us": [
+      "left"
+     ],
+     "uk": [
+      "left"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "odejít",
     "opustit",
@@ -505,6 +900,29 @@
      "felt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fiːl",
+     "uk": "fiːl"
+    },
+    "past": {
+     "us": [
+      "felt"
+     ],
+     "uk": [
+      "felt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "felt"
+     ],
+     "uk": [
+      "felt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "cítit (se)"
    ],
@@ -532,6 +950,29 @@
      "put"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "pʊt",
+     "uk": "pʊt"
+    },
+    "past": {
+     "us": [
+      "pʊt"
+     ],
+     "uk": [
+      "pʊt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "pʊt"
+     ],
+     "uk": [
+      "pʊt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "položit",
     "dát"
@@ -560,6 +1001,29 @@
      "brought"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "brɪŋ",
+     "uk": "brɪŋ"
+    },
+    "past": {
+     "us": [
+      "brɔːt"
+     ],
+     "uk": [
+      "brɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "brɔːt"
+     ],
+     "uk": [
+      "brɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přinést"
    ],
@@ -587,6 +1051,29 @@
      "begun"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈɡɪn",
+     "uk": "bɪˈɡɪn"
+    },
+    "past": {
+     "us": [
+      "bɪˈɡæn"
+     ],
+     "uk": [
+      "bɪˈɡæn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈɡʌn"
+     ],
+     "uk": [
+      "bɪˈɡʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "začít"
    ],
@@ -614,6 +1101,29 @@
      "kept"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kiːp",
+     "uk": "kiːp"
+    },
+    "past": {
+     "us": [
+      "kept"
+     ],
+     "uk": [
+      "kept"
+     ]
+    },
+    "participle": {
+     "us": [
+      "kept"
+     ],
+     "uk": [
+      "kept"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "držet",
     "ponechat si"
@@ -642,6 +1152,29 @@
      "held"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "hoʊld",
+     "uk": "həʊld"
+    },
+    "past": {
+     "us": [
+      "held"
+     ],
+     "uk": [
+      "held"
+     ]
+    },
+    "participle": {
+     "us": [
+      "held"
+     ],
+     "uk": [
+      "held"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "držet",
     "konat (se)"
@@ -670,6 +1203,29 @@
      "written"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "raɪt",
+     "uk": "raɪt"
+    },
+    "past": {
+     "us": [
+      "roʊt"
+     ],
+     "uk": [
+      "rəʊt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈrɪtən"
+     ],
+     "uk": [
+      "ˈrɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "psát"
    ],
@@ -697,6 +1253,29 @@
      "stood"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "stænd",
+     "uk": "stænd"
+    },
+    "past": {
+     "us": [
+      "stʊd"
+     ],
+     "uk": [
+      "stʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "stʊd"
+     ],
+     "uk": [
+      "stʊd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "stát"
    ],
@@ -724,6 +1303,29 @@
      "heard"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "hɪr",
+     "uk": "hɪə"
+    },
+    "past": {
+     "us": [
+      "hɝːd"
+     ],
+     "uk": [
+      "hɜːd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "hɝːd"
+     ],
+     "uk": [
+      "hɜːd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "slyšet"
    ],
@@ -751,6 +1353,29 @@
      "let"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "let",
+     "uk": "let"
+    },
+    "past": {
+     "us": [
+      "let"
+     ],
+     "uk": [
+      "let"
+     ]
+    },
+    "participle": {
+     "us": [
+      "let"
+     ],
+     "uk": [
+      "let"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "nechat",
     "dovolit"
@@ -779,6 +1404,29 @@
      "meant"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "miːn",
+     "uk": "miːn"
+    },
+    "past": {
+     "us": [
+      "ment"
+     ],
+     "uk": [
+      "ment"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ment"
+     ],
+     "uk": [
+      "ment"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znamenat",
     "mínit"
@@ -807,6 +1455,29 @@
      "set"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "set",
+     "uk": "set"
+    },
+    "past": {
+     "us": [
+      "set"
+     ],
+     "uk": [
+      "set"
+     ]
+    },
+    "participle": {
+     "us": [
+      "set"
+     ],
+     "uk": [
+      "set"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "nastavit",
     "umístit"
@@ -835,6 +1506,29 @@
      "met"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "miːt",
+     "uk": "miːt"
+    },
+    "past": {
+     "us": [
+      "met"
+     ],
+     "uk": [
+      "met"
+     ]
+    },
+    "participle": {
+     "us": [
+      "met"
+     ],
+     "uk": [
+      "met"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "potkat",
     "setkat se"
@@ -863,6 +1557,29 @@
      "run"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "rʌn",
+     "uk": "rʌn"
+    },
+    "past": {
+     "us": [
+      "ræn"
+     ],
+     "uk": [
+      "ræn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "rʌn"
+     ],
+     "uk": [
+      "rʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "běžet",
     "řídit (firmu)"
@@ -891,6 +1608,29 @@
      "paid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "peɪ",
+     "uk": "peɪ"
+    },
+    "past": {
+     "us": [
+      "peɪd"
+     ],
+     "uk": [
+      "peɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "peɪd"
+     ],
+     "uk": [
+      "peɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "platit"
    ],
@@ -918,6 +1658,29 @@
      "sat"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sɪt",
+     "uk": "sɪt"
+    },
+    "past": {
+     "us": [
+      "sæt"
+     ],
+     "uk": [
+      "sæt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sæt"
+     ],
+     "uk": [
+      "sæt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "sedět"
    ],
@@ -945,6 +1708,29 @@
      "spoken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spiːk",
+     "uk": "spiːk"
+    },
+    "past": {
+     "us": [
+      "spoʊk"
+     ],
+     "uk": [
+      "spəʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈspoʊkən"
+     ],
+     "uk": [
+      "ˈspəʊkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "mluvit"
    ],
@@ -974,6 +1760,31 @@
      "showed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃoʊ",
+     "uk": "ʃəʊ"
+    },
+    "past": {
+     "us": [
+      "ʃoʊd"
+     ],
+     "uk": [
+      "ʃəʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃoʊn",
+      "ʃoʊd"
+     ],
+     "uk": [
+      "ʃəʊn",
+      "ʃəʊd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "ukázat"
    ],
@@ -1001,6 +1812,29 @@
      "lain"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "laɪ",
+     "uk": "laɪ"
+    },
+    "past": {
+     "us": [
+      "leɪ"
+     ],
+     "uk": [
+      "leɪ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "leɪn"
+     ],
+     "uk": [
+      "leɪn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "ležet"
    ],
@@ -1027,6 +1861,31 @@
     "uk": [
      "led"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "liːd",
+     "uk": "liːd"
+    },
+    "past": {
+     "us": [
+      "led"
+     ],
+     "uk": [
+      "led"
+     ]
+    },
+    "participle": {
+     "us": [
+      "led"
+     ],
+     "uk": [
+      "led"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "leed"
    },
    "cz": [
     "vést"
@@ -1055,6 +1914,31 @@
      "read"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "riːd",
+     "uk": "riːd"
+    },
+    "past": {
+     "us": [
+      "red"
+     ],
+     "uk": [
+      "red"
+     ]
+    },
+    "participle": {
+     "us": [
+      "red"
+     ],
+     "uk": [
+      "red"
+     ]
+    }
+   },
+   "say": {
+    "read": "red"
+   },
    "cz": [
     "číst"
    ],
@@ -1082,6 +1966,29 @@
      "grown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ɡroʊ",
+     "uk": "ɡrəʊ"
+    },
+    "past": {
+     "us": [
+      "ɡruː"
+     ],
+     "uk": [
+      "ɡruː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ɡroʊn"
+     ],
+     "uk": [
+      "ɡrəʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "růst",
     "pěstovat"
@@ -1110,6 +2017,29 @@
      "lost"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "luːz",
+     "uk": "luːz"
+    },
+    "past": {
+     "us": [
+      "lɔːst"
+     ],
+     "uk": [
+      "lɒst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "lɔːst"
+     ],
+     "uk": [
+      "lɒst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "ztratit",
     "prohrát"
@@ -1138,6 +2068,29 @@
      "fallen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɔːl",
+     "uk": "fɔːl"
+    },
+    "past": {
+     "us": [
+      "fel"
+     ],
+     "uk": [
+      "fel"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈfɔːlən"
+     ],
+     "uk": [
+      "ˈfɔːlən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "padat",
     "spadnout"
@@ -1166,6 +2119,29 @@
      "sent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "send",
+     "uk": "send"
+    },
+    "past": {
+     "us": [
+      "sent"
+     ],
+     "uk": [
+      "sent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sent"
+     ],
+     "uk": [
+      "sent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "poslat"
    ],
@@ -1193,6 +2169,29 @@
      "built"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪld",
+     "uk": "bɪld"
+    },
+    "past": {
+     "us": [
+      "bɪlt"
+     ],
+     "uk": [
+      "bɪlt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪlt"
+     ],
+     "uk": [
+      "bɪlt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "stavět"
    ],
@@ -1220,6 +2219,29 @@
      "understood"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈstænd",
+     "uk": "ˌʌndəˈstænd"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈstʊd"
+     ],
+     "uk": [
+      "ˌʌndəˈstʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈstʊd"
+     ],
+     "uk": [
+      "ˌʌndəˈstʊd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozumět"
    ],
@@ -1247,6 +2269,29 @@
      "drawn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "drɔː",
+     "uk": "drɔː"
+    },
+    "past": {
+     "us": [
+      "druː"
+     ],
+     "uk": [
+      "druː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "drɔːn"
+     ],
+     "uk": [
+      "drɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "kreslit",
     "táhnout"
@@ -1275,6 +2320,29 @@
      "broken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "breɪk",
+     "uk": "breɪk"
+    },
+    "past": {
+     "us": [
+      "broʊk"
+     ],
+     "uk": [
+      "brəʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbroʊkən"
+     ],
+     "uk": [
+      "ˈbrəʊkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zlomit",
     "rozbít"
@@ -1303,6 +2371,29 @@
      "spent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spend",
+     "uk": "spend"
+    },
+    "past": {
+     "us": [
+      "spent"
+     ],
+     "uk": [
+      "spent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "spent"
+     ],
+     "uk": [
+      "spent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "utratit",
     "strávit (čas)"
@@ -1331,6 +2422,29 @@
      "cut"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kʌt",
+     "uk": "kʌt"
+    },
+    "past": {
+     "us": [
+      "kʌt"
+     ],
+     "uk": [
+      "kʌt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "kʌt"
+     ],
+     "uk": [
+      "kʌt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "řezat",
     "stříhat"
@@ -1359,6 +2473,29 @@
      "risen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "raɪz",
+     "uk": "raɪz"
+    },
+    "past": {
+     "us": [
+      "roʊz"
+     ],
+     "uk": [
+      "rəʊz"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈrɪzən"
+     ],
+     "uk": [
+      "ˈrɪzən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "stoupat",
     "vycházet (slunce)"
@@ -1387,6 +2524,29 @@
      "driven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "draɪv",
+     "uk": "draɪv"
+    },
+    "past": {
+     "us": [
+      "droʊv"
+     ],
+     "uk": [
+      "drəʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈdrɪvən"
+     ],
+     "uk": [
+      "ˈdrɪvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "řídit (auto)"
    ],
@@ -1414,6 +2574,29 @@
      "bought"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "baɪ",
+     "uk": "baɪ"
+    },
+    "past": {
+     "us": [
+      "bɔːt"
+     ],
+     "uk": [
+      "bɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɔːt"
+     ],
+     "uk": [
+      "bɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "koupit"
    ],
@@ -1441,6 +2624,29 @@
      "worn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wer",
+     "uk": "weə"
+    },
+    "past": {
+     "us": [
+      "wɔːr"
+     ],
+     "uk": [
+      "wɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "wɔːrn"
+     ],
+     "uk": [
+      "wɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "nosit (oblečení)"
    ],
@@ -1468,6 +2674,29 @@
      "chosen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "tʃuːz",
+     "uk": "tʃuːz"
+    },
+    "past": {
+     "us": [
+      "tʃoʊz"
+     ],
+     "uk": [
+      "tʃəʊz"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈtʃoʊzən"
+     ],
+     "uk": [
+      "ˈtʃəʊzən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vybrat",
     "zvolit"
@@ -1496,6 +2725,29 @@
      "sought"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "siːk",
+     "uk": "siːk"
+    },
+    "past": {
+     "us": [
+      "sɔːt"
+     ],
+     "uk": [
+      "sɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sɔːt"
+     ],
+     "uk": [
+      "sɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hledat",
     "usilovat"
@@ -1524,6 +2776,29 @@
      "thrown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "θroʊ",
+     "uk": "θrəʊ"
+    },
+    "past": {
+     "us": [
+      "θruː"
+     ],
+     "uk": [
+      "θruː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "θroʊn"
+     ],
+     "uk": [
+      "θrəʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hodit"
    ],
@@ -1551,6 +2826,29 @@
      "caught"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kætʃ",
+     "uk": "kætʃ"
+    },
+    "past": {
+     "us": [
+      "kɔːt"
+     ],
+     "uk": [
+      "kɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "kɔːt"
+     ],
+     "uk": [
+      "kɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "chytit"
    ],
@@ -1578,6 +2876,29 @@
      "dealt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "diːl",
+     "uk": "diːl"
+    },
+    "past": {
+     "us": [
+      "delt"
+     ],
+     "uk": [
+      "delt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "delt"
+     ],
+     "uk": [
+      "delt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "jednat",
     "zabývat se",
@@ -1607,6 +2928,29 @@
      "won"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wɪn",
+     "uk": "wɪn"
+    },
+    "past": {
+     "us": [
+      "wʌn"
+     ],
+     "uk": [
+      "wʌn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "wʌn"
+     ],
+     "uk": [
+      "wʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vyhrát"
    ],
@@ -1635,6 +2979,30 @@
      "forgotten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɚˈɡet",
+     "uk": "fəˈɡet"
+    },
+    "past": {
+     "us": [
+      "fɚˈɡɑːt"
+     ],
+     "uk": [
+      "fəˈɡɒt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɚˈɡɑːtən",
+      "fɚˈɡɑːt"
+     ],
+     "uk": [
+      "fəˈɡɒtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zapomenout"
    ],
@@ -1662,6 +3030,29 @@
      "laid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "leɪ",
+     "uk": "leɪ"
+    },
+    "past": {
+     "us": [
+      "leɪd"
+     ],
+     "uk": [
+      "leɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "leɪd"
+     ],
+     "uk": [
+      "leɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "položit",
     "klást"
@@ -1690,6 +3081,29 @@
      "sold"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sel",
+     "uk": "sel"
+    },
+    "past": {
+     "us": [
+      "soʊld"
+     ],
+     "uk": [
+      "səʊld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "soʊld"
+     ],
+     "uk": [
+      "səʊld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "prodat"
    ],
@@ -1717,6 +3131,29 @@
      "fought"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "faɪt",
+     "uk": "faɪt"
+    },
+    "past": {
+     "us": [
+      "fɔːt"
+     ],
+     "uk": [
+      "fɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɔːt"
+     ],
+     "uk": [
+      "fɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "bojovat",
     "prát se"
@@ -1747,6 +3184,31 @@
      "born"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ber",
+     "uk": "beə"
+    },
+    "past": {
+     "us": [
+      "bɔːr"
+     ],
+     "uk": [
+      "bɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɔːrn",
+      "bɔːrn"
+     ],
+     "uk": [
+      "bɔːn",
+      "bɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "nést",
     "snášet",
@@ -1776,6 +3238,29 @@
      "taught"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "tiːtʃ",
+     "uk": "tiːtʃ"
+    },
+    "past": {
+     "us": [
+      "tɔːt"
+     ],
+     "uk": [
+      "tɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "tɔːt"
+     ],
+     "uk": [
+      "tɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "učit (někoho)"
    ],
@@ -1803,6 +3288,29 @@
      "eaten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "iːt",
+     "uk": "iːt"
+    },
+    "past": {
+     "us": [
+      "eɪt"
+     ],
+     "uk": [
+      "et"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈiːtən"
+     ],
+     "uk": [
+      "ˈiːtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "jíst"
    ],
@@ -1830,6 +3338,29 @@
      "sung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sɪŋ",
+     "uk": "sɪŋ"
+    },
+    "past": {
+     "us": [
+      "sæŋ"
+     ],
+     "uk": [
+      "sæŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sʌŋ"
+     ],
+     "uk": [
+      "sʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zpívat"
    ],
@@ -1858,6 +3389,30 @@
      "struck"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "straɪk",
+     "uk": "straɪk"
+    },
+    "past": {
+     "us": [
+      "strʌk"
+     ],
+     "uk": [
+      "strʌk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "strʌk",
+      "ˈstrɪkən"
+     ],
+     "uk": [
+      "strʌk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "udeřit",
     "stávkovat"
@@ -1886,6 +3441,29 @@
      "hit"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "hɪt",
+     "uk": "hɪt"
+    },
+    "past": {
+     "us": [
+      "hɪt"
+     ],
+     "uk": [
+      "hɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "hɪt"
+     ],
+     "uk": [
+      "hɪt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "udeřit",
     "zasáhnout"
@@ -1914,6 +3492,29 @@
      "shot"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃuːt",
+     "uk": "ʃuːt"
+    },
+    "past": {
+     "us": [
+      "ʃɑːt"
+     ],
+     "uk": [
+      "ʃɒt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃɑːt"
+     ],
+     "uk": [
+      "ʃɒt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "střílet",
     "natáčet"
@@ -1942,6 +3543,29 @@
      "hung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "hæŋ",
+     "uk": "hæŋ"
+    },
+    "past": {
+     "us": [
+      "hʌŋ"
+     ],
+     "uk": [
+      "hʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "hʌŋ"
+     ],
+     "uk": [
+      "hʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "viset",
     "pověsit"
@@ -1970,6 +3594,29 @@
      "beaten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "biːt",
+     "uk": "biːt"
+    },
+    "past": {
+     "us": [
+      "biːt"
+     ],
+     "uk": [
+      "biːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbiːtən"
+     ],
+     "uk": [
+      "ˈbiːtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "bít",
     "porazit"
@@ -1998,6 +3645,29 @@
      "drunk"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "drɪŋk",
+     "uk": "drɪŋk"
+    },
+    "past": {
+     "us": [
+      "dræŋk"
+     ],
+     "uk": [
+      "dræŋk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "drʌŋk"
+     ],
+     "uk": [
+      "drʌŋk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "pít"
    ],
@@ -2025,6 +3695,29 @@
      "flown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "flaɪ",
+     "uk": "flaɪ"
+    },
+    "past": {
+     "us": [
+      "fluː"
+     ],
+     "uk": [
+      "fluː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "floʊn"
+     ],
+     "uk": [
+      "fləʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "létat"
    ],
@@ -2052,6 +3745,29 @@
      "ridden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "raɪd",
+     "uk": "raɪd"
+    },
+    "past": {
+     "us": [
+      "roʊd"
+     ],
+     "uk": [
+      "rəʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈrɪdən"
+     ],
+     "uk": [
+      "ˈrɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "jet (na koni",
     "kole)"
@@ -2080,6 +3796,29 @@
      "slept"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sliːp",
+     "uk": "sliːp"
+    },
+    "past": {
+     "us": [
+      "slept"
+     ],
+     "uk": [
+      "slept"
+     ]
+    },
+    "participle": {
+     "us": [
+      "slept"
+     ],
+     "uk": [
+      "slept"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "spát"
    ],
@@ -2107,6 +3846,29 @@
      "woken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "weɪk",
+     "uk": "weɪk"
+    },
+    "past": {
+     "us": [
+      "woʊk"
+     ],
+     "uk": [
+      "wəʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈwoʊkən"
+     ],
+     "uk": [
+      "ˈwəʊkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "probudit (se)"
    ],
@@ -2134,6 +3896,29 @@
      "shaken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃeɪk",
+     "uk": "ʃeɪk"
+    },
+    "past": {
+     "us": [
+      "ʃʊk"
+     ],
+     "uk": [
+      "ʃʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈʃeɪkən"
+     ],
+     "uk": [
+      "ˈʃeɪkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "třást",
     "třepat"
@@ -2162,6 +3947,29 @@
      "hidden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "haɪd",
+     "uk": "haɪd"
+    },
+    "past": {
+     "us": [
+      "hɪd"
+     ],
+     "uk": [
+      "hɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈhɪdən"
+     ],
+     "uk": [
+      "ˈhɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "schovat (se)"
    ],
@@ -2191,6 +3999,31 @@
      "learned"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "lɝːn",
+     "uk": "lɜːn"
+    },
+    "past": {
+     "us": [
+      "lɝːnd"
+     ],
+     "uk": [
+      "lɜːnt",
+      "lɜːnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "lɝːnd"
+     ],
+     "uk": [
+      "lɜːnt",
+      "lɜːnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "učit se"
    ],
@@ -2220,6 +4053,31 @@
      "burned"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɝːn",
+     "uk": "bɜːn"
+    },
+    "past": {
+     "us": [
+      "bɝːnd"
+     ],
+     "uk": [
+      "bɜːnt",
+      "bɜːnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɝːnd"
+     ],
+     "uk": [
+      "bɜːnt",
+      "bɜːnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hořet",
     "pálit"
@@ -2250,6 +4108,31 @@
      "dreamed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "driːm",
+     "uk": "driːm"
+    },
+    "past": {
+     "us": [
+      "driːmd"
+     ],
+     "uk": [
+      "dremt",
+      "driːmd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "driːmd"
+     ],
+     "uk": [
+      "dremt",
+      "driːmd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "snít",
     "zdát se"
@@ -2280,6 +4163,31 @@
      "spelled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spel",
+     "uk": "spel"
+    },
+    "past": {
+     "us": [
+      "speld"
+     ],
+     "uk": [
+      "spelt",
+      "speld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "speld"
+     ],
+     "uk": [
+      "spelt",
+      "speld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hláskovat"
    ],
@@ -2309,6 +4217,31 @@
      "smelled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "smel",
+     "uk": "smel"
+    },
+    "past": {
+     "us": [
+      "smeld"
+     ],
+     "uk": [
+      "smelt",
+      "smeld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "smeld"
+     ],
+     "uk": [
+      "smelt",
+      "smeld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vonět",
     "čichat"
@@ -2339,6 +4272,31 @@
      "lit"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "laɪt",
+     "uk": "laɪt"
+    },
+    "past": {
+     "us": [
+      "lɪt",
+      "ˈlaɪtɪd"
+     ],
+     "uk": [
+      "lɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "lɪt",
+      "ˈlaɪtɪd"
+     ],
+     "uk": [
+      "lɪt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zapálit",
     "osvětlit"
@@ -2369,6 +4327,31 @@
      "fitted"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɪt",
+     "uk": "fɪt"
+    },
+    "past": {
+     "us": [
+      "fɪt",
+      "ˈfɪtɪd"
+     ],
+     "uk": [
+      "ˈfɪtɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɪt",
+      "ˈfɪtɪd"
+     ],
+     "uk": [
+      "ˈfɪtɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hodit se",
     "padnout"
@@ -2397,6 +4380,29 @@
      "forgiven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɚˈɡɪv",
+     "uk": "fəˈɡɪv"
+    },
+    "past": {
+     "us": [
+      "fɚˈɡeɪv"
+     ],
+     "uk": [
+      "fəˈɡeɪv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɚˈɡɪvən"
+     ],
+     "uk": [
+      "fəˈɡɪvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "odpustit"
    ],
@@ -2424,6 +4430,29 @@
      "frozen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "friːz",
+     "uk": "friːz"
+    },
+    "past": {
+     "us": [
+      "froʊz"
+     ],
+     "uk": [
+      "frəʊz"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈfroʊzən"
+     ],
+     "uk": [
+      "ˈfrəʊzən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "mrznout",
     "zmrazit"
@@ -2452,6 +4481,29 @@
      "swum"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "swɪm",
+     "uk": "swɪm"
+    },
+    "past": {
+     "us": [
+      "swæm"
+     ],
+     "uk": [
+      "swæm"
+     ]
+    },
+    "participle": {
+     "us": [
+      "swʌm"
+     ],
+     "uk": [
+      "swʌm"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "plavat"
    ],
@@ -2479,6 +4531,29 @@
      "stolen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "stiːl",
+     "uk": "stiːl"
+    },
+    "past": {
+     "us": [
+      "stoʊl"
+     ],
+     "uk": [
+      "stəʊl"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈstoʊlən"
+     ],
+     "uk": [
+      "ˈstəʊlən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "krást"
    ],
@@ -2506,6 +4581,29 @@
      "fed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fiːd",
+     "uk": "fiːd"
+    },
+    "past": {
+     "us": [
+      "fed"
+     ],
+     "uk": [
+      "fed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fed"
+     ],
+     "uk": [
+      "fed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "krmit"
    ],
@@ -2533,6 +4631,29 @@
      "hurt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "hɝːt",
+     "uk": "hɜːt"
+    },
+    "past": {
+     "us": [
+      "hɝːt"
+     ],
+     "uk": [
+      "hɜːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "hɝːt"
+     ],
+     "uk": [
+      "hɜːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zranit",
     "bolet"
@@ -2561,6 +4682,29 @@
      "cost"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kɑːst",
+     "uk": "kɒst"
+    },
+    "past": {
+     "us": [
+      "kɑːst"
+     ],
+     "uk": [
+      "kɒst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "kɑːst"
+     ],
+     "uk": [
+      "kɒst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "stát (o ceně)"
    ],
@@ -2588,6 +4732,29 @@
      "shut"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃʌt",
+     "uk": "ʃʌt"
+    },
+    "past": {
+     "us": [
+      "ʃʌt"
+     ],
+     "uk": [
+      "ʃʌt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃʌt"
+     ],
+     "uk": [
+      "ʃʌt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zavřít"
    ],
@@ -2615,6 +4782,29 @@
      "spread"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spred",
+     "uk": "spred"
+    },
+    "past": {
+     "us": [
+      "spred"
+     ],
+     "uk": [
+      "spred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "spred"
+     ],
+     "uk": [
+      "spred"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "šířit",
     "rozprostřít"
@@ -2643,6 +4833,29 @@
      "bitten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "baɪt",
+     "uk": "baɪt"
+    },
+    "past": {
+     "us": [
+      "bɪt"
+     ],
+     "uk": [
+      "bɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbɪtən"
+     ],
+     "uk": [
+      "ˈbɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "kousnout"
    ],
@@ -2670,6 +4883,29 @@
      "blown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bloʊ",
+     "uk": "bləʊ"
+    },
+    "past": {
+     "us": [
+      "bluː"
+     ],
+     "uk": [
+      "bluː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bloʊn"
+     ],
+     "uk": [
+      "bləʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "foukat"
    ],
@@ -2697,6 +4933,29 @@
      "dug"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "dɪɡ",
+     "uk": "dɪɡ"
+    },
+    "past": {
+     "us": [
+      "dʌɡ"
+     ],
+     "uk": [
+      "dʌɡ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "dʌɡ"
+     ],
+     "uk": [
+      "dʌɡ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "kopat"
    ],
@@ -2724,6 +4983,29 @@
      "rung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "rɪŋ",
+     "uk": "rɪŋ"
+    },
+    "past": {
+     "us": [
+      "ræŋ"
+     ],
+     "uk": [
+      "ræŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "rʌŋ"
+     ],
+     "uk": [
+      "rʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zvonit",
     "volat"
@@ -2751,6 +5033,31 @@
     "uk": [
      "torn"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "ter",
+     "uk": "teə"
+    },
+    "past": {
+     "us": [
+      "tɔːr"
+     ],
+     "uk": [
+      "tɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "tɔːrn"
+     ],
+     "uk": [
+      "tɔːn"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "tare"
    },
    "cz": [
     "trhat",
@@ -2782,6 +5089,31 @@
      "shone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃaɪn",
+     "uk": "ʃaɪn"
+    },
+    "past": {
+     "us": [
+      "ʃoʊn",
+      "ʃaɪnd"
+     ],
+     "uk": [
+      "ʃɒn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃoʊn",
+      "ʃaɪnd"
+     ],
+     "uk": [
+      "ʃɒn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zářit",
     "svítit"
@@ -2812,6 +5144,31 @@
      "proven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "pruːv",
+     "uk": "pruːv"
+    },
+    "past": {
+     "us": [
+      "pruːvd"
+     ],
+     "uk": [
+      "pruːvd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈpruːvən",
+      "pruːvd"
+     ],
+     "uk": [
+      "pruːvd",
+      "ˈpruːvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "dokázat",
     "prokázat"
@@ -2840,6 +5197,29 @@
      "bet"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bet",
+     "uk": "bet"
+    },
+    "past": {
+     "us": [
+      "bet"
+     ],
+     "uk": [
+      "bet"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bet"
+     ],
+     "uk": [
+      "bet"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vsadit se"
    ],
@@ -2867,6 +5247,29 @@
      "stuck"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "stɪk",
+     "uk": "stɪk"
+    },
+    "past": {
+     "us": [
+      "stʌk"
+     ],
+     "uk": [
+      "stʌk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "stʌk"
+     ],
+     "uk": [
+      "stʌk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "lepit",
     "strčit",
@@ -2896,6 +5299,29 @@
      "sunk"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sɪŋk",
+     "uk": "sɪŋk"
+    },
+    "past": {
+     "us": [
+      "sæŋk"
+     ],
+     "uk": [
+      "sæŋk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sʌŋk"
+     ],
+     "uk": [
+      "sʌŋk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "potopit se",
     "klesat"
@@ -2924,6 +5350,29 @@
      "swung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "swɪŋ",
+     "uk": "swɪŋ"
+    },
+    "past": {
+     "us": [
+      "swʌŋ"
+     ],
+     "uk": [
+      "swʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "swʌŋ"
+     ],
+     "uk": [
+      "swʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "houpat (se)",
     "máchnout"
@@ -2952,6 +5401,29 @@
      "bent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bend",
+     "uk": "bend"
+    },
+    "past": {
+     "us": [
+      "bent"
+     ],
+     "uk": [
+      "bent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bent"
+     ],
+     "uk": [
+      "bent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "ohnout (se)"
    ],
@@ -2979,6 +5451,29 @@
      "lent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "lend",
+     "uk": "lend"
+    },
+    "past": {
+     "us": [
+      "lent"
+     ],
+     "uk": [
+      "lent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "lent"
+     ],
+     "uk": [
+      "lent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "půjčit (někomu)"
    ],
@@ -3006,6 +5501,29 @@
      "bound"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "baɪnd",
+     "uk": "baɪnd"
+    },
+    "past": {
+     "us": [
+      "baʊnd"
+     ],
+     "uk": [
+      "baʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "baʊnd"
+     ],
+     "uk": [
+      "baʊnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vázat",
     "zavazovat"
@@ -3034,6 +5552,29 @@
      "bled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bliːd",
+     "uk": "bliːd"
+    },
+    "past": {
+     "us": [
+      "bled"
+     ],
+     "uk": [
+      "bled"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bled"
+     ],
+     "uk": [
+      "bled"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "krvácet"
    ],
@@ -3061,6 +5602,29 @@
      "bred"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "briːd",
+     "uk": "briːd"
+    },
+    "past": {
+     "us": [
+      "bred"
+     ],
+     "uk": [
+      "bred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bred"
+     ],
+     "uk": [
+      "bred"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "chovat",
     "pěstovat"
@@ -3089,6 +5653,29 @@
      "broadcast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈbrɔːdˌkæst",
+     "uk": "ˈbrɔːdkɑːst"
+    },
+    "past": {
+     "us": [
+      "ˈbrɔːdˌkæst"
+     ],
+     "uk": [
+      "ˈbrɔːdkɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbrɔːdˌkæst"
+     ],
+     "uk": [
+      "ˈbrɔːdkɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vysílat"
    ],
@@ -3116,6 +5703,29 @@
      "burst"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɝːst",
+     "uk": "bɜːst"
+    },
+    "past": {
+     "us": [
+      "bɝːst"
+     ],
+     "uk": [
+      "bɜːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɝːst"
+     ],
+     "uk": [
+      "bɜːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "prasknout",
     "vtrhnout"
@@ -3144,6 +5754,29 @@
      "cast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kæst",
+     "uk": "kɑːst"
+    },
+    "past": {
+     "us": [
+      "kæst"
+     ],
+     "uk": [
+      "kɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "kæst"
+     ],
+     "uk": [
+      "kɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hodit",
     "obsadit (roli)"
@@ -3172,6 +5805,29 @@
      "clung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "klɪŋ",
+     "uk": "klɪŋ"
+    },
+    "past": {
+     "us": [
+      "klʌŋ"
+     ],
+     "uk": [
+      "klʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "klʌŋ"
+     ],
+     "uk": [
+      "klʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "lpět",
     "držet se"
@@ -3200,6 +5856,29 @@
      "crept"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kriːp",
+     "uk": "kriːp"
+    },
+    "past": {
+     "us": [
+      "krept"
+     ],
+     "uk": [
+      "krept"
+     ]
+    },
+    "participle": {
+     "us": [
+      "krept"
+     ],
+     "uk": [
+      "krept"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "plížit se",
     "lézt"
@@ -3229,6 +5908,32 @@
      "dived"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "daɪv",
+     "uk": "daɪv"
+    },
+    "past": {
+     "us": [
+      "doʊv",
+      "daɪvd"
+     ],
+     "uk": [
+      "daɪvd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "daɪvd"
+     ],
+     "uk": [
+      "daɪvd"
+     ]
+    }
+   },
+   "say": {
+    "dove": "doave"
+   },
    "cz": [
     "potápět se",
     "skočit (do vody)"
@@ -3257,6 +5962,29 @@
      "flung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "flɪŋ",
+     "uk": "flɪŋ"
+    },
+    "past": {
+     "us": [
+      "flʌŋ"
+     ],
+     "uk": [
+      "flʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "flʌŋ"
+     ],
+     "uk": [
+      "flʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "mrštit"
    ],
@@ -3284,6 +6012,29 @@
      "fled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fliː",
+     "uk": "fliː"
+    },
+    "past": {
+     "us": [
+      "fled"
+     ],
+     "uk": [
+      "fled"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fled"
+     ],
+     "uk": [
+      "fled"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "uprchnout"
    ],
@@ -3311,6 +6062,29 @@
      "forbidden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɚˈbɪd",
+     "uk": "fəˈbɪd"
+    },
+    "past": {
+     "us": [
+      "fɚˈbeɪd"
+     ],
+     "uk": [
+      "fəˈbeɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɚˈbɪdən"
+     ],
+     "uk": [
+      "fəˈbɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zakázat"
    ],
@@ -3338,6 +6112,29 @@
      "foreseen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɔːrˈsiː",
+     "uk": "fɔːˈsiː"
+    },
+    "past": {
+     "us": [
+      "fɔːrˈsɔː"
+     ],
+     "uk": [
+      "fɔːˈsɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɔːrˈsiːn"
+     ],
+     "uk": [
+      "fɔːˈsiːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předvídat"
    ],
@@ -3365,6 +6162,29 @@
      "ground"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ɡraɪnd",
+     "uk": "ɡraɪnd"
+    },
+    "past": {
+     "us": [
+      "ɡraʊnd"
+     ],
+     "uk": [
+      "ɡraʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ɡraʊnd"
+     ],
+     "uk": [
+      "ɡraʊnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "mlít",
     "brousit"
@@ -3395,6 +6215,31 @@
      "knelt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "niːl",
+     "uk": "niːl"
+    },
+    "past": {
+     "us": [
+      "nelt",
+      "niːld"
+     ],
+     "uk": [
+      "nelt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "nelt",
+      "niːld"
+     ],
+     "uk": [
+      "nelt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "klečet",
     "pokleknout"
@@ -3425,6 +6270,31 @@
      "knitted"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "nɪt",
+     "uk": "nɪt"
+    },
+    "past": {
+     "us": [
+      "nɪt",
+      "ˈnɪtɪd"
+     ],
+     "uk": [
+      "ˈnɪtɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "nɪt",
+      "ˈnɪtɪd"
+     ],
+     "uk": [
+      "ˈnɪtɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "plést (svetr)"
    ],
@@ -3454,6 +6324,31 @@
      "leaned"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "liːn",
+     "uk": "liːn"
+    },
+    "past": {
+     "us": [
+      "liːnd"
+     ],
+     "uk": [
+      "lent",
+      "liːnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "liːnd"
+     ],
+     "uk": [
+      "lent",
+      "liːnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "opírat se",
     "naklonit se"
@@ -3486,6 +6381,33 @@
      "leaped"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "liːp",
+     "uk": "liːp"
+    },
+    "past": {
+     "us": [
+      "liːpt",
+      "lept"
+     ],
+     "uk": [
+      "lept",
+      "liːpt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "liːpt",
+      "lept"
+     ],
+     "uk": [
+      "lept",
+      "liːpt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "skočit"
    ],
@@ -3513,6 +6435,29 @@
      "misled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈliːd",
+     "uk": "ˌmɪsˈliːd"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈled"
+     ],
+     "uk": [
+      "ˌmɪsˈled"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈled"
+     ],
+     "uk": [
+      "ˌmɪsˈled"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "uvést v omyl"
    ],
@@ -3540,6 +6485,29 @@
      "mistaken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "mɪsˈteɪk",
+     "uk": "mɪsˈteɪk"
+    },
+    "past": {
+     "us": [
+      "mɪsˈtʊk"
+     ],
+     "uk": [
+      "mɪsˈtʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "mɪsˈteɪkən"
+     ],
+     "uk": [
+      "mɪsˈteɪkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "splést si"
    ],
@@ -3567,6 +6535,29 @@
      "overcome"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈkʌm",
+     "uk": "ˌəʊvəˈkʌm"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈkeɪm"
+     ],
+     "uk": [
+      "ˌəʊvəˈkeɪm"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈkʌm"
+     ],
+     "uk": [
+      "ˌəʊvəˈkʌm"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "překonat"
    ],
@@ -3596,6 +6587,31 @@
      "quitted"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kwɪt",
+     "uk": "kwɪt"
+    },
+    "past": {
+     "us": [
+      "kwɪt"
+     ],
+     "uk": [
+      "kwɪt",
+      "ˈkwɪtɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "kwɪt"
+     ],
+     "uk": [
+      "kwɪt",
+      "ˈkwɪtɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přestat",
     "skončit",
@@ -3625,6 +6641,29 @@
      "shed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃed",
+     "uk": "ʃed"
+    },
+    "past": {
+     "us": [
+      "ʃed"
+     ],
+     "uk": [
+      "ʃed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃed"
+     ],
+     "uk": [
+      "ʃed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "shodit",
     "ronit (slzy)"
@@ -3655,6 +6694,31 @@
      "shrunk"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃrɪŋk",
+     "uk": "ʃrɪŋk"
+    },
+    "past": {
+     "us": [
+      "ʃræŋk",
+      "ʃrʌŋk"
+     ],
+     "uk": [
+      "ʃræŋk",
+      "ʃrʌŋk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃrʌŋk"
+     ],
+     "uk": [
+      "ʃrʌŋk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "srazit se",
     "zmenšit se"
@@ -3683,6 +6747,29 @@
      "slid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "slaɪd",
+     "uk": "slaɪd"
+    },
+    "past": {
+     "us": [
+      "slɪd"
+     ],
+     "uk": [
+      "slɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "slɪd"
+     ],
+     "uk": [
+      "slɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "klouzat"
    ],
@@ -3710,6 +6797,29 @@
      "slung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "slɪŋ",
+     "uk": "slɪŋ"
+    },
+    "past": {
+     "us": [
+      "slʌŋ"
+     ],
+     "uk": [
+      "slʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "slʌŋ"
+     ],
+     "uk": [
+      "slʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hodit",
     "zavěsit"
@@ -3738,6 +6848,29 @@
      "slit"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "slɪt",
+     "uk": "slɪt"
+    },
+    "past": {
+     "us": [
+      "slɪt"
+     ],
+     "uk": [
+      "slɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "slɪt"
+     ],
+     "uk": [
+      "slɪt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozříznout"
    ],
@@ -3767,6 +6900,31 @@
      "spilled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spɪl",
+     "uk": "spɪl"
+    },
+    "past": {
+     "us": [
+      "spɪld"
+     ],
+     "uk": [
+      "spɪlt",
+      "spɪld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "spɪld"
+     ],
+     "uk": [
+      "spɪlt",
+      "spɪld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozlít"
    ],
@@ -3794,6 +6952,29 @@
      "spun"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spɪn",
+     "uk": "spɪn"
+    },
+    "past": {
+     "us": [
+      "spʌn"
+     ],
+     "uk": [
+      "spʌn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "spʌn"
+     ],
+     "uk": [
+      "spʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "točit (se)",
     "příst"
@@ -3824,6 +7005,31 @@
      "spat"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spɪt",
+     "uk": "spɪt"
+    },
+    "past": {
+     "us": [
+      "spɪt",
+      "spæt"
+     ],
+     "uk": [
+      "spæt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "spɪt",
+      "spæt"
+     ],
+     "uk": [
+      "spæt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "plivat"
    ],
@@ -3851,6 +7057,29 @@
      "split"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "splɪt",
+     "uk": "splɪt"
+    },
+    "past": {
+     "us": [
+      "splɪt"
+     ],
+     "uk": [
+      "splɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "splɪt"
+     ],
+     "uk": [
+      "splɪt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozdělit",
     "rozštípnout"
@@ -3881,6 +7110,31 @@
      "spoiled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spɔɪl",
+     "uk": "spɔɪl"
+    },
+    "past": {
+     "us": [
+      "spɔɪld"
+     ],
+     "uk": [
+      "spɔɪlt",
+      "spɔɪld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "spɔɪld"
+     ],
+     "uk": [
+      "spɔɪlt",
+      "spɔɪld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zkazit",
     "rozmazlit"
@@ -3910,6 +7164,30 @@
      "sprung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sprɪŋ",
+     "uk": "sprɪŋ"
+    },
+    "past": {
+     "us": [
+      "spræŋ",
+      "sprʌŋ"
+     ],
+     "uk": [
+      "spræŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sprʌŋ"
+     ],
+     "uk": [
+      "sprʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "skočit",
     "vytrysknout"
@@ -3938,6 +7216,29 @@
      "stung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "stɪŋ",
+     "uk": "stɪŋ"
+    },
+    "past": {
+     "us": [
+      "stʌŋ"
+     ],
+     "uk": [
+      "stʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "stʌŋ"
+     ],
+     "uk": [
+      "stʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "bodnout",
     "štípnout"
@@ -3968,6 +7269,31 @@
      "stunk"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "stɪŋk",
+     "uk": "stɪŋk"
+    },
+    "past": {
+     "us": [
+      "stæŋk",
+      "stʌŋk"
+     ],
+     "uk": [
+      "stæŋk",
+      "stʌŋk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "stʌŋk"
+     ],
+     "uk": [
+      "stʌŋk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "smrdět"
    ],
@@ -3995,6 +7321,29 @@
      "stridden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "straɪd",
+     "uk": "straɪd"
+    },
+    "past": {
+     "us": [
+      "stroʊd"
+     ],
+     "uk": [
+      "strəʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈstrɪdən"
+     ],
+     "uk": [
+      "ˈstrɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "kráčet"
    ],
@@ -4022,6 +7371,29 @@
      "strung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "strɪŋ",
+     "uk": "strɪŋ"
+    },
+    "past": {
+     "us": [
+      "strʌŋ"
+     ],
+     "uk": [
+      "strʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "strʌŋ"
+     ],
+     "uk": [
+      "strʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "navléknout"
    ],
@@ -4051,6 +7423,31 @@
      "striven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "straɪv",
+     "uk": "straɪv"
+    },
+    "past": {
+     "us": [
+      "stroʊv",
+      "straɪvd"
+     ],
+     "uk": [
+      "strəʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈstrɪvən",
+      "straɪvd"
+     ],
+     "uk": [
+      "ˈstrɪvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "usilovat",
     "snažit se"
@@ -4079,6 +7476,29 @@
      "sworn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "swer",
+     "uk": "sweə"
+    },
+    "past": {
+     "us": [
+      "swɔːr"
+     ],
+     "uk": [
+      "swɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "swɔːrn"
+     ],
+     "uk": [
+      "swɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přísahat",
     "klít"
@@ -4107,6 +7527,29 @@
      "swept"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "swiːp",
+     "uk": "swiːp"
+    },
+    "past": {
+     "us": [
+      "swept"
+     ],
+     "uk": [
+      "swept"
+     ]
+    },
+    "participle": {
+     "us": [
+      "swept"
+     ],
+     "uk": [
+      "swept"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zametat"
    ],
@@ -4136,6 +7579,31 @@
      "swelled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "swel",
+     "uk": "swel"
+    },
+    "past": {
+     "us": [
+      "sweld"
+     ],
+     "uk": [
+      "sweld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈswoʊlən",
+      "sweld"
+     ],
+     "uk": [
+      "ˈswəʊlən",
+      "sweld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "otéct",
     "bobtnat"
@@ -4165,6 +7633,30 @@
      "trodden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "tred",
+     "uk": "tred"
+    },
+    "past": {
+     "us": [
+      "trɑːd"
+     ],
+     "uk": [
+      "trɒd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈtrɑːdən",
+      "trɑːd"
+     ],
+     "uk": [
+      "ˈtrɒdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "šlapat"
    ],
@@ -4192,6 +7684,29 @@
      "undergone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈɡoʊ",
+     "uk": "ˌʌndəˈɡəʊ"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈwent"
+     ],
+     "uk": [
+      "ˌʌndəˈwent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈɡɔːn"
+     ],
+     "uk": [
+      "ˌʌndəˈɡɒn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "podstoupit"
    ],
@@ -4219,6 +7734,29 @@
      "undertaken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈteɪk",
+     "uk": "ˌʌndəˈteɪk"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈtʊk"
+     ],
+     "uk": [
+      "ˌʌndəˈtʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈteɪkən"
+     ],
+     "uk": [
+      "ˌʌndəˈteɪkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "podniknout",
     "zavázat se"
@@ -4247,6 +7785,29 @@
      "upset"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "əpˈset",
+     "uk": "əpˈset"
+    },
+    "past": {
+     "us": [
+      "əpˈset"
+     ],
+     "uk": [
+      "əpˈset"
+     ]
+    },
+    "participle": {
+     "us": [
+      "əpˈset"
+     ],
+     "uk": [
+      "əpˈset"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozrušit",
     "zarmoutit"
@@ -4275,6 +7836,29 @@
      "wept"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wiːp",
+     "uk": "wiːp"
+    },
+    "past": {
+     "us": [
+      "wept"
+     ],
+     "uk": [
+      "wept"
+     ]
+    },
+    "participle": {
+     "us": [
+      "wept"
+     ],
+     "uk": [
+      "wept"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "plakat"
    ],
@@ -4301,6 +7885,32 @@
     "uk": [
      "wound"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "waɪnd",
+     "uk": "waɪnd"
+    },
+    "past": {
+     "us": [
+      "waʊnd"
+     ],
+     "uk": [
+      "waʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "waʊnd"
+     ],
+     "uk": [
+      "waʊnd"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "wined",
+    "wound": "wowned"
    },
    "cz": [
     "navíjet",
@@ -4331,6 +7941,29 @@
      "withdrawn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wɪðˈdrɔː",
+     "uk": "wɪðˈdrɔː"
+    },
+    "past": {
+     "us": [
+      "wɪðˈdruː"
+     ],
+     "uk": [
+      "wɪðˈdruː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "wɪðˈdrɔːn"
+     ],
+     "uk": [
+      "wɪðˈdrɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "stáhnout (se)",
     "vybrat (peníze)"
@@ -4359,6 +7992,29 @@
      "wrung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "rɪŋ",
+     "uk": "rɪŋ"
+    },
+    "past": {
+     "us": [
+      "rʌŋ"
+     ],
+     "uk": [
+      "rʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "rʌŋ"
+     ],
+     "uk": [
+      "rʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "ždímat",
     "kroutit"
@@ -4387,6 +8043,29 @@
      "arisen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "əˈraɪz",
+     "uk": "əˈraɪz"
+    },
+    "past": {
+     "us": [
+      "əˈroʊz"
+     ],
+     "uk": [
+      "əˈrəʊz"
+     ]
+    },
+    "participle": {
+     "us": [
+      "əˈrɪzən"
+     ],
+     "uk": [
+      "əˈrɪzən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vzniknout",
     "vyvstat"
@@ -4415,6 +8094,29 @@
      "awoken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "əˈweɪk",
+     "uk": "əˈweɪk"
+    },
+    "past": {
+     "us": [
+      "əˈwoʊk"
+     ],
+     "uk": [
+      "əˈwəʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "əˈwoʊkən"
+     ],
+     "uk": [
+      "əˈwəʊkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "probudit (se)"
    ],
@@ -4442,6 +8144,29 @@
      "bid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪd",
+     "uk": "bɪd"
+    },
+    "past": {
+     "us": [
+      "bɪd"
+     ],
+     "uk": [
+      "bɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪd"
+     ],
+     "uk": [
+      "bɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "nabízet (v dražbě)"
    ],
@@ -4469,6 +8194,29 @@
      "forecast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈfɔːrˌkæst",
+     "uk": "ˈfɔːkɑːst"
+    },
+    "past": {
+     "us": [
+      "ˈfɔːrˌkæst"
+     ],
+     "uk": [
+      "ˈfɔːkɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈfɔːrˌkæst"
+     ],
+     "uk": [
+      "ˈfɔːkɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předpovídat"
    ],
@@ -4497,6 +8245,33 @@
      "sown",
      "sowed"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "soʊ",
+     "uk": "səʊ"
+    },
+    "past": {
+     "us": [
+      "soʊd"
+     ],
+     "uk": [
+      "səʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "soʊn",
+      "soʊd"
+     ],
+     "uk": [
+      "səʊn",
+      "səʊd"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "so"
    },
    "cz": [
     "sít"
@@ -4527,6 +8302,33 @@
      "sewed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "soʊ",
+     "uk": "səʊ"
+    },
+    "past": {
+     "us": [
+      "soʊd"
+     ],
+     "uk": [
+      "səʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "soʊn",
+      "soʊd"
+     ],
+     "uk": [
+      "səʊn",
+      "səʊd"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "so"
+   },
    "cz": [
     "šít"
    ],
@@ -4555,6 +8357,30 @@
      "sawn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sɔː",
+     "uk": "sɔː"
+    },
+    "past": {
+     "us": [
+      "sɔːd"
+     ],
+     "uk": [
+      "sɔːd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sɔːd",
+      "sɔːn"
+     ],
+     "uk": [
+      "sɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "řezat pilou"
    ],
@@ -4584,6 +8410,31 @@
      "mowed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "moʊ",
+     "uk": "məʊ"
+    },
+    "past": {
+     "us": [
+      "moʊd"
+     ],
+     "uk": [
+      "məʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "moʊd",
+      "moʊn"
+     ],
+     "uk": [
+      "məʊn",
+      "məʊd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "sekat (trávu)"
    ],
@@ -4613,6 +8464,31 @@
      "sneaked"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sniːk",
+     "uk": "sniːk"
+    },
+    "past": {
+     "us": [
+      "snʌk",
+      "sniːkt"
+     ],
+     "uk": [
+      "sniːkt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "snʌk",
+      "sniːkt"
+     ],
+     "uk": [
+      "sniːkt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "plížit se",
     "vplížit se"
@@ -4645,6 +8521,33 @@
      "speeded"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "spiːd",
+     "uk": "spiːd"
+    },
+    "past": {
+     "us": [
+      "sped",
+      "ˈspiːdɪd"
+     ],
+     "uk": [
+      "sped",
+      "ˈspiːdɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sped",
+      "ˈspiːdɪd"
+     ],
+     "uk": [
+      "sped",
+      "ˈspiːdɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "spěchat",
     "uhánět"
@@ -4673,6 +8576,29 @@
      "rid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "rɪd",
+     "uk": "rɪd"
+    },
+    "past": {
+     "us": [
+      "rɪd"
+     ],
+     "uk": [
+      "rɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "rɪd"
+     ],
+     "uk": [
+      "rɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zbavit (se)"
    ],
@@ -4700,6 +8626,29 @@
      "thrust"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "θrʌst",
+     "uk": "θrʌst"
+    },
+    "past": {
+     "us": [
+      "θrʌst"
+     ],
+     "uk": [
+      "θrʌst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "θrʌst"
+     ],
+     "uk": [
+      "θrʌst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vrazit",
     "strčit"
@@ -4730,6 +8679,31 @@
      "thrived"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "θraɪv",
+     "uk": "θraɪv"
+    },
+    "past": {
+     "us": [
+      "θraɪvd",
+      "θroʊv"
+     ],
+     "uk": [
+      "θraɪvd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "θraɪvd",
+      "ˈθrɪvən"
+     ],
+     "uk": [
+      "θraɪvd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "prospívat",
     "vzkvétat"
@@ -4758,6 +8732,29 @@
      "woven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wiːv",
+     "uk": "wiːv"
+    },
+    "past": {
+     "us": [
+      "woʊv"
+     ],
+     "uk": [
+      "wəʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈwoʊvən"
+     ],
+     "uk": [
+      "ˈwəʊvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "tkát",
     "proplétat"
@@ -4786,6 +8783,29 @@
      "undone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈduː",
+     "uk": "ˌʌnˈduː"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈdɪd"
+     ],
+     "uk": [
+      "ˌʌnˈdɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈdʌn"
+     ],
+     "uk": [
+      "ˌʌnˈdʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vrátit zpět",
     "rozepnout"
@@ -4814,6 +8834,29 @@
      "rewritten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈraɪt",
+     "uk": "ˌriːˈraɪt"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈroʊt"
+     ],
+     "uk": [
+      "ˌriːˈrəʊt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈrɪtən"
+     ],
+     "uk": [
+      "ˌriːˈrɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přepsat"
    ],
@@ -4841,6 +8884,29 @@
      "redone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈduː",
+     "uk": "ˌriːˈduː"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈdɪd"
+     ],
+     "uk": [
+      "ˌriːˈdɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈdʌn"
+     ],
+     "uk": [
+      "ˌriːˈdʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předělat",
     "udělat znovu"
@@ -4869,6 +8935,29 @@
      "rebuilt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈbɪld",
+     "uk": "ˌriːˈbɪld"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈbɪlt"
+     ],
+     "uk": [
+      "ˌriːˈbɪlt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈbɪlt"
+     ],
+     "uk": [
+      "ˌriːˈbɪlt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přestavět",
     "obnovit"
@@ -4897,6 +8986,29 @@
      "misunderstood"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˌʌndɚˈstænd",
+     "uk": "ˌmɪsˌʌndəˈstænd"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˌʌndɚˈstʊd"
+     ],
+     "uk": [
+      "ˌmɪsˌʌndəˈstʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˌʌndɚˈstʊd"
+     ],
+     "uk": [
+      "ˌmɪsˌʌndəˈstʊd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "špatně pochopit"
    ],
@@ -4924,6 +9036,29 @@
      "withheld"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wɪθˈhoʊld",
+     "uk": "wɪθˈhəʊld"
+    },
+    "past": {
+     "us": [
+      "wɪθˈheld"
+     ],
+     "uk": [
+      "wɪθˈheld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "wɪθˈheld"
+     ],
+     "uk": [
+      "wɪθˈheld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zadržet",
     "odepřít"
@@ -4952,6 +9087,29 @@
      "withstood"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wɪθˈstænd",
+     "uk": "wɪθˈstænd"
+    },
+    "past": {
+     "us": [
+      "wɪθˈstʊd"
+     ],
+     "uk": [
+      "wɪθˈstʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "wɪθˈstʊd"
+     ],
+     "uk": [
+      "wɪθˈstʊd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "odolat",
     "vydržet"
@@ -4980,6 +9138,29 @@
      "upheld"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "əpˈhoʊld",
+     "uk": "əpˈhəʊld"
+    },
+    "past": {
+     "us": [
+      "əpˈheld"
+     ],
+     "uk": [
+      "əpˈheld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "əpˈheld"
+     ],
+     "uk": [
+      "əpˈheld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "podporovat",
     "potvrdit (rozhodnutí)"
@@ -5008,6 +9189,29 @@
      "offset"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈɔːfˌset",
+     "uk": "ˈɒfˌset"
+    },
+    "past": {
+     "us": [
+      "ˈɔːfˌset"
+     ],
+     "uk": [
+      "ˈɒfˌset"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈɔːfˌset"
+     ],
+     "uk": [
+      "ˈɒfˌset"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vyrovnat",
     "kompenzovat"
@@ -5036,6 +9240,29 @@
      "overthrown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈθroʊ",
+     "uk": "ˌəʊvəˈθrəʊ"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈθruː"
+     ],
+     "uk": [
+      "ˌəʊvəˈθruː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈθroʊn"
+     ],
+     "uk": [
+      "ˌəʊvəˈθrəʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "svrhnout"
    ],
@@ -5063,6 +9290,29 @@
      "overridden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈraɪd",
+     "uk": "ˌəʊvəˈraɪd"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈroʊd"
+     ],
+     "uk": [
+      "ˌəʊvəˈrəʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈrɪdən"
+     ],
+     "uk": [
+      "ˌəʊvəˈrɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "potlačit",
     "zrušit (rozhodnutí)"
@@ -5091,6 +9341,29 @@
      "overtaken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈteɪk",
+     "uk": "ˌəʊvəˈteɪk"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈtʊk"
+     ],
+     "uk": [
+      "ˌəʊvəˈtʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈteɪkən"
+     ],
+     "uk": [
+      "ˌəʊvəˈteɪkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předjet",
     "předstihnout"
@@ -5119,6 +9392,29 @@
      "overseen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈsiː",
+     "uk": "ˌəʊvəˈsiː"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈsɔː"
+     ],
+     "uk": [
+      "ˌəʊvəˈsɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈsiːn"
+     ],
+     "uk": [
+      "ˌəʊvəˈsiːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "dohlížet"
    ],
@@ -5146,6 +9442,29 @@
      "overheard"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈhɪr",
+     "uk": "ˌəʊvəˈhɪə"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈhɝːd"
+     ],
+     "uk": [
+      "ˌəʊvəˈhɜːd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈhɝːd"
+     ],
+     "uk": [
+      "ˌəʊvəˈhɜːd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zaslechnout"
    ],
@@ -5173,6 +9492,29 @@
      "reset"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈset",
+     "uk": "ˌriːˈset"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈset"
+     ],
+     "uk": [
+      "ˌriːˈset"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈset"
+     ],
+     "uk": [
+      "ˌriːˈset"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "resetovat",
     "znovu nastavit"
@@ -5205,6 +9547,33 @@
      "dwelled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "dwel",
+     "uk": "dwel"
+    },
+    "past": {
+     "us": [
+      "dweld",
+      "dwelt"
+     ],
+     "uk": [
+      "dwelt",
+      "dweld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "dweld",
+      "dwelt"
+     ],
+     "uk": [
+      "dwelt",
+      "dweld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přebývat",
     "rozebírat (téma)"
@@ -5235,6 +9604,31 @@
      "pleaded"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "pliːd",
+     "uk": "pliːd"
+    },
+    "past": {
+     "us": [
+      "ˈpliːdɪd",
+      "pled"
+     ],
+     "uk": [
+      "ˈpliːdɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈpliːdɪd",
+      "pled"
+     ],
+     "uk": [
+      "ˈpliːdɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "prosit",
     "vypovídat (u soudu)"
@@ -5263,6 +9657,29 @@
      "outdone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈduː",
+     "uk": "ˌaʊtˈduː"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈdɪd"
+     ],
+     "uk": [
+      "ˌaʊtˈdɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈdʌn"
+     ],
+     "uk": [
+      "ˌaʊtˈdʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předčit",
     "překonat"
@@ -5291,6 +9708,29 @@
      "outgrown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈɡroʊ",
+     "uk": "ˌaʊtˈɡrəʊ"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈɡruː"
+     ],
+     "uk": [
+      "ˌaʊtˈɡruː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈɡroʊn"
+     ],
+     "uk": [
+      "ˌaʊtˈɡrəʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přerůst",
     "vyrůst z"
@@ -5319,6 +9759,29 @@
      "overdone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈduː",
+     "uk": "ˌəʊvəˈduː"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈdɪd"
+     ],
+     "uk": [
+      "ˌəʊvəˈdɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈdʌn"
+     ],
+     "uk": [
+      "ˌəʊvəˈdʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přehánět",
     "převařit"
@@ -5347,6 +9810,29 @@
      "overslept"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈsliːp",
+     "uk": "ˌəʊvəˈsliːp"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈslept"
+     ],
+     "uk": [
+      "ˌəʊvəˈslept"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈslept"
+     ],
+     "uk": [
+      "ˌəʊvəˈslept"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zaspat"
    ],
@@ -5374,6 +9860,29 @@
      "repaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈpeɪ",
+     "uk": "ˌriːˈpeɪ"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈpeɪd"
+     ],
+     "uk": [
+      "ˌriːˈpeɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈpeɪd"
+     ],
+     "uk": [
+      "ˌriːˈpeɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "splatit",
     "oplatit"
@@ -5402,6 +9911,29 @@
      "remade"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈmeɪk",
+     "uk": "ˌriːˈmeɪk"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈmeɪd"
+     ],
+     "uk": [
+      "ˌriːˈmeɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈmeɪd"
+     ],
+     "uk": [
+      "ˌriːˈmeɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předělat",
     "natočit znovu"
@@ -5430,6 +9962,29 @@
      "retaken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈteɪk",
+     "uk": "ˌriːˈteɪk"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈtʊk"
+     ],
+     "uk": [
+      "ˌriːˈtʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈteɪkən"
+     ],
+     "uk": [
+      "ˌriːˈteɪkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu dobýt",
     "opakovat (zkoušku)"
@@ -5458,6 +10013,29 @@
      "rethought"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈθɪŋk",
+     "uk": "ˌriːˈθɪŋk"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈθɔːt"
+     ],
+     "uk": [
+      "ˌriːˈθɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈθɔːt"
+     ],
+     "uk": [
+      "ˌriːˈθɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přehodnotit"
    ],
@@ -5484,6 +10062,32 @@
     "uk": [
      "rewound"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈwaɪnd",
+     "uk": "ˌriːˈwaɪnd"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈwaʊnd"
+     ],
+     "uk": [
+      "ˌriːˈwaʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈwaʊnd"
+     ],
+     "uk": [
+      "ˌriːˈwaʊnd"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "ree wined",
+    "rewound": "ree wowned"
    },
    "cz": [
     "přetočit (zpět)"
@@ -5514,6 +10118,31 @@
      "misspelled"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈspel",
+     "uk": "ˌmɪsˈspel"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈspeld"
+     ],
+     "uk": [
+      "ˌmɪsˈspelt",
+      "ˌmɪsˈspeld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈspeld"
+     ],
+     "uk": [
+      "ˌmɪsˈspelt",
+      "ˌmɪsˈspeld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "napsat s pravopisnou chybou"
    ],
@@ -5540,6 +10169,32 @@
     "uk": [
      "unwound"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈwaɪnd",
+     "uk": "ˌʌnˈwaɪnd"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈwaʊnd"
+     ],
+     "uk": [
+      "ˌʌnˈwaʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈwaʊnd"
+     ],
+     "uk": [
+      "ˌʌnˈwaʊnd"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "un wined",
+    "unwound": "un wowned"
    },
    "cz": [
     "odvinout",
@@ -5569,6 +10224,29 @@
      "babysat"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈbeɪbiˌsɪt",
+     "uk": "ˈbeɪbiˌsɪt"
+    },
+    "past": {
+     "us": [
+      "ˈbeɪbiˌsæt"
+     ],
+     "uk": [
+      "ˈbeɪbiˌsæt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbeɪbiˌsæt"
+     ],
+     "uk": [
+      "ˈbeɪbiˌsæt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hlídat děti"
    ],
@@ -5596,6 +10274,29 @@
      "sublet"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌsʌbˈlet",
+     "uk": "ˌsʌbˈlet"
+    },
+    "past": {
+     "us": [
+      "ˌsʌbˈlet"
+     ],
+     "uk": [
+      "ˌsʌbˈlet"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌsʌbˈlet"
+     ],
+     "uk": [
+      "ˌsʌbˈlet"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "dát do podnájmu"
    ],
@@ -5623,6 +10324,29 @@
      "mislaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈleɪ",
+     "uk": "ˌmɪsˈleɪ"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈleɪd"
+     ],
+     "uk": [
+      "ˌmɪsˈleɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈleɪd"
+     ],
+     "uk": [
+      "ˌmɪsˈleɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "založit (někam)",
     "ztratit"
@@ -5651,6 +10375,29 @@
      "misheard"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈhɪr",
+     "uk": "ˌmɪsˈhɪə"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈhɝːd"
+     ],
+     "uk": [
+      "ˌmɪsˈhɜːd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈhɝːd"
+     ],
+     "uk": [
+      "ˌmɪsˈhɜːd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přeslechnout"
    ],
@@ -5678,6 +10425,29 @@
      "underpaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈpeɪ",
+     "uk": "ˌʌndəˈpeɪ"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈpeɪd"
+     ],
+     "uk": [
+      "ˌʌndəˈpeɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈpeɪd"
+     ],
+     "uk": [
+      "ˌʌndəˈpeɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "nedostatečně zaplatit"
    ],
@@ -5705,6 +10475,29 @@
      "overpaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈpeɪ",
+     "uk": "ˌəʊvəˈpeɪ"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈpeɪd"
+     ],
+     "uk": [
+      "ˌəʊvəˈpeɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈpeɪd"
+     ],
+     "uk": [
+      "ˌəʊvəˈpeɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přeplatit"
    ],
@@ -5736,6 +10529,33 @@
      "abode"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "əˈbaɪd",
+     "uk": "əˈbaɪd"
+    },
+    "past": {
+     "us": [
+      "əˈbaɪdɪd",
+      "əˈboʊd"
+     ],
+     "uk": [
+      "əˈbaɪdɪd",
+      "əˈbəʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "əˈbaɪdɪd",
+      "əˈboʊd"
+     ],
+     "uk": [
+      "əˈbaɪdɪd",
+      "əˈbəʊd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "dodržovat",
     "snést"
@@ -5768,6 +10588,33 @@
      "alit"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "əˈlaɪt",
+     "uk": "əˈlaɪt"
+    },
+    "past": {
+     "us": [
+      "əˈlaɪtɪd",
+      "əˈlɪt"
+     ],
+     "uk": [
+      "əˈlaɪtɪd",
+      "əˈlɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "əˈlaɪtɪd",
+      "əˈlɪt"
+     ],
+     "uk": [
+      "əˈlaɪtɪd",
+      "əˈlɪt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vystoupit",
     "usednout"
@@ -5798,6 +10645,31 @@
      "backslidden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈbækˌslaɪd",
+     "uk": "ˈbækˌslaɪd"
+    },
+    "past": {
+     "us": [
+      "ˈbækˌslɪd"
+     ],
+     "uk": [
+      "ˈbækˌslɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbækˌslɪd",
+      "ˈbækˌslɪdən"
+     ],
+     "uk": [
+      "ˈbækˌslɪd",
+      "ˈbækˌslɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "sklouznout zpět (ke zlozvyku)"
    ],
@@ -5825,6 +10697,29 @@
      "befallen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈfɔːl",
+     "uk": "bɪˈfɔːl"
+    },
+    "past": {
+     "us": [
+      "bɪˈfel"
+     ],
+     "uk": [
+      "bɪˈfel"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈfɔːlən"
+     ],
+     "uk": [
+      "bɪˈfɔːlən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "postihnout",
     "přihodit se"
@@ -5853,6 +10748,29 @@
      "begotten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈɡet",
+     "uk": "bɪˈɡet"
+    },
+    "past": {
+     "us": [
+      "bɪˈɡɑːt"
+     ],
+     "uk": [
+      "bɪˈɡɒt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈɡɑːtən"
+     ],
+     "uk": [
+      "bɪˈɡɒtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zplodit"
    ],
@@ -5880,6 +10798,29 @@
      "beheld"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈhoʊld",
+     "uk": "bɪˈhəʊld"
+    },
+    "past": {
+     "us": [
+      "bɪˈheld"
+     ],
+     "uk": [
+      "bɪˈheld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈheld"
+     ],
+     "uk": [
+      "bɪˈheld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "spatřit",
     "pozorovat"
@@ -5912,6 +10853,33 @@
      "beseeched"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈsiːtʃ",
+     "uk": "bɪˈsiːtʃ"
+    },
+    "past": {
+     "us": [
+      "bɪˈsɔːt",
+      "bɪˈsiːtʃt"
+     ],
+     "uk": [
+      "bɪˈsɔːt",
+      "bɪˈsiːtʃt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈsɔːt",
+      "bɪˈsiːtʃt"
+     ],
+     "uk": [
+      "bɪˈsɔːt",
+      "bɪˈsiːtʃt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "úpěnlivě prosit"
    ],
@@ -5939,6 +10907,29 @@
      "beset"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈset",
+     "uk": "bɪˈset"
+    },
+    "past": {
+     "us": [
+      "bɪˈset"
+     ],
+     "uk": [
+      "bɪˈset"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈset"
+     ],
+     "uk": [
+      "bɪˈset"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "sužovat",
     "obklopit"
@@ -5967,6 +10958,29 @@
      "bestridden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈstraɪd",
+     "uk": "bɪˈstraɪd"
+    },
+    "past": {
+     "us": [
+      "bɪˈstroʊd"
+     ],
+     "uk": [
+      "bɪˈstrəʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈstrɪdən"
+     ],
+     "uk": [
+      "bɪˈstrɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozkročit se nad"
    ],
@@ -5994,6 +11008,29 @@
      "browbeaten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈbraʊˌbiːt",
+     "uk": "ˈbraʊˌbiːt"
+    },
+    "past": {
+     "us": [
+      "ˈbraʊˌbiːt"
+     ],
+     "uk": [
+      "ˈbraʊˌbiːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbraʊˌbiːtən"
+     ],
+     "uk": [
+      "ˈbraʊˌbiːtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zastrašovat"
    ],
@@ -6023,6 +11060,31 @@
      "busted"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bʌst",
+     "uk": "bʌst"
+    },
+    "past": {
+     "us": [
+      "ˈbʌstɪd"
+     ],
+     "uk": [
+      "bʌst",
+      "ˈbʌstɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbʌstɪd"
+     ],
+     "uk": [
+      "bʌst",
+      "ˈbʌstɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozbít",
     "zatknout (hovor.)"
@@ -6055,6 +11117,33 @@
      "chidden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "tʃaɪd",
+     "uk": "tʃaɪd"
+    },
+    "past": {
+     "us": [
+      "ˈtʃaɪdɪd",
+      "tʃɪd"
+     ],
+     "uk": [
+      "ˈtʃaɪdɪd",
+      "tʃɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈtʃaɪdɪd",
+      "ˈtʃɪdən"
+     ],
+     "uk": [
+      "ˈtʃaɪdɪd",
+      "ˈtʃɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "kárat"
    ],
@@ -6090,6 +11179,37 @@
      "cloven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "kliːv",
+     "uk": "kliːv"
+    },
+    "past": {
+     "us": [
+      "kliːvd",
+      "kleft",
+      "kloʊv"
+     ],
+     "uk": [
+      "kliːvd",
+      "kleft",
+      "kləʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "kliːvd",
+      "kleft",
+      "ˈkloʊvən"
+     ],
+     "uk": [
+      "kliːvd",
+      "kleft",
+      "ˈkləʊvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozštípnout"
    ],
@@ -6117,6 +11237,29 @@
      "crossbred"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈkrɔːsˌbriːd",
+     "uk": "ˈkrɒsˌbriːd"
+    },
+    "past": {
+     "us": [
+      "ˈkrɔːsˌbred"
+     ],
+     "uk": [
+      "ˈkrɒsˌbred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈkrɔːsˌbred"
+     ],
+     "uk": [
+      "ˈkrɒsˌbred"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "křížit (plemena)"
    ],
@@ -6146,6 +11289,31 @@
      "daydreamed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈdeɪˌdriːm",
+     "uk": "ˈdeɪˌdriːm"
+    },
+    "past": {
+     "us": [
+      "ˈdeɪˌdriːmd"
+     ],
+     "uk": [
+      "ˈdeɪˌdremt",
+      "ˈdeɪˌdriːmd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈdeɪˌdriːmd"
+     ],
+     "uk": [
+      "ˈdeɪˌdremt",
+      "ˈdeɪˌdriːmd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "snít za bílého dne"
    ],
@@ -6173,6 +11341,29 @@
      "forborne"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɔːrˈber",
+     "uk": "fɔːˈbeə"
+    },
+    "past": {
+     "us": [
+      "fɔːrˈbɔːr"
+     ],
+     "uk": [
+      "fɔːˈbɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɔːrˈbɔːrn"
+     ],
+     "uk": [
+      "fɔːˈbɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zdržet se"
    ],
@@ -6200,6 +11391,29 @@
      "foregone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɔːrˈɡoʊ",
+     "uk": "fɔːˈɡəʊ"
+    },
+    "past": {
+     "us": [
+      "fɔːrˈwent"
+     ],
+     "uk": [
+      "fɔːˈwent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɔːrˈɡɔːn"
+     ],
+     "uk": [
+      "fɔːˈɡɒn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předcházet"
    ],
@@ -6227,6 +11441,29 @@
      "foretold"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɔːrˈtel",
+     "uk": "fɔːˈtel"
+    },
+    "past": {
+     "us": [
+      "fɔːrˈtoʊld"
+     ],
+     "uk": [
+      "fɔːˈtəʊld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɔːrˈtoʊld"
+     ],
+     "uk": [
+      "fɔːˈtəʊld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předpovědět"
    ],
@@ -6254,6 +11491,29 @@
      "forgone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɔːrˈɡoʊ",
+     "uk": "fɔːˈɡəʊ"
+    },
+    "past": {
+     "us": [
+      "fɔːrˈwent"
+     ],
+     "uk": [
+      "fɔːˈwent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɔːrˈɡɔːn"
+     ],
+     "uk": [
+      "fɔːˈɡɒn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vzdát se",
     "obejít se bez"
@@ -6282,6 +11542,29 @@
      "forsaken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɔːrˈseɪk",
+     "uk": "fɔːˈseɪk"
+    },
+    "past": {
+     "us": [
+      "fɔːrˈsʊk"
+     ],
+     "uk": [
+      "fɔːˈsʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɔːrˈseɪkən"
+     ],
+     "uk": [
+      "fɔːˈseɪkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "opustit",
     "zříci se"
@@ -6310,6 +11593,29 @@
      "forsworn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "fɔːrˈswer",
+     "uk": "fɔːˈsweə"
+    },
+    "past": {
+     "us": [
+      "fɔːrˈswɔːr"
+     ],
+     "uk": [
+      "fɔːˈswɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "fɔːrˈswɔːrn"
+     ],
+     "uk": [
+      "fɔːˈswɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "odpřisáhnout se",
     "zříci se"
@@ -6338,6 +11644,29 @@
      "frostbitten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈfrɔːstˌbaɪt",
+     "uk": "ˈfrɒstˌbaɪt"
+    },
+    "past": {
+     "us": [
+      "ˈfrɔːstˌbɪt"
+     ],
+     "uk": [
+      "ˈfrɒstˌbɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈfrɔːstˌbɪtən"
+     ],
+     "uk": [
+      "ˈfrɒstˌbɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "omrznout"
    ],
@@ -6365,6 +11694,29 @@
      "ghostwritten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈɡoʊstˌraɪt",
+     "uk": "ˈɡəʊstˌraɪt"
+    },
+    "past": {
+     "us": [
+      "ˈɡoʊstˌroʊt"
+     ],
+     "uk": [
+      "ˈɡəʊstˌrəʊt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈɡoʊstˌrɪtən"
+     ],
+     "uk": [
+      "ˈɡəʊstˌrɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "psát za někoho (jako ghostwriter)"
    ],
@@ -6396,6 +11748,33 @@
      "gilt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ɡɪld",
+     "uk": "ɡɪld"
+    },
+    "past": {
+     "us": [
+      "ˈɡɪldɪd",
+      "ɡɪlt"
+     ],
+     "uk": [
+      "ˈɡɪldɪd",
+      "ɡɪlt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈɡɪldɪd",
+      "ɡɪlt"
+     ],
+     "uk": [
+      "ˈɡɪldɪd",
+      "ɡɪlt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "pozlatit"
    ],
@@ -6427,6 +11806,33 @@
      "girt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ɡɝːd",
+     "uk": "ɡɜːd"
+    },
+    "past": {
+     "us": [
+      "ˈɡɝːdɪd",
+      "ɡɝːt"
+     ],
+     "uk": [
+      "ˈɡɜːdɪd",
+      "ɡɜːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈɡɝːdɪd",
+      "ɡɝːt"
+     ],
+     "uk": [
+      "ˈɡɜːdɪd",
+      "ɡɜːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "opásat"
    ],
@@ -6454,6 +11860,29 @@
      "hamstrung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈhæmˌstrɪŋ",
+     "uk": "ˈhæmˌstrɪŋ"
+    },
+    "past": {
+     "us": [
+      "ˈhæmˌstrʌŋ"
+     ],
+     "uk": [
+      "ˈhæmˌstrʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈhæmˌstrʌŋ"
+     ],
+     "uk": [
+      "ˈhæmˌstrʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "ochromit",
     "omezit"
@@ -6482,6 +11911,29 @@
      "handwritten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈhændˌraɪt",
+     "uk": "ˈhændˌraɪt"
+    },
+    "past": {
+     "us": [
+      "ˈhændˌroʊt"
+     ],
+     "uk": [
+      "ˈhændˌrəʊt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌhændˈrɪtən"
+     ],
+     "uk": [
+      "ˌhændˈrɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "psát rukou"
    ],
@@ -6513,6 +11965,33 @@
      "hove"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "hiːv",
+     "uk": "hiːv"
+    },
+    "past": {
+     "us": [
+      "hiːvd",
+      "hoʊv"
+     ],
+     "uk": [
+      "hiːvd",
+      "həʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "hiːvd",
+      "hoʊv"
+     ],
+     "uk": [
+      "hiːvd",
+      "həʊv"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zvednout (s námahou)"
    ],
@@ -6542,6 +12021,31 @@
      "hewed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "hjuː",
+     "uk": "hjuː"
+    },
+    "past": {
+     "us": [
+      "hjuːd"
+     ],
+     "uk": [
+      "hjuːd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "hjuːn",
+      "hjuːd"
+     ],
+     "uk": [
+      "hjuːn",
+      "hjuːd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "tesat",
     "sekat"
@@ -6570,6 +12074,29 @@
      "inlaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌɪnˈleɪ",
+     "uk": "ˌɪnˈleɪ"
+    },
+    "past": {
+     "us": [
+      "ˌɪnˈleɪd"
+     ],
+     "uk": [
+      "ˌɪnˈleɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌɪnˈleɪd"
+     ],
+     "uk": [
+      "ˌɪnˈleɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vykládat (intarzií)"
    ],
@@ -6601,6 +12128,33 @@
      "inputted"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈɪnˌpʊt",
+     "uk": "ˈɪnˌpʊt"
+    },
+    "past": {
+     "us": [
+      "ˈɪnˌpʊt",
+      "ˈɪnˌpʊtɪd"
+     ],
+     "uk": [
+      "ˈɪnˌpʊt",
+      "ˈɪnˌpʊtɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈɪnˌpʊt",
+      "ˈɪnˌpʊtɪd"
+     ],
+     "uk": [
+      "ˈɪnˌpʊt",
+      "ˈɪnˌpʊtɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zadat (data)"
    ],
@@ -6628,6 +12182,29 @@
      "interwoven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌɪntɚˈwiːv",
+     "uk": "ˌɪntəˈwiːv"
+    },
+    "past": {
+     "us": [
+      "ˌɪntɚˈwoʊv"
+     ],
+     "uk": [
+      "ˌɪntəˈwəʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌɪntɚˈwoʊvən"
+     ],
+     "uk": [
+      "ˌɪntəˈwəʊvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "protkat",
     "propojit"
@@ -6656,6 +12233,31 @@
      "lip-read"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈlɪpˌriːd",
+     "uk": "ˈlɪpˌriːd"
+    },
+    "past": {
+     "us": [
+      "ˈlɪpˌred"
+     ],
+     "uk": [
+      "ˈlɪpˌred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈlɪpˌred"
+     ],
+     "uk": [
+      "ˈlɪpˌred"
+     ]
+    }
+   },
+   "say": {
+    "lip-read": "lip red"
+   },
    "cz": [
     "odezírat ze rtů"
    ],
@@ -6683,6 +12285,29 @@
      "miscast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈkæst",
+     "uk": "ˌmɪsˈkɑːst"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈkæst"
+     ],
+     "uk": [
+      "ˌmɪsˈkɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈkæst"
+     ],
+     "uk": [
+      "ˌmɪsˈkɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "špatně obsadit (roli)"
    ],
@@ -6710,6 +12335,29 @@
      "misdealt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈdiːl",
+     "uk": "ˌmɪsˈdiːl"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈdelt"
+     ],
+     "uk": [
+      "ˌmɪsˈdelt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈdelt"
+     ],
+     "uk": [
+      "ˌmɪsˈdelt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "špatně rozdat (karty)"
    ],
@@ -6736,6 +12384,31 @@
     "uk": [
      "misread"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈriːd",
+     "uk": "ˌmɪsˈriːd"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈred"
+     ],
+     "uk": [
+      "ˌmɪsˈred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈred"
+     ],
+     "uk": [
+      "ˌmɪsˈred"
+     ]
+    }
+   },
+   "say": {
+    "misread": "miss red"
    },
    "cz": [
     "špatně přečíst"
@@ -6764,6 +12437,29 @@
      "misspent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈspend",
+     "uk": "ˌmɪsˈspend"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈspent"
+     ],
+     "uk": [
+      "ˌmɪsˈspent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈspent"
+     ],
+     "uk": [
+      "ˌmɪsˈspent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "promrhat"
    ],
@@ -6791,6 +12487,29 @@
      "outbid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈbɪd",
+     "uk": "ˌaʊtˈbɪd"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈbɪd"
+     ],
+     "uk": [
+      "ˌaʊtˈbɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈbɪd"
+     ],
+     "uk": [
+      "ˌaʊtˈbɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přeplatit (v dražbě)"
    ],
@@ -6822,6 +12541,33 @@
      "outputted"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈaʊtˌpʊt",
+     "uk": "ˈaʊtˌpʊt"
+    },
+    "past": {
+     "us": [
+      "ˈaʊtˌpʊt",
+      "ˈaʊtˌpʊtɪd"
+     ],
+     "uk": [
+      "ˈaʊtˌpʊt",
+      "ˈaʊtˌpʊtɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈaʊtˌpʊt",
+      "ˈaʊtˌpʊtɪd"
+     ],
+     "uk": [
+      "ˈaʊtˌpʊt",
+      "ˈaʊtˌpʊtɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vydat",
     "vygenerovat"
@@ -6850,6 +12596,29 @@
      "outrun"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈrʌn",
+     "uk": "ˌaʊtˈrʌn"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈræn"
+     ],
+     "uk": [
+      "ˌaʊtˈræn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈrʌn"
+     ],
+     "uk": [
+      "ˌaʊtˈrʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předběhnout",
     "utéct"
@@ -6878,6 +12647,29 @@
      "outsold"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈsel",
+     "uk": "ˌaʊtˈsel"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈsoʊld"
+     ],
+     "uk": [
+      "ˌaʊtˈsəʊld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈsoʊld"
+     ],
+     "uk": [
+      "ˌaʊtˈsəʊld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "prodávat víc než"
    ],
@@ -6905,6 +12697,29 @@
      "outshone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈʃaɪn",
+     "uk": "ˌaʊtˈʃaɪn"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈʃoʊn"
+     ],
+     "uk": [
+      "ˌaʊtˈʃɒn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈʃoʊn"
+     ],
+     "uk": [
+      "ˌaʊtˈʃɒn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zastínit",
     "předčit"
@@ -6933,6 +12748,29 @@
      "outthought"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈθɪŋk",
+     "uk": "ˌaʊtˈθɪŋk"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈθɔːt"
+     ],
+     "uk": [
+      "ˌaʊtˈθɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈθɔːt"
+     ],
+     "uk": [
+      "ˌaʊtˈθɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přelstít"
    ],
@@ -6960,6 +12798,29 @@
      "overdrawn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈdrɔː",
+     "uk": "ˌəʊvəˈdrɔː"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈdruː"
+     ],
+     "uk": [
+      "ˌəʊvəˈdruː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈdrɔːn"
+     ],
+     "uk": [
+      "ˌəʊvəˈdrɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přečerpat (účet)"
    ],
@@ -6987,6 +12848,29 @@
      "overeaten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈiːt",
+     "uk": "ˌəʊvəˈiːt"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈeɪt"
+     ],
+     "uk": [
+      "ˌəʊvəˈeɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈiːtən"
+     ],
+     "uk": [
+      "ˌəʊvəˈiːtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přejíst se"
    ],
@@ -7014,6 +12898,29 @@
      "overfed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈfiːd",
+     "uk": "ˌəʊvəˈfiːd"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈfed"
+     ],
+     "uk": [
+      "ˌəʊvəˈfed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈfed"
+     ],
+     "uk": [
+      "ˌəʊvəˈfed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "překrmit"
    ],
@@ -7041,6 +12948,29 @@
      "overhung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈhæŋ",
+     "uk": "ˌəʊvəˈhæŋ"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈhʌŋ"
+     ],
+     "uk": [
+      "ˌəʊvəˈhʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈhʌŋ"
+     ],
+     "uk": [
+      "ˌəʊvəˈhʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přečnívat"
    ],
@@ -7068,6 +12998,29 @@
      "overlaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈleɪ",
+     "uk": "ˌəʊvəˈleɪ"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈleɪd"
+     ],
+     "uk": [
+      "ˌəʊvəˈleɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈleɪd"
+     ],
+     "uk": [
+      "ˌəʊvəˈleɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "překrýt",
     "pokrýt"
@@ -7096,6 +13049,29 @@
      "overrun"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈrʌn",
+     "uk": "ˌəʊvəˈrʌn"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈræn"
+     ],
+     "uk": [
+      "ˌəʊvəˈræn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈrʌn"
+     ],
+     "uk": [
+      "ˌəʊvəˈrʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zaplavit",
     "přetáhnout (čas)"
@@ -7124,6 +13100,29 @@
      "oversold"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈsel",
+     "uk": "ˌəʊvəˈsel"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈsoʊld"
+     ],
+     "uk": [
+      "ˌəʊvəˈsəʊld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈsoʊld"
+     ],
+     "uk": [
+      "ˌəʊvəˈsəʊld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přeprodat",
     "přechválit"
@@ -7152,6 +13151,29 @@
      "overshot"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈʃuːt",
+     "uk": "ˌəʊvəˈʃuːt"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈʃɑːt"
+     ],
+     "uk": [
+      "ˌəʊvəˈʃɒt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈʃɑːt"
+     ],
+     "uk": [
+      "ˌəʊvəˈʃɒt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přestřelit",
     "minout"
@@ -7180,6 +13202,29 @@
      "overspent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈspend",
+     "uk": "ˌəʊvəˈspend"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈspent"
+     ],
+     "uk": [
+      "ˌəʊvəˈspent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈspent"
+     ],
+     "uk": [
+      "ˌəʊvəˈspent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "utratit příliš"
    ],
@@ -7207,6 +13252,29 @@
      "overwritten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈraɪt",
+     "uk": "ˌəʊvəˈraɪt"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈroʊt"
+     ],
+     "uk": [
+      "ˌəʊvəˈrəʊt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈrɪtən"
+     ],
+     "uk": [
+      "ˌəʊvəˈrɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přepsat (soubor)"
    ],
@@ -7234,6 +13302,29 @@
      "partaken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "pɑːrˈteɪk",
+     "uk": "pɑːˈteɪk"
+    },
+    "past": {
+     "us": [
+      "pɑːrˈtʊk"
+     ],
+     "uk": [
+      "pɑːˈtʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "pɑːrˈteɪkən"
+     ],
+     "uk": [
+      "pɑːˈteɪkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "účastnit se",
     "okusit"
@@ -7262,6 +13353,29 @@
      "prepaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌpriːˈpeɪ",
+     "uk": "ˌpriːˈpeɪ"
+    },
+    "past": {
+     "us": [
+      "ˌpriːˈpeɪd"
+     ],
+     "uk": [
+      "ˌpriːˈpeɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌpriːˈpeɪd"
+     ],
+     "uk": [
+      "ˌpriːˈpeɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zaplatit předem"
    ],
@@ -7289,6 +13403,29 @@
      "preset"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌpriːˈset",
+     "uk": "ˌpriːˈset"
+    },
+    "past": {
+     "us": [
+      "ˌpriːˈset"
+     ],
+     "uk": [
+      "ˌpriːˈset"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌpriːˈset"
+     ],
+     "uk": [
+      "ˌpriːˈset"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přednastavit"
    ],
@@ -7315,6 +13452,31 @@
     "uk": [
      "proofread"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "ˈpruːfˌriːd",
+     "uk": "ˈpruːfˌriːd"
+    },
+    "past": {
+     "us": [
+      "ˈpruːfˌred"
+     ],
+     "uk": [
+      "ˈpruːfˌred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈpruːfˌred"
+     ],
+     "uk": [
+      "ˈpruːfˌred"
+     ]
+    }
+   },
+   "say": {
+    "proofread": "proof red"
    },
    "cz": [
     "provést korekturu"
@@ -7343,6 +13505,29 @@
      "recast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈkæst",
+     "uk": "ˌriːˈkɑːst"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈkæst"
+     ],
+     "uk": [
+      "ˌriːˈkɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈkæst"
+     ],
+     "uk": [
+      "ˌriːˈkɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přepracovat",
     "přeobsadit"
@@ -7371,6 +13556,29 @@
      "relaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈleɪ",
+     "uk": "ˌriːˈleɪ"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈleɪd"
+     ],
+     "uk": [
+      "ˌriːˈleɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈleɪd"
+     ],
+     "uk": [
+      "ˌriːˈleɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu položit"
    ],
@@ -7398,6 +13606,29 @@
      "rent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "rend",
+     "uk": "rend"
+    },
+    "past": {
+     "us": [
+      "rent"
+     ],
+     "uk": [
+      "rent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "rent"
+     ],
+     "uk": [
+      "rent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "roztrhnout"
    ],
@@ -7425,6 +13656,29 @@
      "rerun"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈrʌn",
+     "uk": "ˌriːˈrʌn"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈræn"
+     ],
+     "uk": [
+      "ˌriːˈræn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈrʌn"
+     ],
+     "uk": [
+      "ˌriːˈrʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu spustit",
     "reprízovat"
@@ -7453,6 +13707,29 @@
      "resold"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈsel",
+     "uk": "ˌriːˈsel"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈsoʊld"
+     ],
+     "uk": [
+      "ˌriːˈsəʊld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈsoʊld"
+     ],
+     "uk": [
+      "ˌriːˈsəʊld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu prodat"
    ],
@@ -7480,6 +13757,29 @@
      "resent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈsend",
+     "uk": "ˌriːˈsend"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈsent"
+     ],
+     "uk": [
+      "ˌriːˈsent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈsent"
+     ],
+     "uk": [
+      "ˌriːˈsent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu odeslat"
    ],
@@ -7507,6 +13807,29 @@
      "resat"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈsɪt",
+     "uk": "ˌriːˈsɪt"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈsæt"
+     ],
+     "uk": [
+      "ˌriːˈsæt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈsæt"
+     ],
+     "uk": [
+      "ˌriːˈsæt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "opakovat zkoušku"
    ],
@@ -7534,6 +13857,29 @@
      "retold"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈtel",
+     "uk": "ˌriːˈtel"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈtoʊld"
+     ],
+     "uk": [
+      "ˌriːˈtəʊld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈtoʊld"
+     ],
+     "uk": [
+      "ˌriːˈtəʊld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "převyprávět"
    ],
@@ -7563,6 +13909,31 @@
      "sheared"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃɪr",
+     "uk": "ʃɪə"
+    },
+    "past": {
+     "us": [
+      "ʃɪrd"
+     ],
+     "uk": [
+      "ʃɪəd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃɔːrn",
+      "ʃɪrd"
+     ],
+     "uk": [
+      "ʃɔːn",
+      "ʃɪəd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "stříhat (ovce)"
    ],
@@ -7594,6 +13965,33 @@
      "shoed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃuː",
+     "uk": "ʃuː"
+    },
+    "past": {
+     "us": [
+      "ʃɑːd",
+      "ʃuːd"
+     ],
+     "uk": [
+      "ʃɒd",
+      "ʃuːd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃɑːd",
+      "ʃuːd"
+     ],
+     "uk": [
+      "ʃɒd",
+      "ʃuːd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "okovat",
     "obout"
@@ -7626,6 +14024,33 @@
      "slayed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "sleɪ",
+     "uk": "sleɪ"
+    },
+    "past": {
+     "us": [
+      "sluː",
+      "sleɪd"
+     ],
+     "uk": [
+      "sluː",
+      "sleɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "sleɪn",
+      "sleɪd"
+     ],
+     "uk": [
+      "sleɪn",
+      "sleɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zabít (kniž.)"
    ],
@@ -7653,6 +14078,29 @@
      "slunk"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "slɪŋk",
+     "uk": "slɪŋk"
+    },
+    "past": {
+     "us": [
+      "slʌŋk"
+     ],
+     "uk": [
+      "slʌŋk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "slʌŋk"
+     ],
+     "uk": [
+      "slʌŋk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "plížit se",
     "vytratit se"
@@ -7681,6 +14129,29 @@
      "smitten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "smaɪt",
+     "uk": "smaɪt"
+    },
+    "past": {
+     "us": [
+      "smoʊt"
+     ],
+     "uk": [
+      "sməʊt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈsmɪtən"
+     ],
+     "uk": [
+      "ˈsmɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "udeřit (kniž.)"
    ],
@@ -7708,6 +14179,29 @@
      "spellbound"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈspelˌbaɪnd",
+     "uk": "ˈspelˌbaɪnd"
+    },
+    "past": {
+     "us": [
+      "ˈspelˌbaʊnd"
+     ],
+     "uk": [
+      "ˈspelˌbaʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈspelˌbaʊnd"
+     ],
+     "uk": [
+      "ˈspelˌbaʊnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "uchvátit",
     "okouzlit"
@@ -7740,6 +14234,33 @@
      "stove"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "steɪv",
+     "uk": "steɪv"
+    },
+    "past": {
+     "us": [
+      "steɪvd",
+      "stoʊv"
+     ],
+     "uk": [
+      "steɪvd",
+      "stəʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "steɪvd",
+      "stoʊv"
+     ],
+     "uk": [
+      "steɪvd",
+      "stəʊv"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "prorazit"
    ],
@@ -7769,6 +14290,31 @@
      "strewed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "struː",
+     "uk": "struː"
+    },
+    "past": {
+     "us": [
+      "struːd"
+     ],
+     "uk": [
+      "struːd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "struːn",
+      "struːd"
+     ],
+     "uk": [
+      "struːn",
+      "struːd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "posypat",
     "rozházet"
@@ -7799,6 +14345,31 @@
      "sunburned"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈsʌnˌbɝːn",
+     "uk": "ˈsʌnˌbɜːn"
+    },
+    "past": {
+     "us": [
+      "ˈsʌnˌbɝːnd"
+     ],
+     "uk": [
+      "ˈsʌnˌbɜːnt",
+      "ˈsʌnˌbɜːnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈsʌnˌbɝːnd"
+     ],
+     "uk": [
+      "ˈsʌnˌbɜːnt",
+      "ˈsʌnˌbɜːnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "spálit se od slunce"
    ],
@@ -7826,6 +14397,29 @@
      "test-driven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈtestˌdraɪv",
+     "uk": "ˈtestˌdraɪv"
+    },
+    "past": {
+     "us": [
+      "ˈtestˌdroʊv"
+     ],
+     "uk": [
+      "ˈtestˌdrəʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈtestˌdrɪvən"
+     ],
+     "uk": [
+      "ˈtestˌdrɪvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vyzkoušet (auto)"
    ],
@@ -7853,6 +14447,29 @@
      "typecast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈtaɪpˌkæst",
+     "uk": "ˈtaɪpkɑːst"
+    },
+    "past": {
+     "us": [
+      "ˈtaɪpˌkæst"
+     ],
+     "uk": [
+      "ˈtaɪpkɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈtaɪpˌkæst"
+     ],
+     "uk": [
+      "ˈtaɪpkɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "obsadit do typové role"
    ],
@@ -7880,6 +14497,29 @@
      "typeset"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈtaɪpˌset",
+     "uk": "ˈtaɪpˌset"
+    },
+    "past": {
+     "us": [
+      "ˈtaɪpˌset"
+     ],
+     "uk": [
+      "ˈtaɪpˌset"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈtaɪpˌset"
+     ],
+     "uk": [
+      "ˈtaɪpˌset"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "sázet (text)"
    ],
@@ -7907,6 +14547,29 @@
      "unbent"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈbend",
+     "uk": "ˌʌnˈbend"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈbent"
+     ],
+     "uk": [
+      "ˌʌnˈbent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈbent"
+     ],
+     "uk": [
+      "ˌʌnˈbent"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "narovnat",
     "uvolnit se"
@@ -7935,6 +14598,29 @@
      "unbound"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈbaɪnd",
+     "uk": "ˌʌnˈbaɪnd"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈbaʊnd"
+     ],
+     "uk": [
+      "ˌʌnˈbaʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈbaʊnd"
+     ],
+     "uk": [
+      "ˌʌnˈbaʊnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozvázat"
    ],
@@ -7962,6 +14648,29 @@
      "undercut"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈkʌt",
+     "uk": "ˌʌndəˈkʌt"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈkʌt"
+     ],
+     "uk": [
+      "ˌʌndəˈkʌt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈkʌt"
+     ],
+     "uk": [
+      "ˌʌndəˈkʌt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "podbízet cenou"
    ],
@@ -7989,6 +14698,29 @@
      "underlain"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈlaɪ",
+     "uk": "ˌʌndəˈlaɪ"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈleɪ"
+     ],
+     "uk": [
+      "ˌʌndəˈleɪ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈleɪn"
+     ],
+     "uk": [
+      "ˌʌndəˈleɪn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "být základem"
    ],
@@ -8016,6 +14748,29 @@
      "undersold"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈsel",
+     "uk": "ˌʌndəˈsel"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈsoʊld"
+     ],
+     "uk": [
+      "ˌʌndəˈsəʊld"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈsoʊld"
+     ],
+     "uk": [
+      "ˌʌndəˈsəʊld"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "prodávat levněji než"
    ],
@@ -8043,6 +14798,29 @@
      "underwritten"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈraɪt",
+     "uk": "ˌʌndəˈraɪt"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈroʊt"
+     ],
+     "uk": [
+      "ˌʌndəˈrəʊt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈrɪtən"
+     ],
+     "uk": [
+      "ˌʌndəˈrɪtən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "upsat",
     "pojistit",
@@ -8072,6 +14850,29 @@
      "unfrozen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈfriːz",
+     "uk": "ˌʌnˈfriːz"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈfroʊz"
+     ],
+     "uk": [
+      "ˌʌnˈfrəʊz"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈfroʊzən"
+     ],
+     "uk": [
+      "ˌʌnˈfrəʊzən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozmrazit"
    ],
@@ -8099,6 +14900,29 @@
      "unsaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈseɪ",
+     "uk": "ˌʌnˈseɪ"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈsed"
+     ],
+     "uk": [
+      "ˌʌnˈsed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈsed"
+     ],
+     "uk": [
+      "ˌʌnˈsed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vzít zpět (slova)"
    ],
@@ -8130,6 +14954,33 @@
      "wed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wed",
+     "uk": "wed"
+    },
+    "past": {
+     "us": [
+      "wed",
+      "ˈwedɪd"
+     ],
+     "uk": [
+      "ˈwedɪd",
+      "wed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "wed",
+      "ˈwedɪd"
+     ],
+     "uk": [
+      "ˈwedɪd",
+      "wed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "oddat",
     "vzít se"
@@ -8162,6 +15013,33 @@
      "wetted"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "wet",
+     "uk": "wet"
+    },
+    "past": {
+     "us": [
+      "wet",
+      "ˈwetɪd"
+     ],
+     "uk": [
+      "wet",
+      "ˈwetɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "wet",
+      "ˈwetɪd"
+     ],
+     "uk": [
+      "wet",
+      "ˈwetɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "namočit",
     "zvlhčit"
@@ -8190,6 +15068,29 @@
      "bespoken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "bɪˈspiːk",
+     "uk": "bɪˈspiːk"
+    },
+    "past": {
+     "us": [
+      "bɪˈspoʊk"
+     ],
+     "uk": [
+      "bɪˈspəʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "bɪˈspoʊkən"
+     ],
+     "uk": [
+      "bɪˈspəʊkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "objednat",
     "prozrazovat"
@@ -8218,6 +15119,29 @@
      "countersunk"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈkaʊntɚˌsɪŋk",
+     "uk": "ˈkaʊntəˌsɪŋk"
+    },
+    "past": {
+     "us": [
+      "ˈkaʊntɚˌsæŋk"
+     ],
+     "uk": [
+      "ˈkaʊntəˌsæŋk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈkaʊntɚˌsʌŋk"
+     ],
+     "uk": [
+      "ˈkaʊntəˌsʌŋk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "zapustit (šroub)"
    ],
@@ -8245,6 +15169,29 @@
      "overbuilt"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈbɪld",
+     "uk": "ˌəʊvəˈbɪld"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈbɪlt"
+     ],
+     "uk": [
+      "ˌəʊvəˈbɪlt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈbɪlt"
+     ],
+     "uk": [
+      "ˌəʊvəˈbɪlt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přestavět (nadměrně zastavět)"
    ],
@@ -8272,6 +15219,29 @@
      "sightseen"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈsaɪtˌsiː",
+     "uk": "ˈsaɪtˌsiː"
+    },
+    "past": {
+     "us": [
+      "ˈsaɪtˌsɔː"
+     ],
+     "uk": [
+      "ˈsaɪtˌsɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈsaɪtˌsiːn"
+     ],
+     "uk": [
+      "ˈsaɪtˌsiːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "prohlížet památky"
    ],
@@ -8299,6 +15269,29 @@
      "spoon-fed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈspuːnˌfiːd",
+     "uk": "ˈspuːnˌfiːd"
+    },
+    "past": {
+     "us": [
+      "ˈspuːnˌfed"
+     ],
+     "uk": [
+      "ˈspuːnˌfed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈspuːnˌfed"
+     ],
+     "uk": [
+      "ˈspuːnˌfed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "krmit lžičkou",
     "servírovat vše hotové"
@@ -8327,6 +15320,29 @@
      "breastfed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈbrestˌfiːd",
+     "uk": "ˈbrestˌfiːd"
+    },
+    "past": {
+     "us": [
+      "ˈbrestˌfed"
+     ],
+     "uk": [
+      "ˈbrestˌfed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbrestˌfed"
+     ],
+     "uk": [
+      "ˈbrestˌfed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "kojit"
    ],
@@ -8354,6 +15370,29 @@
      "bottle-fed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈbɑːtəlˌfiːd",
+     "uk": "ˈbɒtəlˌfiːd"
+    },
+    "past": {
+     "us": [
+      "ˈbɑːtəlˌfed"
+     ],
+     "uk": [
+      "ˈbɒtəlˌfed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈbɑːtəlˌfed"
+     ],
+     "uk": [
+      "ˈbɒtəlˌfed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "krmit z lahve"
    ],
@@ -8381,6 +15420,29 @@
      "hand-fed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈhændˌfiːd",
+     "uk": "ˈhændˌfiːd"
+    },
+    "past": {
+     "us": [
+      "ˈhændˌfed"
+     ],
+     "uk": [
+      "ˈhændˌfed"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈhændˌfed"
+     ],
+     "uk": [
+      "ˈhændˌfed"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "krmit z ruky"
    ],
@@ -8408,6 +15470,29 @@
      "inbred"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌɪnˈbriːd",
+     "uk": "ˌɪnˈbriːd"
+    },
+    "past": {
+     "us": [
+      "ˌɪnˈbred"
+     ],
+     "uk": [
+      "ˌɪnˈbred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌɪnˈbred"
+     ],
+     "uk": [
+      "ˌɪnˈbred"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "křížit příbuzné jedince"
    ],
@@ -8435,6 +15520,29 @@
      "misgiven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌmɪsˈɡɪv",
+     "uk": "ˌmɪsˈɡɪv"
+    },
+    "past": {
+     "us": [
+      "ˌmɪsˈɡeɪv"
+     ],
+     "uk": [
+      "ˌmɪsˈɡeɪv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌmɪsˈɡɪvən"
+     ],
+     "uk": [
+      "ˌmɪsˈɡɪvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "mít obavy"
    ],
@@ -8462,6 +15570,29 @@
      "outfought"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈfaɪt",
+     "uk": "ˌaʊtˈfaɪt"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈfɔːt"
+     ],
+     "uk": [
+      "ˌaʊtˈfɔːt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈfɔːt"
+     ],
+     "uk": [
+      "ˌaʊtˈfɔːt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "porazit v boji"
    ],
@@ -8489,6 +15620,29 @@
      "outgone"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈɡoʊ",
+     "uk": "ˌaʊtˈɡəʊ"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈwent"
+     ],
+     "uk": [
+      "ˌaʊtˈwent"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈɡɔːn"
+     ],
+     "uk": [
+      "ˌaʊtˈɡɒn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předčit"
    ],
@@ -8516,6 +15670,29 @@
      "outridden"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈraɪd",
+     "uk": "ˌaʊtˈraɪd"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈroʊd"
+     ],
+     "uk": [
+      "ˌaʊtˈrəʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈrɪdən"
+     ],
+     "uk": [
+      "ˌaʊtˈrɪdən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "předjet (na koni)"
    ],
@@ -8543,6 +15720,29 @@
      "outsung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈsɪŋ",
+     "uk": "ˌaʊtˈsɪŋ"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈsæŋ"
+     ],
+     "uk": [
+      "ˌaʊtˈsæŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈsʌŋ"
+     ],
+     "uk": [
+      "ˌaʊtˈsʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přezpívat"
    ],
@@ -8570,6 +15770,29 @@
      "outswum"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈswɪm",
+     "uk": "ˌaʊtˈswɪm"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈswæm"
+     ],
+     "uk": [
+      "ˌaʊtˈswæm"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈswʌm"
+     ],
+     "uk": [
+      "ˌaʊtˈswʌm"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přeplavat (někoho)"
    ],
@@ -8597,6 +15820,29 @@
      "outworn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌaʊtˈwer",
+     "uk": "ˌaʊtˈweə"
+    },
+    "past": {
+     "us": [
+      "ˌaʊtˈwɔːr"
+     ],
+     "uk": [
+      "ˌaʊtˈwɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌaʊtˈwɔːrn"
+     ],
+     "uk": [
+      "ˌaʊtˈwɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přežít",
     "opotřebovat"
@@ -8625,6 +15871,29 @@
      "overborne"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈber",
+     "uk": "ˌəʊvəˈbeə"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈbɔːr"
+     ],
+     "uk": [
+      "ˌəʊvəˈbɔː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈbɔːrn"
+     ],
+     "uk": [
+      "ˌəʊvəˈbɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přemoci"
    ],
@@ -8652,6 +15921,29 @@
      "overblown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈbloʊ",
+     "uk": "ˌəʊvəˈbləʊ"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈbluː"
+     ],
+     "uk": [
+      "ˌəʊvəˈbluː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈbloʊn"
+     ],
+     "uk": [
+      "ˌəʊvəˈbləʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přefouknout",
     "přehánět"
@@ -8680,6 +15972,29 @@
      "overdriven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈdraɪv",
+     "uk": "ˌəʊvəˈdraɪv"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈdroʊv"
+     ],
+     "uk": [
+      "ˌəʊvəˈdrəʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈdrɪvən"
+     ],
+     "uk": [
+      "ˌəʊvəˈdrɪvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přetěžovat"
    ],
@@ -8707,6 +16022,29 @@
      "overflown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈflaɪ",
+     "uk": "ˌəʊvəˈflaɪ"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈfluː"
+     ],
+     "uk": [
+      "ˌəʊvəˈfluː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈfloʊn"
+     ],
+     "uk": [
+      "ˌəʊvəˈfləʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přeletět"
    ],
@@ -8734,6 +16072,29 @@
      "overlain"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈlaɪ",
+     "uk": "ˌəʊvəˈlaɪ"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈleɪ"
+     ],
+     "uk": [
+      "ˌəʊvəˈleɪ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈleɪn"
+     ],
+     "uk": [
+      "ˌəʊvəˈleɪn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "ležet na",
     "překrývat"
@@ -8766,6 +16127,33 @@
      "overpast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈpæs",
+     "uk": "ˌəʊvəˈpɑːs"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈpæst",
+      "ˌoʊvɚˈpæst"
+     ],
+     "uk": [
+      "ˌəʊvəˈpɑːst",
+      "ˌəʊvəˈpɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈpæst",
+      "ˌoʊvɚˈpæst"
+     ],
+     "uk": [
+      "ˌəʊvəˈpɑːst",
+      "ˌəʊvəˈpɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přejít",
     "přehlédnout"
@@ -8794,6 +16182,32 @@
      "overwound"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌoʊvɚˈwaɪnd",
+     "uk": "ˌəʊvəˈwaɪnd"
+    },
+    "past": {
+     "us": [
+      "ˌoʊvɚˈwaʊnd"
+     ],
+     "uk": [
+      "ˌəʊvəˈwaʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌoʊvɚˈwaʊnd"
+     ],
+     "uk": [
+      "ˌəʊvəˈwaʊnd"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "over wined",
+    "overwound": "over wowned"
+   },
    "cz": [
     "přetáhnout (pero hodinek)"
    ],
@@ -8821,6 +16235,29 @@
      "rebound"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈbaɪnd",
+     "uk": "ˌriːˈbaɪnd"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈbaʊnd"
+     ],
+     "uk": [
+      "ˌriːˈbaʊnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈbaʊnd"
+     ],
+     "uk": [
+      "ˌriːˈbaʊnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu svázat"
    ],
@@ -8848,6 +16285,29 @@
      "rebroadcast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈbrɔːdˌkæst",
+     "uk": "ˌriːˈbrɔːdkɑːst"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈbrɔːdˌkæst"
+     ],
+     "uk": [
+      "ˌriːˈbrɔːdkɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈbrɔːdˌkæst"
+     ],
+     "uk": [
+      "ˌriːˈbrɔːdkɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu vysílat"
    ],
@@ -8875,6 +16335,29 @@
      "redrawn"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈdrɔː",
+     "uk": "ˌriːˈdrɔː"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈdruː"
+     ],
+     "uk": [
+      "ˌriːˈdruː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈdrɔːn"
+     ],
+     "uk": [
+      "ˌriːˈdrɔːn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "překreslit"
    ],
@@ -8904,6 +16387,31 @@
      "refitted"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈfɪt",
+     "uk": "ˌriːˈfɪt"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈfɪt",
+      "ˌriːˈfɪtɪd"
+     ],
+     "uk": [
+      "ˌriːˈfɪtɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈfɪt",
+      "ˌriːˈfɪtɪd"
+     ],
+     "uk": [
+      "ˌriːˈfɪtɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přestavět",
     "znovu vybavit"
@@ -8932,6 +16440,29 @@
      "regrown"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈɡroʊ",
+     "uk": "ˌriːˈɡrəʊ"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈɡruː"
+     ],
+     "uk": [
+      "ˌriːˈɡruː"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈɡroʊn"
+     ],
+     "uk": [
+      "ˌriːˈɡrəʊn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu narůst"
    ],
@@ -8959,6 +16490,29 @@
      "rehung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈhæŋ",
+     "uk": "ˌriːˈhæŋ"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈhʌŋ"
+     ],
+     "uk": [
+      "ˌriːˈhʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈhʌŋ"
+     ],
+     "uk": [
+      "ˌriːˈhʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu pověsit"
    ],
@@ -8988,6 +16542,31 @@
      "relearned"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈlɝːn",
+     "uk": "ˌriːˈlɜːn"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈlɝːnd"
+     ],
+     "uk": [
+      "ˌriːˈlɜːnt",
+      "ˌriːˈlɜːnd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈlɝːnd"
+     ],
+     "uk": [
+      "ˌriːˈlɜːnt",
+      "ˌriːˈlɜːnd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu se naučit"
    ],
@@ -9014,6 +16593,31 @@
     "uk": [
      "reread"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈriːd",
+     "uk": "ˌriːˈriːd"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈred"
+     ],
+     "uk": [
+      "ˌriːˈred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈred"
+     ],
+     "uk": [
+      "ˌriːˈred"
+     ]
+    }
+   },
+   "say": {
+    "reread": "ree red"
    },
    "cz": [
     "znovu přečíst"
@@ -9042,6 +16646,29 @@
      "reshot"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈʃuːt",
+     "uk": "ˌriːˈʃuːt"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈʃɑːt"
+     ],
+     "uk": [
+      "ˌriːˈʃɒt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈʃɑːt"
+     ],
+     "uk": [
+      "ˌriːˈʃɒt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přetočit (scénu)"
    ],
@@ -9071,6 +16698,33 @@
      "resewed"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈsoʊ",
+     "uk": "ˌriːˈsəʊ"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈsoʊd"
+     ],
+     "uk": [
+      "ˌriːˈsəʊd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈsoʊn",
+      "ˌriːˈsoʊd"
+     ],
+     "uk": [
+      "ˌriːˈsəʊn",
+      "ˌriːˈsəʊd"
+     ]
+    }
+   },
+   "say": {
+    "@inf": "ree so"
+   },
    "cz": [
     "znovu ušít"
    ],
@@ -9098,6 +16752,29 @@
      "rewoken"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈweɪk",
+     "uk": "ˌriːˈweɪk"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈwoʊk"
+     ],
+     "uk": [
+      "ˌriːˈwəʊk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈwoʊkən"
+     ],
+     "uk": [
+      "ˌriːˈwəʊkən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu probudit"
    ],
@@ -9125,6 +16802,29 @@
      "rewon"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌriːˈwɪn",
+     "uk": "ˌriːˈwɪn"
+    },
+    "past": {
+     "us": [
+      "ˌriːˈwʌn"
+     ],
+     "uk": [
+      "ˌriːˈwʌn"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌriːˈwʌn"
+     ],
+     "uk": [
+      "ˌriːˈwʌn"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "znovu vyhrát"
    ],
@@ -9152,6 +16852,29 @@
      "roughcast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈrʌfˌkæst",
+     "uk": "ˈrʌfkɑːst"
+    },
+    "past": {
+     "us": [
+      "ˈrʌfˌkæst"
+     ],
+     "uk": [
+      "ˈrʌfkɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈrʌfˌkæst"
+     ],
+     "uk": [
+      "ˈrʌfkɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "hrubě omítnout"
    ],
@@ -9183,6 +16906,33 @@
      "shit"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ʃɪt",
+     "uk": "ʃɪt"
+    },
+    "past": {
+     "us": [
+      "ʃɪt",
+      "ʃæt"
+     ],
+     "uk": [
+      "ʃæt",
+      "ʃɪt"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ʃɪt",
+      "ʃæt"
+     ],
+     "uk": [
+      "ʃæt",
+      "ʃɪt"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "kálet (vulg.)"
    ],
@@ -9209,6 +16959,31 @@
     "uk": [
      "sight-read"
     ]
+   },
+   "ipa": {
+    "inf": {
+     "us": "ˈsaɪtˌriːd",
+     "uk": "ˈsaɪtˌriːd"
+    },
+    "past": {
+     "us": [
+      "ˈsaɪtˌred"
+     ],
+     "uk": [
+      "ˈsaɪtˌred"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈsaɪtˌred"
+     ],
+     "uk": [
+      "ˈsaɪtˌred"
+     ]
+    }
+   },
+   "say": {
+    "sight-read": "sight red"
    },
    "cz": [
     "hrát z listu"
@@ -9237,6 +17012,29 @@
      "telecast"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˈteləˌkæst",
+     "uk": "ˈtelɪkɑːst"
+    },
+    "past": {
+     "us": [
+      "ˈteləˌkæst"
+     ],
+     "uk": [
+      "ˈtelɪkɑːst"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˈteləˌkæst"
+     ],
+     "uk": [
+      "ˈtelɪkɑːst"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "vysílat (televizí)"
    ],
@@ -9264,6 +17062,29 @@
      "underbid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈbɪd",
+     "uk": "ˌʌndəˈbɪd"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈbɪd"
+     ],
+     "uk": [
+      "ˌʌndəˈbɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈbɪd"
+     ],
+     "uk": [
+      "ˌʌndəˈbɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "nabídnout méně"
    ],
@@ -9291,6 +17112,29 @@
      "underlaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌndɚˈleɪ",
+     "uk": "ˌʌndəˈleɪ"
+    },
+    "past": {
+     "us": [
+      "ˌʌndɚˈleɪd"
+     ],
+     "uk": [
+      "ˌʌndəˈleɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌndɚˈleɪd"
+     ],
+     "uk": [
+      "ˌʌndəˈleɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "podložit"
    ],
@@ -9318,6 +17162,29 @@
      "unhung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈhæŋ",
+     "uk": "ˌʌnˈhæŋ"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈhʌŋ"
+     ],
+     "uk": [
+      "ˌʌnˈhʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈhʌŋ"
+     ],
+     "uk": [
+      "ˌʌnˈhʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "sejmout (pověšené)"
    ],
@@ -9345,6 +17212,29 @@
      "unslung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈslɪŋ",
+     "uk": "ˌʌnˈslɪŋ"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈslʌŋ"
+     ],
+     "uk": [
+      "ˌʌnˈslʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈslʌŋ"
+     ],
+     "uk": [
+      "ˌʌnˈslʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "sundat z ramene"
    ],
@@ -9372,6 +17262,29 @@
      "unstuck"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈstɪk",
+     "uk": "ˌʌnˈstɪk"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈstʌk"
+     ],
+     "uk": [
+      "ˌʌnˈstʌk"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈstʌk"
+     ],
+     "uk": [
+      "ˌʌnˈstʌk"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "odlepit"
    ],
@@ -9399,6 +17312,29 @@
      "unstrung"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈstrɪŋ",
+     "uk": "ˌʌnˈstrɪŋ"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈstrʌŋ"
+     ],
+     "uk": [
+      "ˌʌnˈstrʌŋ"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈstrʌŋ"
+     ],
+     "uk": [
+      "ˌʌnˈstrʌŋ"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "povolit struny",
     "rozrušit"
@@ -9427,6 +17363,29 @@
      "unwoven"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌʌnˈwiːv",
+     "uk": "ˌʌnˈwiːv"
+    },
+    "past": {
+     "us": [
+      "ˌʌnˈwoʊv"
+     ],
+     "uk": [
+      "ˌʌnˈwəʊv"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌʌnˈwoʊvən"
+     ],
+     "uk": [
+      "ˌʌnˈwəʊvən"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "rozplést"
    ],
@@ -9454,6 +17413,29 @@
      "waylaid"
     ]
    },
+   "ipa": {
+    "inf": {
+     "us": "ˌweɪˈleɪ",
+     "uk": "ˌweɪˈleɪ"
+    },
+    "past": {
+     "us": [
+      "ˌweɪˈleɪd"
+     ],
+     "uk": [
+      "ˌweɪˈleɪd"
+     ]
+    },
+    "participle": {
+     "us": [
+      "ˌweɪˈleɪd"
+     ],
+     "uk": [
+      "ˌweɪˈleɪd"
+     ]
+    }
+   },
+   "say": {},
    "cz": [
     "přepadnout",
     "zastavit (někoho)"
